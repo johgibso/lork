@@ -245,7 +245,11 @@ fun void mouse(int device)
 
 		// get message
 		while (hi.recv(msg)) {
-			if (msg.is_button_down())
+			if (msg.isMouseMotion()) {
+				if (msg.scaledCursorX == 0 && msg.scaledCursorY == 0)
+					1 => clear;
+			}
+			else if (msg.is_button_down())	// doesn't work well in cmd.exe
 				1 => clear;
 		}
 	}
