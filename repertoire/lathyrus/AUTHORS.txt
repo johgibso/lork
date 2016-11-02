@@ -1,0 +1,2 @@
+lathyrus is copyright 2007 by Paula Matthusen.
+John Gibson made some changes to the program to make it work for us.
