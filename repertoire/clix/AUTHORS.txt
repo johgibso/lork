@@ -1,0 +1,2 @@
+CliX is copyright 2006 by Ge Wang.
+John Gibson made some changes to the program to make it work for us.
