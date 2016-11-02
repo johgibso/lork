@@ -1,0 +1,37 @@
+for lathMeta07 - changes by JG
+
+- edit interruptive.aif to increase its amplitude.
+
+- substitute yafr2 abstraction for monoverb~, just to remove dependency on unmaintained external. Sounds different, so could also try the three Stk reverbs in PeRColate.
+
+- replace groove~ with grooveduck abstraction, to try to reduce clicking at loop edges.
+
+- add master volume control and meter.
+
+- include scrub~ external (from PeRColate) for Mac and Win, both 32 and 64-bit; no other dependencies outside of Max 7.
+
+- fix bug: reset 0 misrouted to lathTimeStretch left inlet, instead of menu, for field, causing error message from scrub~, and failure to reset menu state.
+
+- fix bug: switching to another player can cause a sudden burst of sound from current player, due to line obj setting fx faders to same value as main player fader before ramping to zero. Fader logic placed in new fader-ramp abstraction.
+
+- don't start playing sounds at launch (loadmess 1 in lathNewBuf*).
+
+- clean up various init issues for envelope, as a result of not playing all bufs at launch.
+
+- can turn off a player by pressing its red button.
+
+- make it possible to run without needing to be in a Max file path, but finding sound file folders within the patch folder (using jg.bufpath).
+
+- make audio on/off checkbox reflect the state of audio.
+
+- some cosmetic things to make more legible in Max 7 (e.g., text colors).
+
+- list key equivs in interface.
+
+----------
+unresolved
+
+- pressing reset button causes all players to start playing, because they receive new playback rates from lathTimeStretch.
+
+- drag file/folder on drag area not working.
+
