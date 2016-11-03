@@ -1,0 +1,100 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<style>
+		body {
+			background: snow;
+			font-family: lucida, arial, sans-serif;
+			font-size: 90%;
+			margin: 4ex;
+		}
+		hr {
+			margin: 0;
+			margin-top: 4ex;
+			height: 2px;
+			border-width: 0;
+			background-color: gray;
+		}
+		ol li {
+			margin: 0;
+			margin-top: 2ex;
+		}
+		pre {
+			font-family: monospace;
+			font-size: 120%;
+		}
+		tt {
+			font-size: 120%;
+		}
+	</style>
+	<title>Git Instructions</title>
+</head>
+<body>
+
+<p>
+[After each shell command, press the return key.]
+</p>
+
+<ol>
+	<li>Launch Terminal (Mac) or GitHub Shell (Windows).
+
+	<li>Type: &nbsp; <tt>cd lork</tt>
+
+	<li>Type: &nbsp; <tt>git pull</tt>
+</ol>
+
+<hr>
+<p>
+Other commands will be useful sometimes. These assume you are already in the
+lork directory (having given the &ldquo;cd lork&rdquo; command).
+</p>
+
+<ul type="square">
+	<li>Learn the status of your lork repository...
+		<blockquote>
+			<tt>git status</tt>
+		</blockquote>
+		<p>
+		This will tell you about files that don&rsquo;t match the repository copy
+		stored at
+		<a href="http://github.com/johgibso/lork" target="_blank"
+			>http://github.com/johgibso/lork</a>.
+		Note that this can show changes even if git pull says that you are
+		&ldquo;already up-to-date.&rdquo;
+
+	<li>Restore a file within your repository to the state on the web site.
+		CAUTION: This will delete any changes you have made, for example to
+		Auzzie preset files.
+		<blockquote>
+			<tt>cd subdirectory<br>
+			git checkout -- filename</tt>
+		</blockquote>
+</ul>
+
+<hr>
+<p>
+Quick tutorial on navigating in the shell.  It might help to compare this to
+the folder hierarchy you can see in the Mac Finder or Windows Explorer.
+</p>
+
+<p>
+<tt>$ </tt>  &lt;&mdash; This is the command prompt. Other stuff will be to
+its left.
+</p>
+
+<pre>
+$ cd lork               [go into the lork directory]
+$ cd test/hemi-test     [go down two levels]
+$ cd ..                 [go up one level]
+$ cd                    [go back to your home directory]
+$ pwd                   [find out what directory you're in]
+$ ls                    [list the files in the current directory]
+$ ls -l                 [list in detail]
+
+cd = Change Directory
+pwd = Print Working Directory
+ls = List files
+</pre>
+
+</body>
+</html>
