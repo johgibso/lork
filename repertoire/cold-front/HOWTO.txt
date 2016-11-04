@@ -1,0 +1,5 @@
+These patches require Auzzie v1.0.7 or later.
+
+There should be at least two players per part (A, B, C, D patches).
+Cues are given manually by conductor. (No network required.)
+

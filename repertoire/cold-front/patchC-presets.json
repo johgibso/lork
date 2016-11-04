@@ -1,0 +1,72 @@
+{
+	"pattrstorage" : 	{
+		"name" : "patchC-presets",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"maxdur1" : [ 12 ],
+					"bpm" : [ 94 ],
+					"tempo-jitter" : [ 2.0 ],
+					"pitch1" : [ 70 ],
+					"maxdur2" : [ 10 ],
+					"pitch2" : [ 69 ],
+					"pattern1" : [ 5, 0, 0, 2, 4, 0, 0, 0, 0, 3, 0, 0, 5, 0, 1, 0 ],
+					"pattern2" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+					"maxdur3" : [ 30 ],
+					"pitch3" : [ 34 ],
+					"pattern3" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+					"pat-xable1" : [ 1 ],
+					"pat-xable2" : [ 0 ],
+					"pat-xable3" : [ 0 ],
+					"mixr-4x1::fader1" : [ 0.0 ],
+					"mixr-4x1::fader2" : [ -12.0 ],
+					"mixr-4x1::fader3" : [ -3.0 ],
+					"mixr-4x1::fader4" : [ -6.0 ],
+					"mixr-4x1::master" : [ 3.0 ],
+					"az.noisr::Q" : [ 0.094488 ],
+					"az.noisr::pan" : [ -50.0 ],
+					"az.noisr::release" : [ 10.0 ],
+					"az.noisr::sustain" : [ 1.0 ],
+					"az.noisr::decay" : [ 0.0 ],
+					"az.noisr::attack" : [ 1.0 ],
+					"az.noisr::filter" : [ 1 ],
+					"az.noisr::color" : [ 0 ],
+					"az.rezfiltr::frequency" : [ 0.704724 ],
+					"az.rezfiltr::mode" : [ 1.0 ],
+					"az.rezfiltr::resonance" : [ 0.314961 ],
+					"az.noisr[1]::Q" : [ 0.5 ],
+					"az.noisr[1]::pan" : [ -50.0 ],
+					"az.noisr[1]::release" : [ 10.0 ],
+					"az.noisr[1]::sustain" : [ 1.0 ],
+					"az.noisr[1]::decay" : [ 0.0 ],
+					"az.noisr[1]::attack" : [ 1.0 ],
+					"az.noisr[1]::filter" : [ 1 ],
+					"az.noisr[1]::color" : [ 1 ],
+					"az.rezfiltr[1]::frequency" : [ 0.484252 ],
+					"az.rezfiltr[1]::mode" : [ 1.0 ],
+					"az.rezfiltr[1]::resonance" : [ 0.385827 ],
+					"limiter::lim-threshold" : [ 100.0 ],
+					"limiter::lim-ingain" : [ 100.0 ],
+					"limiter::lim-outgain" : [ 0.0 ],
+					"limiter::lim-mode" : [ 1 ],
+					"az.noisr[2]::Q" : [ 0.5 ],
+					"az.noisr[2]::pan" : [ -50.0 ],
+					"az.noisr[2]::release" : [ 40.0 ],
+					"az.noisr[2]::sustain" : [ 1.0 ],
+					"az.noisr[2]::decay" : [ 0.0 ],
+					"az.noisr[2]::attack" : [ 1.0 ],
+					"az.noisr[2]::filter" : [ 1 ],
+					"az.noisr[2]::color" : [ 1 ],
+					"az.rezfiltr[2]::frequency" : [ 0.492126 ],
+					"az.rezfiltr[2]::mode" : [ 0.0 ],
+					"az.rezfiltr[2]::resonance" : [ 0.370079 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

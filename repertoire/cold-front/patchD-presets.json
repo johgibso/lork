@@ -1,0 +1,56 @@
+{
+	"pattrstorage" : 	{
+		"name" : "patchD-presets",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"lowest-pitch" : [ 60 ],
+					"wavr::bend" : [ 0.0 ],
+					"wavr::dutycycle" : [ 0.09225 ],
+					"wavr::portamento" : [ 40.0 ],
+					"wavr::polyphony" : [ 1 ],
+					"wavr::pan" : [ -50.0 ],
+					"wavr::release" : [ 150.0 ],
+					"wavr::vibdepth" : [ 0.0 ],
+					"wavr::vibrate" : [ 6.0 ],
+					"wavr::vibwave" : [ 1.0 ],
+					"wavr::sustain" : [ 0.2 ],
+					"wavr::decay" : [ 20.0 ],
+					"wavr::attack" : [ 2.0 ],
+					"wavr::oscwave" : [ 1.0 ],
+					"wavr[1]::bend" : [ 0.012 ],
+					"wavr[1]::dutycycle" : [ 0.09225 ],
+					"wavr[1]::portamento" : [ 40.0 ],
+					"wavr[1]::polyphony" : [ 1 ],
+					"wavr[1]::pan" : [ -50.0 ],
+					"wavr[1]::release" : [ 150.0 ],
+					"wavr[1]::vibdepth" : [ 0.0 ],
+					"wavr[1]::vibrate" : [ 6.0 ],
+					"wavr[1]::vibwave" : [ 1.0 ],
+					"wavr[1]::sustain" : [ 0.2 ],
+					"wavr[1]::decay" : [ 20.0 ],
+					"wavr[1]::attack" : [ 2.0 ],
+					"wavr[1]::oscwave" : [ 2.0 ],
+					"az.reverber8r::roomsize" : [ 0.3 ],
+					"az.reverber8r::decaytime" : [ 0.1 ],
+					"az.reverber8r::wetdry" : [ 0.1 ],
+					"az.reverber8r::cutoff" : [ 1.0 ],
+					"az.rezfiltr::frequency" : [ 0.597298 ],
+					"az.rezfiltr::mode" : [ 0.0 ],
+					"az.rezfiltr::resonance" : [ 0.25 ],
+					"az.drivr::drive" : [ 0.464567 ],
+					"az.drivr::color" : [ 0.771654 ],
+					"az.drivr::wetdry" : [ 0.503937 ],
+					"az.1delayr::deltime" : [ 170.0 ],
+					"az.1delayr::feedback" : [ 0.1 ],
+					"az.1delayr::wetdry" : [ 0.3 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

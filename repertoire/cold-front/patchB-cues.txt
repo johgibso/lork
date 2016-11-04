@@ -1,0 +1,4 @@
+1, Wait until after whoosh sound is established\, then play sparsely. Hold space bar down for notes\, quickly at first\, then for longer spans. Trackpad: Y = volume. Let sound end before switching to next preset.;
+2, Trackpad: X = brightness\, Y = volume. Let sound end before switching to next preset. Build slowly to a full\, busy sound.; 
+3, Fade out;
+4, Make aggressive gestures with trackpad -- short and intermittent at first\, longer later: X = speed/volume\, Y = brightness.;

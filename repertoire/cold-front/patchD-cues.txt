@@ -1,0 +1,4 @@
+1, rest;
+2, rest;
+3, rest;
+4, Wait until sustained sounds are gone\, then play wild\, inflected melodic phrases. Trackpad: X = play pitches in table\, Y = volume/brightness. Keyboard: spacebar = play phrase while down\, 'a' = vibrato\, 's' = bend\, 'd' = reorder table\, 'f' = jump octave.;
