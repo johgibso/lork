@@ -1,4 +1,4 @@
-1, Quiet until Player 1 decides it's time to start sequencer. Then make subtle alterations to high pattern. Player 2: play sparsely on mid keys (asdfgh).;
-2, Start to build momentum.;
-3, Pull back a bit\, but begin to build again.;
-4, More aggressive;
+1, Quiet until Player 1 decides it's time to start sequencer. Fade in with volume slider. Then make subtle alterations to high pattern. Player 2: play sparsely on mid keys (asdfgh).;
+2, Player 1: add mid and low drums. Start to build momentum.;
+3, Pull back a bit\, then begin to build again.;
+4, More aggressive. You can turn up master volume.;
