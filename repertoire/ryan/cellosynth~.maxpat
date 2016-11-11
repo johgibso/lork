@@ -3186,7 +3186,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 449.30423, 176.393616, 77.0, 22.0 ],
-									"restore" : [ "C:/Program Files/Cycling '74/Max 7/resources/media/msp/cello-f2.aif" ],
+									"restore" : [ "cello-f2.aif" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}

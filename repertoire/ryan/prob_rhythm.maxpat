@@ -226,9 +226,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 666.0, 133.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 638.0, 110.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 638.0, 116.0, 150.0, 20.0 ],
 					"style" : "",
-					"text" : "JANGLY THING"
+					"text" : "KICK2"
 				}
 
 			}
@@ -240,9 +240,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 472.0, 110.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 461.0, 110.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 427.0, 116.0, 150.0, 20.0 ],
 					"style" : "",
-					"text" : "CELLO"
+					"text" : "CYMBOL"
 				}
 
 			}
@@ -268,7 +268,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 71.0, 116.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 86.0, 116.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 82.0, 120.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "KICK"
 				}
@@ -311,7 +311,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1337.0, 426.0, 20.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 586.0, 143.0, 20.0, 145.0 ],
+					"presentation_rect" : [ 590.0, 143.0, 20.0, 145.0 ],
 					"style" : ""
 				}
 
@@ -384,9 +384,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1120.0, 677.0, 49.0, 22.0 ],
+					"patching_rect" : [ 1120.0, 676.0, 42.0, 22.0 ],
 					"style" : "",
-					"text" : "*~ 0.75"
+					"text" : "*~ 1.5"
 				}
 
 			}
@@ -571,7 +571,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 53.0, 609.0, 42.0, 22.0 ],
 					"style" : "",
-					"text" : "*~ 3.5"
+					"text" : "*~ 2.5"
 				}
 
 			}
@@ -582,9 +582,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 404.0, 647.0, 42.0, 22.0 ],
+					"patching_rect" : [ 389.5, 654.0, 36.0, 22.0 ],
 					"style" : "",
-					"text" : "*~ 0.5"
+					"text" : "*~ 1."
 				}
 
 			}
@@ -890,7 +890,7 @@
 					"range" : 10,
 					"size" : 16,
 					"style" : "",
-					"table_data" : [ 0, 7, 4, 3, 2, 6, 8, 4, 2, 5, 9, 7, 8, 4, 7, 9, 9 ]
+					"table_data" : [ 0, 7, 4, 5, 5, 5, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6 ]
 				}
 
 			}
@@ -984,7 +984,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 144.0, 352.5, 160.0, 145.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 42.0, 145.5, 160.0, 145.0 ],
+					"presentation_rect" : [ 49.0, 145.5, 160.0, 145.0 ],
 					"range" : 10,
 					"size" : 16,
 					"style" : "",
@@ -1991,59 +1991,59 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-4::obj-1::obj-101" : [ "Width[1]", "Width", 0 ],
+			"obj-74::obj-1::obj-25" : [ "CV[4]", "CV", 0 ],
+			"obj-4::obj-1::obj-71" : [ "Pan[1]", "Pan", 0 ],
+			"obj-74::obj-1::obj-3" : [ "Position[4]", "Position", 0 ],
+			"obj-4::obj-1::obj-45" : [ "DurationRandomAmt[1]", "Random", 0 ],
+			"obj-10::obj-1::obj-45" : [ "DurationRandomAmt[2]", "Random", 0 ],
+			"obj-10::obj-1::obj-28" : [ "Offset[3]", "Offset", 0 ],
+			"obj-10::obj-1::obj-47" : [ "Duration[2]", "Duration", 0 ],
+			"obj-74::obj-1::obj-47" : [ "Duration[4]", "Duration", 0 ],
+			"obj-4::obj-1::obj-3" : [ "Position[1]", "Position", 0 ],
+			"obj-10::obj-1::obj-71" : [ "Pan[2]", "Pan", 0 ],
 			"obj-74::obj-1::obj-12" : [ "Mute[1]", "Mute", 0 ],
 			"obj-74::obj-1::obj-114" : [ "MaxGrains[1]", "MaxGrains", 0 ],
-			"obj-10::obj-1::obj-19" : [ "CV2[3]", "CV2", 0 ],
-			"obj-4::obj-1::obj-47" : [ "Duration[1]", "Duration", 0 ],
-			"obj-10::obj-1::obj-114" : [ "MaxGrains[3]", "MaxGrains", 0 ],
-			"obj-4::obj-1::obj-25" : [ "CV[1]", "CV", 0 ],
-			"obj-74::obj-1::obj-101" : [ "Width[4]", "Width", 0 ],
-			"obj-10::obj-1::obj-28" : [ "Offset[3]", "Offset", 0 ],
-			"obj-74::obj-1::obj-94" : [ "PitchRandomAmt[4]", "Random", 0 ],
-			"obj-74::obj-1::obj-98::obj-2" : [ "pastebang", "pastebang", 0 ],
-			"obj-74::obj-1::obj-58" : [ "PanRandomAmt[4]", "Random", 0 ],
-			"obj-4::obj-1::obj-58" : [ "PanRandomAmt[1]", "Random", 0 ],
-			"obj-74::obj-1::obj-28" : [ "Offset[1]", "Offset", 0 ],
-			"obj-10::obj-1::obj-98::obj-2" : [ "pastebang[2]", "pastebang", 0 ],
-			"obj-10::obj-1::obj-115" : [ "NewGrainEvery[3]", "NewGrainEvery", 0 ],
 			"obj-4::obj-1::obj-114" : [ "MaxGrains[2]", "MaxGrains", 0 ],
-			"obj-10::obj-1::obj-12" : [ "Mute[3]", "Mute", 0 ],
-			"obj-4::obj-1::obj-98::obj-2" : [ "pastebang[1]", "pastebang", 0 ],
-			"obj-74::obj-1::obj-115" : [ "NewGrainEvery[1]", "NewGrainEvery", 0 ],
-			"obj-4::obj-1::obj-19" : [ "CV2[2]", "CV2", 0 ],
-			"obj-4::obj-1::obj-28" : [ "Offset[2]", "Offset", 0 ],
-			"obj-4::obj-1::obj-45" : [ "DurationRandomAmt[1]", "Random", 0 ],
-			"obj-10::obj-1::obj-47" : [ "Duration[2]", "Duration", 0 ],
-			"obj-4::obj-1::obj-12" : [ "Mute[2]", "Mute", 0 ],
+			"obj-10::obj-1::obj-114" : [ "MaxGrains[3]", "MaxGrains", 0 ],
+			"obj-10::obj-1::obj-115" : [ "NewGrainEvery[3]", "NewGrainEvery", 0 ],
 			"obj-10::obj-1::obj-25" : [ "CV[2]", "CV", 0 ],
-			"obj-10::obj-1::obj-58" : [ "PanRandomAmt[2]", "Random", 0 ],
-			"obj-74::obj-1::obj-25" : [ "CV[4]", "CV", 0 ],
-			"obj-4::obj-1::obj-94" : [ "PitchRandomAmt[1]", "Random", 0 ],
-			"obj-74::obj-1::obj-3" : [ "Position[4]", "Position", 0 ],
+			"obj-74::obj-1::obj-115" : [ "NewGrainEvery[1]", "NewGrainEvery", 0 ],
+			"obj-4::obj-1::obj-58" : [ "PanRandomAmt[1]", "Random", 0 ],
+			"obj-4::obj-1::obj-28" : [ "Offset[2]", "Offset", 0 ],
 			"obj-74::obj-1::obj-19" : [ "CV2[1]", "CV2", 0 ],
-			"obj-74::obj-1::obj-71" : [ "Pan[4]", "Pan", 0 ],
-			"obj-10::obj-1::obj-71" : [ "Pan[2]", "Pan", 0 ],
-			"obj-74::obj-1::obj-45" : [ "DurationRandomAmt[4]", "Random", 0 ],
-			"obj-4::obj-1::obj-115" : [ "NewGrainEvery[2]", "NewGrainEvery", 0 ],
+			"obj-10::obj-1::obj-12" : [ "Mute[3]", "Mute", 0 ],
+			"obj-74::obj-1::obj-28" : [ "Offset[1]", "Offset", 0 ],
 			"obj-10::obj-1::obj-3" : [ "Position[2]", "Position", 0 ],
-			"obj-74::obj-1::obj-47" : [ "Duration[4]", "Duration", 0 ],
-			"obj-10::obj-1::obj-45" : [ "DurationRandomAmt[2]", "Random", 0 ],
-			"obj-4::obj-1::obj-3" : [ "Position[1]", "Position", 0 ],
-			"obj-4::obj-1::obj-71" : [ "Pan[1]", "Pan", 0 ],
-			"obj-10::obj-1::obj-101" : [ "Width[5]", "Width", 0 ],
-			"obj-10::obj-1::obj-94" : [ "PitchRandomAmt[5]", "Random", 0 ]
+			"obj-74::obj-1::obj-98::obj-2" : [ "pastebang", "pastebang", 0 ],
+			"obj-74::obj-1::obj-94" : [ "PitchRandomAmt[4]", "Random", 0 ],
+			"obj-74::obj-1::obj-58" : [ "PanRandomAmt[4]", "Random", 0 ],
+			"obj-4::obj-1::obj-115" : [ "NewGrainEvery[2]", "NewGrainEvery", 0 ],
+			"obj-74::obj-1::obj-71" : [ "Pan[4]", "Pan", 0 ],
+			"obj-4::obj-1::obj-47" : [ "Duration[1]", "Duration", 0 ],
+			"obj-10::obj-1::obj-94" : [ "PitchRandomAmt[5]", "Random", 0 ],
+			"obj-74::obj-1::obj-45" : [ "DurationRandomAmt[4]", "Random", 0 ],
+			"obj-4::obj-1::obj-25" : [ "CV[1]", "CV", 0 ],
+			"obj-4::obj-1::obj-101" : [ "Width[1]", "Width", 0 ],
+			"obj-4::obj-1::obj-94" : [ "PitchRandomAmt[1]", "Random", 0 ],
+			"obj-10::obj-1::obj-58" : [ "PanRandomAmt[2]", "Random", 0 ],
+			"obj-4::obj-1::obj-19" : [ "CV2[2]", "CV2", 0 ],
+			"obj-4::obj-1::obj-12" : [ "Mute[2]", "Mute", 0 ],
+			"obj-10::obj-1::obj-19" : [ "CV2[3]", "CV2", 0 ],
+			"obj-10::obj-1::obj-98::obj-2" : [ "pastebang[2]", "pastebang", 0 ],
+			"obj-74::obj-1::obj-101" : [ "Width[4]", "Width", 0 ],
+			"obj-4::obj-1::obj-98::obj-2" : [ "pastebang[1]", "pastebang", 0 ],
+			"obj-10::obj-1::obj-101" : [ "Width[5]", "Width", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "kick.maxpat",
-				"bootpath" : "C:/Users/rsvitale/Desktop/code/K550/composition/vitale_patches/v1.0/v1.1",
+				"bootpath" : "C:/Users/rsvitale/lork/repertoire/ryan/v1.2",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cellosynth~.maxpat",
-				"bootpath" : "C:/Users/rsvitale/Desktop/code/K550/composition/vitale_patches/v1.0/v1.1",
+				"bootpath" : "C:/Users/rsvitale/lork/repertoire/ryan/v1.2",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2091,13 +2091,13 @@
 			}
 , 			{
 				"name" : "clapsynth~.maxpat",
-				"bootpath" : "C:/Users/rsvitale/Desktop/code/K550/composition/vitale_patches/v1.0/v1.1",
+				"bootpath" : "C:/Users/rsvitale/lork/repertoire/ryan/v1.2",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "warbsynth~.maxpat",
-				"bootpath" : "C:/Users/rsvitale/Desktop/code/K550/composition/vitale_patches/v1.0/v1.1",
+				"bootpath" : "C:/Users/rsvitale/lork/repertoire/ryan/v1.2",
 				"type" : "JSON",
 				"implicit" : 1
 			}
