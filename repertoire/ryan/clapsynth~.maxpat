@@ -483,7 +483,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 375.0, 515.0, 541.0, 214.0 ],
+						"rect" : [ 296.0, 377.0, 541.0, 214.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -2433,15 +2433,15 @@
 										"Pan" : [ 0.0 ],
 										"PanRandomAmt" : [ 50.0 ],
 										"PitchRandomAmt" : [ 0.0 ],
-										"Position" : [ -3.818 ],
+										"Position" : [ -5.0 ],
 										"PositionCV" : [ -3.0 ],
-										"Width" : [ 0.0 ],
-										"location-lo-hi" : [ 116, 116 ]
+										"Width" : [ 0.4 ],
+										"location-lo-hi" : [ 0, 39 ]
 									}
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u010010894"
+									"varname" : "u091005295"
 								}
 
 							}
@@ -3153,7 +3153,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 449.30423, 176.393616, 77.0, 22.0 ],
-									"restore" : [ "C:/Program Files/Cycling '74/Max 7/resources/packages/MaxIntroLessons/media/Clap 01.wav" ],
+									"restore" : [ "jongly.aif" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
@@ -5565,7 +5565,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 265.0, 139.0, 541.0, 214.0 ],
+					"patching_rect" : [ 270.0, 134.0, 541.0, 214.0 ],
 					"presentation_rect" : [ 183.0, 136.0, 541.0, 214.0 ],
 					"varname" : "Granular",
 					"viewvisibility" : 1
