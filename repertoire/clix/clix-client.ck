@@ -183,10 +183,16 @@ while (true) {
 		// get key...
 		kb.getchar() => int c;
 
-		if (c == 65)	// up-arrow
+		if (c == 65) {	// up-arrow
 			registerUp();
-		if (c == 66)	// down-arrow
+			continue;
+		}
+		if (c == 66) {	// down-arrow
 			registerDown();
+			continue;
+		}
+		if (c == 27 || c == 91) // also generated with arrows
+			continue;
 
 		// synch
 		event => now;
