@@ -183,10 +183,14 @@ while (true) {
 		// get key...
 		kb.getchar() => int c;
 
-		if (c == 72)	// up-arrow
+		if (c == 72) {	// up-arrow
 			registerUp();
-		if (c == 80)	// down-arrow
+			continue;
+		}
+		if (c == 80) {	// down-arrow
 			registerDown();
+			continue;
+		}
 
 		// synch
 		event => now;
