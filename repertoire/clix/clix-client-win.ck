@@ -191,6 +191,8 @@ while (true) {
 			registerDown();
 			continue;
 		}
+		if (c == 224) // also generated with arrows
+			continue;
 
 		// synch
 		event => now;
