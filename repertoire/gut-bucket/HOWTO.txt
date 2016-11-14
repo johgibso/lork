@@ -1,7 +1,0 @@
-These patches require the Auzzie Max package, v1.0.7 or later.
-
-There must be four GameTrak players using patch A and at least
-two players using patch B.
-
-Cues are given manually by conductor. (No network required.)
-
