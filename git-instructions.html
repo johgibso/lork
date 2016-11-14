@@ -105,6 +105,14 @@ lork directory (having given the &ldquo;cd lork&rdquo; command).
 			<tt>cd subdirectory<br>
 			git checkout -- filename</tt>
 		</blockquote>
+
+	<li>Force entire local repository to be overwritten by remote repository.<br>
+		<b>CAUTION:</b> This will delete any changes you have made to your local
+		files, though it should not delete files that are not part of the repository.
+		<blockquote>
+			<tt>git fetch --all<br>
+			git reset --hard origin/master</tt>
+		</blockquote>
 </ul>
 
 
