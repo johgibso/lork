@@ -1,0 +1,4 @@
+1, Rest\, and wait for cue 2.;
+2, Start softly and darkly\, then build to a full sound\, but don't cover the plucks. Trackpad: X = brightness and bumpy attacks\, Y = volume.;
+3, Fade out\, then rest.;
+4, Sparse\, intermittent\, short fragments. Trackpad: X = noise attacks\, Y = volume;
