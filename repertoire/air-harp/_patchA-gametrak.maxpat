@@ -39,6 +39,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-90",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 44.0, 762.25, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "+ 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -2725,7 +2738,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 217.5, 793.0, 76.0, 22.0 ],
+					"patching_rect" : [ 132.0, 801.0, 76.0, 22.0 ],
 					"style" : "",
 					"text" : "v playernum"
 				}
@@ -3071,7 +3084,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 44.0, 687.0, 75.0, 22.0 ],
+					"patching_rect" : [ 44.0, 666.0, 75.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -3155,7 +3168,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 129.0, 793.0, 79.0, 22.0 ],
+					"patching_rect" : [ 44.0, 801.0, 79.0, 22.0 ],
 					"style" : "",
 					"text" : "s PlayerNum"
 				}
@@ -4190,7 +4203,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 44.0, 651.0, 57.0, 22.0 ],
+					"patching_rect" : [ 44.0, 628.0, 57.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -4368,15 +4381,15 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 44.0, 744.0, 189.0, 31.0 ],
+					"patching_rect" : [ 44.0, 722.0, 189.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 113.5, 44.666687, 153.0, 31.0 ],
+					"presentation_rect" : [ 113.5, 45.666687, 160.0, 31.0 ],
 					"rounded" : 0.0,
 					"spacing_x" : 2.0,
 					"spacing_y" : 0.0,
 					"style" : "",
 					"tabcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-					"tabs" : [ "1", "2", "3", "4" ],
+					"tabs" : [ "A", "B", "C", "D" ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -4564,17 +4577,17 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
-					"fontsize" : 14.0,
+					"fontsize" : 16.0,
 					"id" : "obj-42",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 44.0, 720.0, 167.0, 22.0 ],
+					"patching_rect" : [ 44.0, 698.0, 190.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 110.5, 22.666687, 171.0, 22.0 ],
+					"presentation_rect" : [ 110.5, 22.666687, 171.0, 24.0 ],
 					"style" : "",
-					"text" : "Choose player number!",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "Choose player letter!",
+					"textcolor" : [ 0.8, 0.0, 0.035, 1.0 ]
 				}
 
 			}
@@ -6316,19 +6329,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-53", 0 ],
+					"destination" : [ "obj-90", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-46", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-69", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-46", 1 ]
+					"source" : [ "obj-46", 0 ]
 				}
 
 			}
@@ -6729,6 +6733,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-90", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-69", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-90", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -6818,6 +6840,293 @@
 					"source" : [ "obj-99", 0 ]
 				}
 
+			}
+ ],
+		"parameters" : 		{
+			"obj-17::obj-30" : [ "pictctrl[12]", "pictctrl[3]", 0 ],
+			"obj-17::obj-20" : [ "vib depth", "depth", 0 ],
+			"obj-14::obj-7" : [ "range[1]", "range", 0 ],
+			"obj-94::obj-26" : [ "M[1]", "M", 0 ],
+			"obj-17::obj-276" : [ "FreqMode[4]", "FreqMode", 0 ],
+			"obj-59::obj-102" : [ "pictctrl[284]", "pictctrl[1]", 0 ],
+			"obj-17::obj-26" : [ "pan", "pan", 0 ],
+			"obj-23::obj-27" : [ "pictctrl[17]", "pictctrl[1]", 0 ],
+			"obj-95::obj-10" : [ "wetdry[2]", "wetdry", 0 ],
+			"obj-17::obj-278" : [ "module-xable[1]", "module-xable", 0 ],
+			"obj-14::obj-53" : [ "pictctrl", "pictctrl", 0 ],
+			"obj-29::obj-10" : [ "decay", "decay", 0 ],
+			"obj-23::obj-34" : [ "reset-pan", "reset-pan", 0 ],
+			"obj-94::obj-24" : [ "3[1]", "3", 0 ],
+			"obj-94::obj-36" : [ "pictctrl[34]", "pictctrl[1]", 0 ],
+			"obj-23::obj-20" : [ "pan[1]", "pan", 0 ],
+			"obj-23::obj-87" : [ "pictctrl[8]", "pictctrl[1]", 0 ],
+			"obj-93::obj-9" : [ "freq[1]", "freq", 0 ],
+			"obj-95::obj-7" : [ "range[5]", "range", 0 ],
+			"obj-23::obj-37" : [ "length", "length", 0 ],
+			"obj-23::obj-179" : [ "reset-transposition", "reset-transposition", 0 ],
+			"obj-59::obj-9" : [ "range[4]", "range", 0 ],
+			"obj-49::obj-24" : [ "3", "3", 0 ],
+			"obj-23::obj-94" : [ "pictctrl[280]", "pictctrl[1]", 0 ],
+			"obj-94::obj-42" : [ "pictctrl[31]", "pictctrl[1]", 0 ],
+			"obj-93::obj-20" : [ "pictctrl[29]", "pictctrl[1]", 0 ],
+			"obj-59::obj-4" : [ "master[1]", "master", 0 ],
+			"obj-29::obj-20" : [ "pictctrl[27]", "pictctrl[1]", 0 ],
+			"obj-23::obj-105" : [ "transpose", "transp", 0 ],
+			"obj-29::obj-7" : [ "range[2]", "range", 0 ],
+			"obj-17::obj-96" : [ "pictctrl[11]", "pictctrl[3]", 0 ],
+			"obj-17::obj-105" : [ "pictctrl[9]", "pictctrl[3]", 0 ],
+			"obj-94::obj-25" : [ "4[1]", "4", 0 ],
+			"obj-17::obj-99" : [ "pictctrl[10]", "pictctrl[3]", 0 ],
+			"obj-49::obj-47" : [ "pictctrl[21]", "pictctrl[1]", 0 ],
+			"obj-17::obj-12" : [ "resetpan", "resetpan", 0 ],
+			"obj-17::obj-28" : [ "pictctrl[7]", "pictctrl[3]", 0 ],
+			"obj-59::obj-15" : [ "toggle", "toggle", 0 ],
+			"obj-14::obj-20" : [ "pictctrl[6]", "pictctrl[1]", 0 ],
+			"obj-23::obj-6" : [ "gain", "gain", 0 ],
+			"obj-49::obj-55" : [ "1", "1", 0 ],
+			"obj-94::obj-23" : [ "2[1]", "2", 0 ],
+			"obj-17::obj-265" : [ "pictctrl[1]", "pictctrl[3]", 0 ],
+			"obj-23::obj-60" : [ "pictctrl[19]", "pictctrl[1]", 0 ],
+			"obj-94::obj-21" : [ "pictctrl[32]", "pictctrl[1]", 0 ],
+			"obj-29::obj-24" : [ "wetdry", "wetdry", 0 ],
+			"obj-29::obj-53" : [ "pictctrl[26]", "pictctrl", 0 ],
+			"obj-23::obj-102" : [ "pictctrl[20]", "pictctrl[1]", 0 ],
+			"obj-95::obj-53" : [ "pictctrl[42]", "pictctrl", 0 ],
+			"obj-93::obj-10" : [ "wetdry[1]", "wetdry", 0 ],
+			"obj-94::obj-47" : [ "pictctrl[33]", "pictctrl[1]", 0 ],
+			"obj-17::obj-36" : [ "plectrum", "plectrum", 0 ],
+			"obj-23::obj-57" : [ "pictctrl[14]", "pictctrl[1]", 0 ],
+			"obj-1::obj-50" : [ "sensitivity", "sensitivity", 0 ],
+			"obj-17::obj-88" : [ "pictctrl[5]", "pictctrl[3]", 0 ],
+			"obj-23::obj-47" : [ "pictctrl[13]", "pictctrl[1]", 0 ],
+			"obj-93::obj-53" : [ "pictctrl[30]", "pictctrl", 0 ],
+			"obj-49::obj-26" : [ "M", "M", 0 ],
+			"obj-23::obj-45" : [ "start", "start", 0 ],
+			"obj-49::obj-42" : [ "pictctrl[23]", "pictctrl[1]", 0 ],
+			"obj-49::obj-52" : [ "pictctrl[24]", "pictctrl[1]", 0 ],
+			"obj-49::obj-25" : [ "4", "4", 0 ],
+			"obj-14::obj-4" : [ "pictctrl[2]", "pictctrl[1]", 0 ],
+			"obj-23::obj-52" : [ "pictctrl[18]", "pictctrl[1]", 0 ],
+			"obj-29::obj-12" : [ "cutoff", "cutoff", 0 ],
+			"obj-94::obj-55" : [ "1[1]", "1", 0 ],
+			"obj-14::obj-23" : [ "filtermode", "filtermode", 0 ],
+			"obj-23::obj-50" : [ "attack", "attack", 0 ],
+			"obj-23::obj-55" : [ "damp", "damp", 0 ],
+			"obj-17::obj-19" : [ "vib rate", "rate", 0 ],
+			"obj-17::obj-27" : [ "duration", "duration", 0 ],
+			"obj-23::obj-9" : [ "pictctrl[16]", "pictctrl[1]", 0 ],
+			"obj-29::obj-9" : [ "size", "size", 0 ],
+			"obj-95::obj-9" : [ "freq[2]", "freq", 0 ],
+			"obj-1::obj-21" : [ "pictctrl[4]", "pictctrl[1]", 0 ],
+			"obj-95::obj-20" : [ "pictctrl[35]", "pictctrl[1]", 0 ],
+			"obj-49::obj-21" : [ "pictctrl[22]", "pictctrl[1]", 0 ],
+			"obj-14::obj-9" : [ "freq", "freq", 0 ],
+			"obj-49::obj-23" : [ "2", "2", 0 ],
+			"obj-29::obj-4" : [ "pictctrl[3]", "pictctrl[1]", 0 ],
+			"obj-14::obj-10" : [ "res", "res", 0 ],
+			"obj-49::obj-36" : [ "pictctrl[25]", "pictctrl[1]", 0 ],
+			"obj-1::obj-278" : [ "module-xable", "module-xable", 0 ],
+			"obj-23::obj-41" : [ "pictctrl[15]", "pictctrl[1]", 0 ],
+			"obj-29::obj-48" : [ "pictctrl[28]", "pictctrl[2]", 0 ],
+			"obj-1::obj-265" : [ "pictctrl[40]", "pictctrl[3]", 0 ],
+			"obj-17::obj-13" : [ "LFOwave", "LFOwave", 0 ],
+			"obj-59::obj-35" : [ "master", "master", 0 ],
+			"obj-93::obj-7" : [ "range[3]", "range", 0 ],
+			"obj-94::obj-52" : [ "pictctrl[41]", "pictctrl[1]", 0 ],
+			"obj-23::obj-86" : [ "reverse", "reverse", 0 ]
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "az.gametrakr.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.data-handler.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.sub-gametrak-calibrate.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gametrak-calibration.txt",
+				"bootpath" : "~/docs/courses/lork/repertoire/jg/air-harp",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.strumr.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.sub-strumr-voice.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "M4L.pan1~.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Tools resources",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.wave-sine.svg",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/media",
+				"type" : "svg ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.wave-triangle.svg",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/media",
+				"type" : "svg ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.wave-square.svg",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/media",
+				"type" : "svg ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.wave-sawup.svg",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/media",
+				"type" : "svg ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.wave-sawdown.svg",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/media",
+				"type" : "svg ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.sub-wavetables.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "urn-jb.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Examples/max-tricks/random_with_no_repeat",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.hemi-m.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.audio-left-handler.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.sub-hemi-prefs.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hemi-prefs.txt",
+				"bootpath" : "~/docs/courses/lork/repertoire/jg/air-harp",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.rezfiltr.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "patchA-presets.json",
+				"bootpath" : "~/docs/courses/lork/repertoire/jg/air-harp",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.1shotr.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.sub-change-str.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.sub-1shotr-voice.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.sub-pan1.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.mixr-4x1.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.reverber8r.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.sub-yafr2.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "M4L.cross2~.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Tools resources",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.ringr.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "M4L.cross1~.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Tools resources",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jg.strum~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "gen10.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "gen24.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0,
