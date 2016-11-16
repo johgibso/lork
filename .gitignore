@@ -3,3 +3,6 @@
 
 # Python cached object files
 .pyc
+
+# vi tmp
+.swp
