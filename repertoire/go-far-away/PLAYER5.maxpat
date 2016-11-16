@@ -144,7 +144,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 639.0, 46.500031, 102.0, 22.0 ],
 					"style" : "",
-					"text" : "read player6.wav"
+					"text" : "read player5.wav"
 				}
 
 			}
