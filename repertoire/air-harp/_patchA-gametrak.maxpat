@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 213.0, 99.0, 348.0, 342.0 ],
+		"rect" : [ 406.0, 448.0, 431.0, 346.0 ],
 		"bgcolor" : [ 0.518981, 0.569745, 0.694473, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -38,6 +38,49 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 14.0,
+					"id" : "obj-103",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1081.0, 795.0, 77.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 109.0, 251.0, 76.0, 22.0 ],
+					"style" : "",
+					"text" : "Rehearsal"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
+					"button" : 1,
+					"contrastactivetab" : 0,
+					"fontsize" : 36.0,
+					"htabcolor" : [ 0.803615, 0.0, 0.033878, 1.0 ],
+					"id" : "obj-102",
+					"maxclass" : "tab",
+					"multiline" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1081.0, 819.0, 180.0, 49.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 112.0, 270.0, 235.0, 49.0 ],
+					"rounded" : 0.0,
+					"spacing_x" : 5.0,
+					"spacing_y" : 0.0,
+					"style" : "",
+					"tabcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"tabs" : [ "1", "4", "9", "18" ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-90",
 					"maxclass" : "newobj",
@@ -2605,7 +2648,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 238.5, 583.0, 65.0, 22.0 ],
+					"patching_rect" : [ 938.0, 776.0, 65.0, 22.0 ],
 					"style" : "",
 					"text" : "r CueNum"
 				}
@@ -2619,11 +2662,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 279.457825, 615.0, 99.0, 22.0 ],
+					"patching_rect" : [ 978.957825, 808.0, 75.542175, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 201.0, 265.0, 76.0, 22.0 ],
+					"presentation_rect" : [ 361.5, 271.0, 47.0, 22.0 ],
 					"style" : "",
-					"text" : "this pluck"
+					"text" : "pluck"
 				}
 
 			}
@@ -2638,11 +2681,11 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 238.5, 613.0, 36.0, 26.0 ],
+					"patching_rect" : [ 938.0, 806.0, 36.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 276.5, 263.0, 45.0, 26.0 ],
+					"presentation_rect" : [ 366.5, 293.0, 36.0, 26.0 ],
 					"style" : "",
-					"textcolor" : [ 0.76, 0.76, 0.76, 1.0 ],
+					"textcolor" : [ 0.865431, 0.865431, 0.865431, 1.0 ],
 					"triangle" : 0
 				}
 
@@ -2655,9 +2698,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 287.41568, 653.0, 85.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 192.0, 294.666687, 85.0, 22.0 ],
+					"patching_rect" : [ 986.91571, 846.0, 85.0, 22.0 ],
 					"style" : "",
 					"text" : "go to pluck"
 				}
@@ -2693,7 +2734,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 238.5, 687.0, 85.0, 22.0 ],
+					"patching_rect" : [ 938.0, 880.0, 85.0, 22.0 ],
 					"style" : "",
 					"text" : "s PrepareCue"
 				}
@@ -2711,9 +2752,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 238.5, 651.0, 45.0, 26.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 276.5, 292.666687, 45.0, 26.0 ],
+					"patching_rect" : [ 938.0, 844.0, 45.0, 26.0 ],
 					"style" : ""
 				}
 
@@ -3243,6 +3282,19 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 274.0, 170.0, 37.0, 22.0 ],
+									"style" : "",
+									"text" : "clear"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-3",
 									"maxclass" : "newobj",
@@ -4092,7 +4144,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "bang", "bang" ],
 									"patching_rect" : [ 26.530655, 231.012268, 49.0, 22.0 ],
-									"save" : [ "#N", "qlist", ";", "#X", "insert", "COM", "vim:syn=qlist", "COM", "----------------------", ";", ";", "#X", "insert", 0, ";", ";", "#X", "insert", "PnoStpTransp", 0, 0, 0, 0, ";", ";", "#X", "insert", "PitchLists", "clear", "_comma_", 1, 64, 64, 65, 67, 69, 72, "_comma_", 2, 69, 69, 70, 72, 74, 76, "_comma_", 3, 69, 70, 72, 74, 76, 76, "_comma_", 4, 70, 72, 74, 76, 77, 79, ";", ";", "#X", "insert", "COM", "A", ";", ";", "#X", "insert", 1, ";", ";", "#X", "insert", 2, ";", ";", "#X", "insert", "PnoStpTransp", 0, 1, 0, 0, ";", ";", "#X", "insert", "COM", "A", "Bb", ";", ";", "#X", "insert", 3, ";", ";", "#X", "insert", "PnoStpTransp", 0, 0, 1, 0, ";", ";", "#X", "insert", 4, ";", ";", "#X", "insert", "PnoStpTransp", -2, 0, 0, 1, ";", ";", "#X", "insert", "COM", "G", "A", "Bb", ";", ";", "#X", "insert", 5, ";", ";", "#X", "insert", "PnoStpTransp", 0, 0, 0, 0, ";", ";", "#X", "insert", 6, ";", ";", "#X", "insert", "PnoStpTransp", 0, 1, 0, -2, ";", ";", "#X", "insert", 7, ";", ";", "#X", "insert", "PnoStpTransp", 0, -2, -5, 0, ";", ";", "#X", "insert", "COM", "E", "G", "A", ";", ";", "#X", "insert", 8, ";", ";", "#X", "insert", "PnoStpTransp", -7, 0, -2, 0, ";", ";", "#X", "insert", "COM", "D", "G", "A", ";", ";", "#X", "insert", 9, ";", ";", "#X", "insert", "PnoStpTransp", 0, 1, 0, -4, ";", ";", "#X", "insert", "COM", "F", "A", "Bb", ";", ";", "#X", "insert", 10, ";", ";", "#X", "insert", "PnoStpTransp", 3, -4, -9, -2, ";", ";", "#X", "insert", "PitchLists", "clear", "_comma_", 1, 62, 63, 65, 67, 69, 70, "_comma_", 2, 69, 69, 70, 72, 74, 75, "_comma_", 3, 69, 70, 72, 74, 75, 77, "_comma_", 4, 70, 72, 74, 75, 77, 79, ";", ";", "#X", "insert", "COM", "C", "F", "G", "C", ";", ";", "#X", "insert", 11, ";", ";", "#X", "insert", "PnoStpTransp", 1, -4, -6, 0, ";", ";", "#X", "insert", "COM", "Eb", "F", "A", "Bb", ";", ";", "#X", "insert", 12, ";", ";", "#X", "insert", "PnoStpTransp", -2, 3, -1, -7, ";", ";", "#X", "insert", "PitchLists", "clear", "_comma_", 1, 62, 63, 65, 67, 68, 70, "_comma_", 2, 67, 68, 70, 72, 74, 75, "_comma_", 3, 68, 70, 72, 74, 75, 77, "_comma_", 4, 70, 72, 74, 75, 77, 79, ";", ";", "#X", "insert", "COM", "D", "G", "Ab", "C", ";", ";", "#X", "insert", 13, ";", ";", "#X", "insert", "PnoStpTransp", -4, 1, 3, -6, ";", ";", "#X", "insert", "COM", "Eb", "F", "Bb", "C", ";", ";", "#X", "insert", 14, ";", ";", "#X", "insert", "PnoStpTransp", -1, -7, -2, 5, ";", ";", "#X", "insert", "COM", "D", "G", "Ab", "D", ";", ";", "#X", "insert", 15, ";", ";", "#X", "insert", "PnoStpTransp", 5, -3, -4, 3, ";", ";", "#X", "insert", "PitchLists", "clear", "_comma_", 1, 62, 63, 65, 66, 68, 70, "_comma_", 2, 66, 68, 70, 72, 74, 75, "_comma_", 3, 68, 70, 72, 74, 75, 77, "_comma_", 4, 70, 72, 74, 75, 77, 78, ";", ";", "#X", "insert", "COM", "F", "F#", "C", "D", ";", ";", "#X", "insert", 16, ";", ";", "#X", "insert", "PnoStpTransp", 3, -1, 5, 3, ";", ";", "#X", "insert", "PitchLists", "clear", "_comma_", 1, 62, 63, 65, 67, 68, 70, "_comma_", 2, 67, 68, 70, 72, 74, 75, "_comma_", 3, 68, 70, 72, 74, 75, 77, "_comma_", 4, 70, 72, 74, 75, 77, 79, ";", ";", "#X", "insert", "COM", "Ab", "C", "D", ";", ";", "#X", "insert", 17, ";", ";", "#X", "insert", "PnoStpTransp", -2, 5, 3, -1, ";", ";", "#X", "insert", "COM", "G", "Ab", "C", "D", ";", ";", "#X", "insert", 18, ";", ";", "#X", "insert", "PnoStpTransp", -1, 3, 5, 1, ";", ";", "#X", "insert", "COM", "Ab", "Bb", "C", "D", ";", ";", "#X", "insert", 19, ";", ";", "#X", "insert", "PnoStpTransp", -4, 1, 3, 7, ";", ";", "#X", "insert", "PitchLists", "clear", "_comma_", 1, 62, 64, 65, 67, 68, 70, "_comma_", 2, 67, 68, 70, 72, 74, 76, "_comma_", 3, 68, 70, 72, 74, 76, 77, "_comma_", 4, 70, 72, 74, 76, 77, 79, ";", ";", "#X", "insert", "COM", "F", "Bb", "C", "E", ";", ";", "#X", "insert", 20, ";", ";" ],
+									"save" : [ "#N", "qlist", ";", "#X", "insert", "COM", "vim:syn=qlist", "COM", "----------------------", ";", ";", "#X", "insert", 0, ";", ";", "#X", "insert", "PnoStpTransp", 0, 0, 0, 0, ";", ";", "#X", "insert", "PitchLists", "clear", "_comma_", 1, 64, 64, 65, 67, 69, 72, "_comma_", 2, 69, 69, 70, 72, 74, 76, "_comma_", 3, 69, 70, 72, 74, 76, 76, "_comma_", 4, 70, 72, 74, 76, 77, 79, ";", ";", "#X", "insert", "COM", "A", ";", ";", "#X", "insert", 1, ";", ";", "#X", "insert", 2, ";", ";", "#X", "insert", "PnoStpTransp", 0, 1, -2, 0, ";", ";", "#X", "insert", "COM", "G", "A", "Bb", ";", ";", "#X", "insert", 3, ";", ";", "#X", "insert", "COM", "---------", "no", "gaps", ";", ";", "#X", "insert", "PnoStpTransp", 0, 0, 0, 0, ";", ";", "#X", "insert", "PitchLists", "clear", "_comma_", 1, 64, 64, 65, 67, 69, 72, "_comma_", 2, 69, 69, 70, 72, 74, 76, "_comma_", 3, 69, 70, 72, 74, 76, 76, "_comma_", 4, 70, 72, 74, 76, 77, 79, ";", ";", "#X", "insert", 4, ";", ";", "#X", "insert", "PnoStpTransp", -2, 0, 0, 1, ";", ";", "#X", "insert", "COM", "G", "A", "Bb", ";", ";", "#X", "insert", 5, ";", ";", "#X", "insert", "PnoStpTransp", -5, -4, -5, 3, ";", ";", "#X", "insert", "COM", "E", "F", "C", ";", ";", "#X", "insert", 6, ";", ";", "#X", "insert", "PnoStpTransp", 0, 0, 1, 1, ";", ";", "#X", "insert", "COM", "A", "Bb", ";", ";", "#X", "insert", 7, ";", ";", "#X", "insert", "PnoStpTransp", 1, -2, 3, -2, ";", ";", "#X", "insert", "COM", "G", "Bb", "C", ";", ";", "#X", "insert", 8, ";", ";", "#X", "insert", "PnoStpTransp", -9, 0, -2, 5, ";", ";", "#X", "insert", "PitchLists", "clear", "_comma_", 1, 62, 63, 65, 67, 69, 70, "_comma_", 2, 69, 69, 70, 72, 74, 75, "_comma_", 3, 69, 70, 72, 74, 75, 77, "_comma_", 4, 70, 72, 74, 75, 77, 79, ";", ";", "#X", "insert", "COM", "D", "G", "A", "D", ";", ";", "#X", "insert", 9, ";", ";", "#X", "insert", "PnoStpTransp", 1, -4, -6, 0, ";", ";", "#X", "insert", "COM", "Eb", "F", "A", "Bb", ";", ";", "#X", "insert", 10, ";", ";", "#X", "insert", "PnoStpTransp", -2, 5, -1, -7, ";", ";", "#X", "insert", "PitchLists", "clear", "_comma_", 1, 62, 63, 65, 67, 68, 70, "_comma_", 2, 67, 68, 70, 72, 74, 75, "_comma_", 3, 68, 70, 72, 74, 75, 77, "_comma_", 4, 70, 72, 74, 75, 77, 79, ";", ";", "#X", "insert", "COM", "D", "G", "Ab", "D", ";", ";", "#X", "insert", 11, ";", ";", "#X", "insert", "PnoStpTransp", -4, 1, 3, -6, ";", ";", "#X", "insert", "COM", "Eb", "F", "Bb", "C", ";", ";", "#X", "insert", 12, ";", ";", "#X", "insert", "PnoStpTransp", -1, -7, -2, 5, ";", ";", "#X", "insert", "COM", "D", "G", "Ab", "D", ";", ";", "#X", "insert", 13, ";", ";", "#X", "insert", "PnoStpTransp", 1, -4, -1, 3, ";", ";", "#X", "insert", "COM", "F", "Ab", "Bb", "C", ";", ";", "#X", "insert", 14, ";", ";", "#X", "insert", "PnoStpTransp", -6, -1, 5, 1, ";", ";", "#X", "insert", "COM", "Eb", "Ab", "Bb", "D", ";", ";", "#X", "insert", 15, ";", ";", "#X", "insert", "PnoStpTransp", -2, 5, 3, -1, ";", ";", "#X", "insert", "COM", "G", "Ab", "C", "D", ";", ";", "#X", "insert", 16, ";", ";", "#X", "insert", "PnoStpTransp", -1, 3, 5, 1, ";", ";", "#X", "insert", "COM", "Ab", "Bb", "C", "D", ";", ";", "#X", "insert", 17, ";", ";", "#X", "insert", "PnoStpTransp", -4, 1, 3, 7, ";", ";", "#X", "insert", "PitchLists", "clear", "_comma_", 1, 62, 64, 65, 67, 68, 70, "_comma_", 2, 67, 68, 70, 72, 74, 76, "_comma_", 3, 68, 70, 72, 74, 76, 77, "_comma_", 4, 70, 72, 74, 76, 77, 79, ";", ";", "#X", "insert", "COM", "F", "Bb", "C", "E", ";", ";", "#X", "insert", 18, ";", ";" ],
 									"style" : "",
 									"text" : "qlist"
 								}
@@ -4105,6 +4157,16 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-48", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 283.5, 213.006134, 36.030655, 213.006134 ],
+									"source" : [ "obj-10", 0 ]
 								}
 
 							}
@@ -4587,7 +4649,7 @@
 					"presentation_rect" : [ 110.5, 22.666687, 171.0, 24.0 ],
 					"style" : "",
 					"text" : "Choose player letter!",
-					"textcolor" : [ 0.8, 0.0, 0.035, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -5805,7 +5867,7 @@
 					"outlettype" : [ "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 67.5, 13.0, 208.0, 161.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 114.5, 92.166687, 208.0, 161.0 ],
+					"presentation_rect" : [ 114.0, 83.0, 208.0, 161.0 ],
 					"prototypename" : "pixl",
 					"varname" : "gametrakr",
 					"viewvisibility" : 1
@@ -5902,6 +5964,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 109.228928, 574.0, 550.364464, 574.0, 550.364464, 96.0, 947.5, 96.0 ],
 					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-60", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-102", 1 ]
 				}
 
 			}
