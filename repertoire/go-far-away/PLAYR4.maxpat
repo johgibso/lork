@@ -360,38 +360,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-4::obj-265" : [ "pictctrl[40]", "pictctrl[3]", 0 ],
-			"obj-4::obj-278" : [ "module-xable", "module-xable", 0 ],
-			"obj-4::obj-21" : [ "pictctrl[4]", "pictctrl[1]", 0 ],
-			"obj-4::obj-50" : [ "sensitivity", "sensitivity", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "az.gametrakr.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "az.data-handler.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "az.sub-gametrak-calibrate.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "gametrak-calibration.txt",
-				"bootpath" : "~/Desktop/go-far-away v.2",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
 		"autosave" : 0
 	}
 
