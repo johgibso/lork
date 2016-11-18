@@ -210,7 +210,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-60",
-					"items" : [ "cc_jungle.aif", ",", "cc_rain.aif", ",", "cc_roosters.aif", ",", "cc_waves.aif", ",", "dm_breathing.aif", ",", "dm_rain.aif", ",", "dm_running.aif", ",", "dm_wipers.aif", ",", "jj_cafeteria.aif", ",", "jj_loons.aif", ",", "jj_rain.aif", ",", "jj_synth.aif", ",", "sw_cuckoo.aif", ",", "sw_market.aif", ",", "sw_rain.aif", ",", "sw_seagulls.aif", ",", "yj_crowd.aif", ",", "yj_laughing.aif", ",", "yj_mall.aif", ",", "yj_rain.aif" ],
+					"items" : [ "cc_jungle.aif", ",", "cc_rain.aif", ",", "cc_roosters.aif", ",", "cc_waves.aif", ",", "ar_cows.aif", ",", "ar_forest_critters.aif", ",", "ar_howling.aif", ",", "ar_rain.aif", ",", "dm_breathing.aif", ",", "dm_rain.aif", ",", "dm_running.aif", ",", "dm_wipers.aif", ",", "jj_cafeteria.aif", ",", "jj_loons.aif", ",", "jj_rain.aif", ",", "jj_synth.aif", ",", "sw_cuckoo.aif", ",", "sw_market.aif", ",", "sw_rain.aif", ",", "sw_seagulls.aif", ",", "yj_crowd.aif", ",", "yj_laughing.aif", ",", "yj_mall.aif", ",", "yj_rain.aif" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -241,7 +241,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-58",
-					"items" : [ "cc_jungle.aif", ",", "cc_rain.aif", ",", "cc_roosters.aif", ",", "cc_waves.aif", ",", "dm_breathing.aif", ",", "dm_rain.aif", ",", "dm_running.aif", ",", "dm_wipers.aif", ",", "jj_cafeteria.aif", ",", "jj_loons.aif", ",", "jj_rain.aif", ",", "jj_synth.aif", ",", "sw_cuckoo.aif", ",", "sw_market.aif", ",", "sw_rain.aif", ",", "sw_seagulls.aif", ",", "yj_crowd.aif", ",", "yj_laughing.aif", ",", "yj_mall.aif", ",", "yj_rain.aif" ],
+					"items" : [ "cc_jungle.aif", ",", "cc_rain.aif", ",", "cc_roosters.aif", ",", "cc_waves.aif", ",", "ar_cows.aif", ",", "ar_forest_critters.aif", ",", "ar_howling.aif", ",", "ar_rain.aif", ",", "dm_breathing.aif", ",", "dm_rain.aif", ",", "dm_running.aif", ",", "dm_wipers.aif", ",", "jj_cafeteria.aif", ",", "jj_loons.aif", ",", "jj_rain.aif", ",", "jj_synth.aif", ",", "sw_cuckoo.aif", ",", "sw_market.aif", ",", "sw_rain.aif", ",", "sw_seagulls.aif", ",", "yj_crowd.aif", ",", "yj_laughing.aif", ",", "yj_mall.aif", ",", "yj_rain.aif" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -272,7 +272,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-55",
-					"items" : [ "cc_jungle.aif", ",", "cc_rain.aif", ",", "cc_roosters.aif", ",", "cc_waves.aif", ",", "dm_breathing.aif", ",", "dm_rain.aif", ",", "dm_running.aif", ",", "dm_wipers.aif", ",", "jj_cafeteria.aif", ",", "jj_loons.aif", ",", "jj_rain.aif", ",", "jj_synth.aif", ",", "sw_cuckoo.aif", ",", "sw_market.aif", ",", "sw_rain.aif", ",", "sw_seagulls.aif", ",", "yj_crowd.aif", ",", "yj_laughing.aif", ",", "yj_mall.aif", ",", "yj_rain.aif" ],
+					"items" : [ "cc_jungle.aif", ",", "cc_rain.aif", ",", "cc_roosters.aif", ",", "cc_waves.aif", ",", "ar_cows.aif", ",", "ar_forest_critters.aif", ",", "ar_howling.aif", ",", "ar_rain.aif", ",", "dm_breathing.aif", ",", "dm_rain.aif", ",", "dm_running.aif", ",", "dm_wipers.aif", ",", "jj_cafeteria.aif", ",", "jj_loons.aif", ",", "jj_rain.aif", ",", "jj_synth.aif", ",", "sw_cuckoo.aif", ",", "sw_market.aif", ",", "sw_rain.aif", ",", "sw_seagulls.aif", ",", "yj_crowd.aif", ",", "yj_laughing.aif", ",", "yj_mall.aif", ",", "yj_rain.aif" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -303,7 +303,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-52",
-					"items" : [ "cc_jungle.aif", ",", "cc_rain.aif", ",", "cc_roosters.aif", ",", "cc_waves.aif", ",", "dm_breathing.aif", ",", "dm_rain.aif", ",", "dm_running.aif", ",", "dm_wipers.aif", ",", "jj_cafeteria.aif", ",", "jj_loons.aif", ",", "jj_rain.aif", ",", "jj_synth.aif", ",", "sw_cuckoo.aif", ",", "sw_market.aif", ",", "sw_rain.aif", ",", "sw_seagulls.aif", ",", "yj_crowd.aif", ",", "yj_laughing.aif", ",", "yj_mall.aif", ",", "yj_rain.aif" ],
+					"items" : [ "cc_jungle.aif", ",", "cc_rain.aif", ",", "cc_roosters.aif", ",", "cc_waves.aif", ",", "ar_cows.aif", ",", "ar_forest_critters.aif", ",", "ar_howling.aif", ",", "ar_rain.aif", ",", "dm_breathing.aif", ",", "dm_rain.aif", ",", "dm_running.aif", ",", "dm_wipers.aif", ",", "jj_cafeteria.aif", ",", "jj_loons.aif", ",", "jj_rain.aif", ",", "jj_synth.aif", ",", "sw_cuckoo.aif", ",", "sw_market.aif", ",", "sw_rain.aif", ",", "sw_seagulls.aif", ",", "yj_crowd.aif", ",", "yj_laughing.aif", ",", "yj_mall.aif", ",", "yj_rain.aif" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
