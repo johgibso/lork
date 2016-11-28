@@ -5,6 +5,7 @@
 #gametrak-calibration.txt text=auto
 
 # Denote all files that are truly binary and should not be modified.
+*.pdf binary
 *.png binary
 *.jpg binary
 *.wav binary
