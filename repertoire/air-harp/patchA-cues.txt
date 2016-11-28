@@ -3,7 +3,7 @@ COM vim:syn=qlist
 COM ---------------------- ;
 0;
 
-PnoStpTransp 0 0 0 0;
+SampleTransp 0 0 0 0;
 PitchLists clear,
 	1 64 64 65 67 69 72,
 	2 69 69 70 72 74 76,
@@ -14,12 +14,12 @@ COM A;
 
 2;
 
-PnoStpTransp 0 1 -2 0;
+SampleTransp 0 1 -2 0;
 COM G A Bb;
 3;
 
 COM --------- no gaps;
-PnoStpTransp 0 0 0 0;
+SampleTransp 0 0 0 0;
 PitchLists clear,
 	1 64 64 65 67 69 72,
 	2 69 69 70 72 74 76,
@@ -27,23 +27,23 @@ PitchLists clear,
 	4 70 72 74 76 77 79;
 4;
 
-PnoStpTransp -2 0 0 1;
+SampleTransp -2 0 0 1;
 COM G A Bb;
 5;
 
-PnoStpTransp -5 -4 -5 3;
+SampleTransp -5 -4 -5 3;
 COM E F C;
 6;
 
-PnoStpTransp 0 0 1 1;
+SampleTransp 0 0 1 1;
 COM A Bb;
 7;
 
-PnoStpTransp 1 -2 3 -2;
+SampleTransp 1 -2 3 -2;
 COM G Bb C;
 8;
 
-PnoStpTransp -9 0 -2 5;
+SampleTransp -9 0 -2 5;
 PitchLists clear,
 	1 62 63 65 67 69 70,
 	2 69 69 70 72 74 75,
@@ -52,11 +52,11 @@ PitchLists clear,
 COM D G A D;
 9;
 
-PnoStpTransp 1 -4 -6 0;
+SampleTransp 1 -4 -6 0;
 COM Eb F A Bb;
 10;
 
-PnoStpTransp -2 5 -1 -7;
+SampleTransp -2 5 -1 -7;
 PitchLists clear,
 	1 62 63 65 67 68 70,
 	2 67 68 70 72 74 75,
@@ -65,31 +65,31 @@ PitchLists clear,
 COM D G Ab D;
 11;
 
-PnoStpTransp -4 1 3 -6;
+SampleTransp -4 1 3 -6;
 COM Eb F Bb C;
 12;
 
-PnoStpTransp -1 -7 -2 5;
+SampleTransp -1 -7 -2 5;
 COM D G Ab D;
 13;
 
-PnoStpTransp 1 -4 -1 3;
+SampleTransp 1 -4 -1 3;
 COM F Ab Bb C;
 14;
 
-PnoStpTransp -6 -1 5 1;
+SampleTransp -6 -1 5 1;
 COM Eb Ab Bb D;
 15;
 
-PnoStpTransp -2 5 3 -1;
+SampleTransp -2 5 3 -1;
 COM G Ab C D;
 16;
 
-PnoStpTransp -1 3 5 1;
+SampleTransp -1 3 5 1;
 COM Ab Bb C D;
 17;
 
-PnoStpTransp -4 1 3 7;
+SampleTransp -4 1 3 7;
 PitchLists clear,
 	1 62 64 65 67 68 70,
 	2 67 68 70 72 74 76,
@@ -97,4 +97,16 @@ PitchLists clear,
 	4 70 72 74 76 77 79;
 COM F Bb C E;
 18;
+
+COM dummy;
+19;
+
+SampleTransp 0 0 0 0;
+COM section 4 pluck pitches;
+PitchLists clear,
+	1 71 72 74 76 78 79,
+	2 72 74 76 78 79 81,
+	3 76 78 79 81 83 84,
+	4 81 83 84 86 88 90;
+20;
 

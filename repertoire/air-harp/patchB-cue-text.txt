@@ -1,4 +1,7 @@
-1, Rest\, and wait for cue 2.;
+1, Rest\, and wait for cue 2\, which starts at 9th pluck.;
 2, Start softly and darkly\, then build to a full sound\, but don't cover the plucks. Trackpad: X = brightness and bumpy attacks\, Y = volume.;
-3, Fade out\, then rest.;
-4, Sparse\, intermittent\, short fragments. Trackpad: X = noise attacks\, Y = volume;
+3, Fade out slowly\, then rest.;
+4, Sparse\, intermittent\, short fragments. Crescendo (in volume and density) near the end of the section. Trackpad: X = noise attacks\, Y = volume.;
+5, Keep playing the same way\, as the sound changes. Lots of left/right motion.;
+6, Drone like 1st section. Make extravagant swoopy sounds\, but don't cover plucks. Slowly fade near the end. Trackpad: X = brightness and bumpy attacks\, Y = volume.;
+7, Stop playing\, let sound die away.;
