@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 2,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"openrect" : [ 332.0, 172.0, 795.0, 479.0 ],
+		"rect" : [ 279.0, 147.0, 833.0, 470.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -30,13 +30,130 @@
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
-		"devicewidth" : 795.0,
+		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-45",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1594.333374, 346.5, 116.0, 35.0 ],
+					"style" : "",
+					"text" : "0.118397 0.121361 0.129471 0.131964"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 1594.333374, 314.0, 36.0, 22.0 ],
+					"style" : "",
+					"text" : "sel 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1594.333374, 271.0, 92.0, 22.0 ],
+					"restore" : [ 1 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0
+					}
+,
+					"style" : "",
+					"text" : "pattr distToggle",
+					"varname" : "distToggle"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-61",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 630.0, 97.0, 176.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 572.0, 96.0, 176.0, 20.0 ],
+					"style" : "",
+					"text" : "|1        |2         |3         |4         |5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-49",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 611.0, 416.0, 150.0, 33.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 569.5, 380.0, 196.0, 20.0 ],
+					"style" : "",
+					"text" : "Scroll down for more instructions"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-44",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 128.0, 16.666656, 45.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 37.5, 33.000015, 44.0, 20.0 ],
+					"style" : "",
+					"text" : "Preset"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-32",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 638.0, 371.5, 65.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 572.0, 249.333313, 64.0, 20.0 ],
+					"style" : "",
+					"text" : "Distortion:"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 634.0, 341.0, 63.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 572.0, 177.333313, 64.0, 20.0 ],
+					"style" : "",
+					"text" : "Playback:"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-35",
 					"linecount" : 4,
@@ -181,16 +298,16 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-21",
-					"linecount" : 18,
+					"linecount" : 20,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 754.333374, 652.0, 703.0, 248.0 ],
+					"patching_rect" : [ 754.333374, 652.0, 706.0, 275.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 17,
-					"presentation_rect" : [ 24.0, 488.0, 753.0, 234.0 ],
+					"presentation_linecount" : 18,
+					"presentation_rect" : [ 24.0, 489.0, 791.0, 248.0 ],
 					"style" : "",
-					"text" : "*Be sure to load in your four sounds before beginning the piece. Save these to your preset by shift-clicking the box in the top left.\n*Your rain sound should be on node 1 (top left), and your most contrasting sound on node 4 (bottom right).\n*Do not move the position of nodes 1- 4\n*You may need to move the yellow node a bit to get any initial sound. Do this quickly before bringing the volume up just to be sure.\n\nInstructions:\n\n1) Slowly fade in your sound environment (stopping around half volume) with the yellow node in the center. Distortion Drive and Color should be cranked up.\n2) Upon cue, remove distortion entirely by pressing the 'd' key. Do not adjust volume yet.\n3) Each performer will be individually cued to bring their volume up and present their sound environment. Feel free to shift the mix of your environment between your three non-rain sounds as you please (but do carefully consider your decisions here). When a new performer is cued in, the current performer should move their yellow node to their rain sound, and the conductor will coordinate a volume fade between the two. This will continue until each performer has had a chance to present their sound environment.\n4) The final performer will be cued to move the yellow node to their rain sound. They should not, however, adjust volume here.\n5) The conductor will coordinate a volume increase for all other performers, and will then fade out the piece (slowly), leaving off with a soft sizzle of rain."
+					"text" : "*Be sure to load in your four sounds before beginning the piece. Save these to your preset by shift-clicking the box in the top left.\n*Your rain sound should be on node 1 (top left), and your most contrasting sound on node 4 (bottom right).\n*Do not move the position of nodes 1- 4\n*You may need to move the yellow node a bit to get any initial sound. Do this quickly before bringing the volume up just to be sure.\n\nINSTRUCTIONS:\n\n1) Start off by just moving the yellow node slightly so that playback can work properly. On cue, everyone will hit spacebar to turn on playback. Slowly fade in your sound environment as conducted (stopping at volume tick 3) with the yellow node in the center. Distortion should be on.\n2) Upon cue, remove distortion entirely by pressing the 'd' key. After a small pause, move volume down to tick 2 as conducted.\n3) Each performer will be individually cued to bring their volume up to tick 4 and present their sound environment. Feel free to shift the mix of your environment between your three non-rain sounds as you please (but do carefully consider your decisions here). Look at the conductor from time to time to be cued for the next performer. When a new performer is cued in, the current performer should move their yellow node to their rain sound, and the conductor will coordinate a volume fade between the two (fade down to tick 2 if you are finishing, fade up to tick 4 if you are being cued in). This will continue until each performer has had a chance to present their sound environment.\n4) The final performer will be cued to move the yellow node to their rain sound. They should not, however, adjust volume here.\n5) The conductor will coordinate a volume increase for all performers to volume tick 5, and will then fade out the piece (slowly), leaving off with a soft sizzle of rain just above tick 1 before cutting off playback."
 				}
 
 			}
@@ -210,7 +327,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-60",
-					"items" : [ "cc_jungle.aif", ",", "cc_rain.aif", ",", "cc_roosters.aif", ",", "cc_waves.aif", ",", "ar_cows.aif", ",", "ar_forest_critters.aif", ",", "ar_howling.aif", ",", "ar_rain.aif", ",", "dm_breathing.aif", ",", "dm_rain.aif", ",", "dm_running.aif", ",", "dm_wipers.aif", ",", "jj_cafeteria.aif", ",", "jj_loons.aif", ",", "jj_rain.aif", ",", "jj_synth.aif", ",", "sw_cuckoo.aif", ",", "sw_market.aif", ",", "sw_rain.aif", ",", "sw_seagulls.aif", ",", "yj_crowd.aif", ",", "yj_laughing.aif", ",", "yj_mall.aif", ",", "yj_rain.aif" ],
+					"items" : [ "cc_jungle.aif", ",", "cc_rain.aif", ",", "cc_roosters.aif", ",", "cc_waves.aif", ",", "dm_breathing.aif", ",", "dm_rain.aif", ",", "dm_runnning.aif", ",", "dm_wipers.wav", ",", "jj_cafeteria.aif", ",", "jj_loons.aif", ",", "jj_rain.aif", ",", "jj_synth.aif", ",", "sw_cuckoo.aif", ",", "sw_market.aif", ",", "sw_rain.aif", ",", "sw_seagulls.aif", ",", "yj_crowd.aif", ",", "yj_laughing.aif", ",", "yj_mall.aif", ",", "yj_rain.aif" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -241,7 +358,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-58",
-					"items" : [ "cc_jungle.aif", ",", "cc_rain.aif", ",", "cc_roosters.aif", ",", "cc_waves.aif", ",", "ar_cows.aif", ",", "ar_forest_critters.aif", ",", "ar_howling.aif", ",", "ar_rain.aif", ",", "dm_breathing.aif", ",", "dm_rain.aif", ",", "dm_running.aif", ",", "dm_wipers.aif", ",", "jj_cafeteria.aif", ",", "jj_loons.aif", ",", "jj_rain.aif", ",", "jj_synth.aif", ",", "sw_cuckoo.aif", ",", "sw_market.aif", ",", "sw_rain.aif", ",", "sw_seagulls.aif", ",", "yj_crowd.aif", ",", "yj_laughing.aif", ",", "yj_mall.aif", ",", "yj_rain.aif" ],
+					"items" : [ "cc_jungle.aif", ",", "cc_rain.aif", ",", "cc_roosters.aif", ",", "cc_waves.aif", ",", "dm_breathing.aif", ",", "dm_rain.aif", ",", "dm_runnning.aif", ",", "dm_wipers.wav", ",", "jj_cafeteria.aif", ",", "jj_loons.aif", ",", "jj_rain.aif", ",", "jj_synth.aif", ",", "sw_cuckoo.aif", ",", "sw_market.aif", ",", "sw_rain.aif", ",", "sw_seagulls.aif", ",", "yj_crowd.aif", ",", "yj_laughing.aif", ",", "yj_mall.aif", ",", "yj_rain.aif" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -272,7 +389,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-55",
-					"items" : [ "cc_jungle.aif", ",", "cc_rain.aif", ",", "cc_roosters.aif", ",", "cc_waves.aif", ",", "ar_cows.aif", ",", "ar_forest_critters.aif", ",", "ar_howling.aif", ",", "ar_rain.aif", ",", "dm_breathing.aif", ",", "dm_rain.aif", ",", "dm_running.aif", ",", "dm_wipers.aif", ",", "jj_cafeteria.aif", ",", "jj_loons.aif", ",", "jj_rain.aif", ",", "jj_synth.aif", ",", "sw_cuckoo.aif", ",", "sw_market.aif", ",", "sw_rain.aif", ",", "sw_seagulls.aif", ",", "yj_crowd.aif", ",", "yj_laughing.aif", ",", "yj_mall.aif", ",", "yj_rain.aif" ],
+					"items" : [ "cc_jungle.aif", ",", "cc_rain.aif", ",", "cc_roosters.aif", ",", "cc_waves.aif", ",", "dm_breathing.aif", ",", "dm_rain.aif", ",", "dm_runnning.aif", ",", "dm_wipers.wav", ",", "jj_cafeteria.aif", ",", "jj_loons.aif", ",", "jj_rain.aif", ",", "jj_synth.aif", ",", "sw_cuckoo.aif", ",", "sw_market.aif", ",", "sw_rain.aif", ",", "sw_seagulls.aif", ",", "yj_crowd.aif", ",", "yj_laughing.aif", ",", "yj_mall.aif", ",", "yj_rain.aif" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -303,7 +420,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-52",
-					"items" : [ "cc_jungle.aif", ",", "cc_rain.aif", ",", "cc_roosters.aif", ",", "cc_waves.aif", ",", "ar_cows.aif", ",", "ar_forest_critters.aif", ",", "ar_howling.aif", ",", "ar_rain.aif", ",", "dm_breathing.aif", ",", "dm_rain.aif", ",", "dm_running.aif", ",", "dm_wipers.aif", ",", "jj_cafeteria.aif", ",", "jj_loons.aif", ",", "jj_rain.aif", ",", "jj_synth.aif", ",", "sw_cuckoo.aif", ",", "sw_market.aif", ",", "sw_rain.aif", ",", "sw_seagulls.aif", ",", "yj_crowd.aif", ",", "yj_laughing.aif", ",", "yj_mall.aif", ",", "yj_rain.aif" ],
+					"items" : [ "cc_jungle.aif", ",", "cc_rain.aif", ",", "cc_roosters.aif", ",", "cc_waves.aif", ",", "dm_breathing.aif", ",", "dm_rain.aif", ",", "dm_runnning.aif", ",", "dm_wipers.wav", ",", "jj_cafeteria.aif", ",", "jj_loons.aif", ",", "jj_rain.aif", ",", "jj_synth.aif", ",", "sw_cuckoo.aif", ",", "sw_market.aif", ",", "sw_rain.aif", ",", "sw_seagulls.aif", ",", "yj_crowd.aif", ",", "yj_laughing.aif", ",", "yj_mall.aif", ",", "yj_rain.aif" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -326,23 +443,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1268.0, 629.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 569.5, 323.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 592.5, 276.0, 131.0, 20.0 ],
 					"style" : "",
-					"text" : "Toggle distortion with 'd'"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-41",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 811.0, 307.0, 150.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 569.5, 196.500046, 150.0, 20.0 ],
-					"style" : "",
-					"text" : "Distortion Color:"
+					"text" : "Toggle with the 'd' key"
 				}
 
 			}
@@ -380,7 +483,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 328.0, 326.0, 64.0, 22.0 ],
-					"restore" : [ 127 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -393,26 +496,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.221674, 0.25681, 0.29304, 1.0 ],
-					"elementcolor" : [ 0.317647, 0.654902, 0.976471, 0.34 ],
-					"id" : "obj-9",
-					"knobcolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
-					"maxclass" : "slider",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"orientation" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 303.0, 326.0, 20.0, 140.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 574.5, 220.500061, 169.5, 22.0 ],
-					"style" : "",
-					"varname" : "slider[2]"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-54",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -420,7 +503,10 @@
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1628.0, 234.333313, 24.0, 24.0 ],
-					"style" : ""
+					"presentation" : 1,
+					"presentation_rect" : [ 643.5, 247.333313, 24.0, 24.0 ],
+					"style" : "",
+					"varname" : "toggle[1]"
 				}
 
 			}
@@ -434,24 +520,23 @@
 					"patching_rect" : [ 1268.0, 573.0, 151.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 569.5, 347.0, 196.0, 33.0 ],
+					"presentation_rect" : [ 569.5, 345.0, 196.0, 33.0 ],
 					"style" : "",
-					"text" : "Click and drag yellow node to adjust volume mix between sounds"
+					"text" : "Click and drag the yellow node to adjust volume mix between sounds"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-48",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1268.0, 528.0, 150.0, 33.0 ],
+					"patching_rect" : [ 1268.0, 528.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 569.5, 299.0, 172.0, 20.0 ],
+					"presentation_rect" : [ 592.5, 203.333313, 126.0, 20.0 ],
 					"style" : "",
-					"text" : "Toggle playback with spacebar"
+					"text" : "Toggle with spacebar"
 				}
 
 			}
@@ -463,7 +548,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1268.0, 495.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 569.5, 79.000015, 54.0, 20.0 ],
+					"presentation_rect" : [ 572.0, 74.0, 54.0, 20.0 ],
 					"style" : "",
 					"text" : "Volume:"
 				}
@@ -515,23 +600,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 102.5, 652.0, 20.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 574.5, 101.000015, 167.0, 22.0 ],
+					"presentation_rect" : [ 572.0, 111.000015, 167.0, 22.0 ],
 					"style" : "",
 					"varname" : "slider[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-27",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1268.0, 464.0, 150.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 569.5, 139.0, 94.0, 20.0 ],
-					"style" : "",
-					"text" : "Distortion Drive:"
 				}
 
 			}
@@ -543,7 +614,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 200.0, 326.0, 64.0, 22.0 ],
-					"restore" : [ 127 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -633,26 +704,6 @@
 					"patching_rect" : [ 200.0, 353.0, 99.0, 22.0 ],
 					"style" : "",
 					"text" : "scale 0 127 0. 1."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.221674, 0.25681, 0.29304, 1.0 ],
-					"elementcolor" : [ 0.317647, 0.654902, 0.976471, 0.35 ],
-					"id" : "obj-32",
-					"knobcolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
-					"maxclass" : "slider",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"orientation" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 178.0, 326.0, 20.0, 140.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 574.5, 162.000015, 167.0, 22.0 ],
-					"style" : "",
-					"varname" : "slider"
 				}
 
 			}
@@ -808,7 +859,7 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 854, 172, 1430, 813 ],
+						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
@@ -841,6 +892,8 @@
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1594.333374, 234.333313, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 643.5, 175.333313, 24.0, 24.0 ],
 					"style" : "",
 					"varname" : "toggle"
 				}
@@ -948,7 +1001,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.0, 527.666687, 51.0, 22.0 ],
+					"patching_rect" : [ 50.0, 510.666687, 51.0, 22.0 ],
 					"style" : "",
 					"text" : "$1 0 $2"
 				}
@@ -961,7 +1014,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 25.0, 496.666687, 58.0, 22.0 ],
+					"patching_rect" : [ 50.0, 479.666687, 58.0, 22.0 ],
 					"style" : "",
 					"text" : "listfunnel"
 				}
@@ -1048,15 +1101,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-10", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1094,6 +1138,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-29", 4 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-12", 0 ]
@@ -1150,7 +1203,7 @@
 					"destination" : [ "obj-25", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 337.5, 315.5, 227.666672, 315.5, 227.666672, 315.0, 117.833336, 315.0 ],
+					"midpoints" : [ 337.5, 315.5, 227.666672, 315.5, 227.666672, 315.0, 117.833333, 315.0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -1160,7 +1213,7 @@
 					"destination" : [ "obj-37", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 337.5, 315.5, 431.166656, 315.5, 431.166656, 315.0, 524.833313, 315.0 ],
+					"midpoints" : [ 337.5, 315.5, 431.166656, 315.5, 431.166656, 315.0, 524.833333, 315.0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -1170,7 +1223,7 @@
 					"destination" : [ "obj-40", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 337.5, 315.5, 625.666687, 315.5, 625.666687, 315.0, 913.833374, 315.0 ],
+					"midpoints" : [ 337.5, 315.5, 625.666687, 315.5, 625.666687, 315.0, 913.833394, 315.0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -1180,7 +1233,7 @@
 					"destination" : [ "obj-43", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 337.5, 315.5, 818.625, 315.5, 818.625, 315.0, 1299.75, 315.0 ],
+					"midpoints" : [ 337.5, 315.5, 818.625, 315.5, 818.625, 315.0, 1299.749959, 315.0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -1295,6 +1348,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1304,20 +1366,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 187.5, 476.0, 209.5, 476.0, 209.5, 446.0, 209.5, 446.0 ],
-					"source" : [ "obj-32", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-25", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 209.5, 315.0, 142.833328, 315.0, 142.833328, 315.0, 76.166664, 315.0 ],
+					"midpoints" : [ 209.5, 315.0, 142.833328, 315.0, 142.833328, 315.0, 76.166667, 315.0 ],
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -1327,7 +1379,7 @@
 					"destination" : [ "obj-37", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 209.5, 476.0, 462.833344, 476.0, 462.833344, 315.0, 483.166656, 315.0 ],
+					"midpoints" : [ 209.5, 476.0, 462.833344, 476.0, 462.833344, 315.0, 483.166667, 315.0 ],
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -1337,7 +1389,7 @@
 					"destination" : [ "obj-40", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 209.5, 476.0, 849.333374, 476.0, 849.333374, 315.0, 872.166748, 315.0 ],
+					"midpoints" : [ 209.5, 476.0, 849.333374, 476.0, 849.333374, 315.0, 872.166728, 315.0 ],
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -1347,7 +1399,7 @@
 					"destination" : [ "obj-43", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 209.5, 476.0, 1238.791626, 476.0, 1238.791626, 315.0, 1258.083252, 315.0 ],
+					"midpoints" : [ 209.5, 476.0, 1238.791626, 476.0, 1238.791626, 315.0, 1258.083293, 315.0 ],
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -1435,10 +1487,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-32", 0 ],
+					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-46", 1 ]
+					"source" : [ "obj-45", 0 ]
 				}
 
 			}
@@ -1624,11 +1676,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-31", 0 ],
+					"destination" : [ "obj-54", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 312.5, 476.0, 337.0, 476.0, 337.0, 342.0, 337.5, 342.0 ],
-					"source" : [ "obj-9", 0 ]
+					"source" : [ "obj-9", 1 ]
 				}
 
 			}
