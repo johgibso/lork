@@ -2432,10 +2432,10 @@
 										"Pan" : [ 0.0 ],
 										"PanRandomAmt" : [ 50.0 ],
 										"PitchRandomAmt" : [ 0.0 ],
-										"Position" : [ -4.44874 ],
+										"Position" : [ -4.922 ],
 										"PositionCV" : [ 0.0 ],
-										"Width" : [ 0.99 ],
-										"location-lo-hi" : [ 0, 153 ]
+										"Width" : [ 1.975 ],
+										"location-lo-hi" : [ 0, 204 ]
 									}
 ,
 									"style" : "",
@@ -3152,7 +3152,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 449.30423, 176.393616, 77.0, 22.0 ],
-									"restore" : [ "Clap 01.wav" ],
+									"restore" : [ "Kick 01.wav" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
