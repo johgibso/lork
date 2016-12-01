@@ -298,16 +298,16 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-21",
-					"linecount" : 20,
+					"linecount" : 18,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 754.333374, 652.0, 706.0, 275.0 ],
+					"patching_rect" : [ 754.333374, 652.0, 706.0, 248.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 18,
-					"presentation_rect" : [ 24.0, 489.0, 791.0, 248.0 ],
+					"presentation_linecount" : 16,
+					"presentation_rect" : [ 24.0, 489.0, 791.0, 221.0 ],
 					"style" : "",
-					"text" : "*Be sure to load in your four sounds before beginning the piece. Save these to your preset by shift-clicking the box in the top left.\n*Your rain sound should be on node 1 (top left), and your most contrasting sound on node 4 (bottom right).\n*Do not move the position of nodes 1- 4\n*You may need to move the yellow node a bit to get any initial sound. Do this quickly before bringing the volume up just to be sure.\n\nINSTRUCTIONS:\n\n1) Start off by just moving the yellow node slightly so that playback can work properly. On cue, everyone will hit spacebar to turn on playback. Slowly fade in your sound environment as conducted (stopping at volume tick 3) with the yellow node in the center. Distortion should be on.\n2) Upon cue, remove distortion entirely by pressing the 'd' key. After a small pause, move volume down to tick 2 as conducted.\n3) Each performer will be individually cued to bring their volume up to tick 4 and present their sound environment. Feel free to shift the mix of your environment between your three non-rain sounds as you please (but do carefully consider your decisions here). Look at the conductor from time to time to be cued for the next performer. When a new performer is cued in, the current performer should move their yellow node to their rain sound, and the conductor will coordinate a volume fade between the two (fade down to tick 2 if you are finishing, fade up to tick 4 if you are being cued in). This will continue until each performer has had a chance to present their sound environment.\n4) The final performer will be cued to move the yellow node to their rain sound. They should not, however, adjust volume here.\n5) The conductor will coordinate a volume increase for all performers to volume tick 5, and will then fade out the piece (slowly), leaving off with a soft sizzle of rain just above tick 1 before cutting off playback."
+					"text" : "*Be sure to load in your four sounds before beginning the piece. Save these to your preset by shift-clicking the box in the top left.\n*Your rain sound should be on node 1 (top left), and your most contrasting sound on node 4 (bottom right).\n\nINSTRUCTIONS:\n\n1) Start off by just moving the yellow node slightly so that playback can work properly. On cue, everyone will hit spacebar to turn on playback. Slowly fade in your sound environment as conducted (stopping at volume tick 3) with the yellow node in the center. Distortion should be on.\n2) Upon cue, remove distortion entirely by pressing the 'd' key. After a small pause, move volume down to tick 2 as conducted.\n3) Each performer will be individually cued to bring their volume up to tick 4 and present their sound environment. Feel free to shift the mix of your environment between your three non-rain sounds as you please (but do carefully consider your decisions here). Look at the conductor from time to time to be cued for the next performer. When a new performer is cued in, the current performer should move their yellow node to their rain sound, and the conductor will coordinate a volume fade between the two (fade down to tick 2 if you are finishing, fade up to tick 4 if you are being cued in). This will continue until each performer has had a chance to present their sound environment.\n4) The final performer will be cued to move the yellow node to their rain sound. They should not, however, adjust volume here.\n5) The conductor will coordinate a volume increase for all performers to volume tick 5, and will then fade out the piece (slowly), leaving off with a soft sizzle of rain just above tick 1 before cutting off playback."
 				}
 
 			}
@@ -949,6 +949,7 @@
 					"displayknob" : 1,
 					"id" : "obj-7",
 					"maxclass" : "nodes",
+					"mousemode" : 2,
 					"nodecolor" : [ 0.317647, 0.654902, 0.976471, 0.49 ],
 					"nodenumber" : 4,
 					"nsize" : [ 0.75, 0.75, 0.75, 0.75 ],
