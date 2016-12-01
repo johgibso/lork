@@ -159,7 +159,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 38.0, -291.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -1337,7 +1337,7 @@
 									"presentation_rect" : [ 233.182251, 138.65155, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Width[4]",
+											"parameter_longname" : "Width[1]",
 											"parameter_shortname" : "Width",
 											"parameter_type" : 0,
 											"parameter_mmax" : 5.0,
@@ -1370,7 +1370,7 @@
 									"presentation_rect" : [ 94.773521, 138.65155, 46.0, 36.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "PitchRandomAmt[4]",
+											"parameter_longname" : "PitchRandomAmt[1]",
 											"parameter_shortname" : "Random",
 											"parameter_type" : 1,
 											"parameter_mmax" : 100.0,
@@ -1401,7 +1401,7 @@
 									"presentation_rect" : [ 425.31189, 138.65155, 48.0, 36.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "PanRandomAmt[4]",
+											"parameter_longname" : "PanRandomAmt[1]",
 											"parameter_shortname" : "Random",
 											"parameter_type" : 1,
 											"parameter_mmax" : 100.0,
@@ -1430,7 +1430,7 @@
 									"presentation_rect" : [ 381.176697, 138.65155, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Pan[4]",
+											"parameter_longname" : "Pan[1]",
 											"parameter_shortname" : "Pan",
 											"parameter_type" : 0,
 											"parameter_mmin" : -50.0,
@@ -1462,7 +1462,7 @@
 									"presentation_rect" : [ 334.182251, 138.65155, 48.0, 36.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "DurationRandomAmt[4]",
+											"parameter_longname" : "DurationRandomAmt[1]",
 											"parameter_shortname" : "Random",
 											"parameter_type" : 1,
 											"parameter_mmax" : 100.0,
@@ -1491,7 +1491,7 @@
 									"presentation_rect" : [ 287.182251, 138.65155, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Duration[4]",
+											"parameter_longname" : "Duration[1]",
 											"parameter_shortname" : "Duration",
 											"parameter_type" : 0,
 											"parameter_mmax" : 500.0,
@@ -1534,7 +1534,7 @@
 									"presentation_rect" : [ 199.733124, 138.65155, 46.013138, 36.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "CV[4]",
+											"parameter_longname" : "CV[1]",
 											"parameter_shortname" : "CV",
 											"parameter_type" : 1,
 											"parameter_mmin" : -100.0,
@@ -1566,7 +1566,7 @@
 									"presentation_rect" : [ 148.497467, 138.65155, 53.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Position[4]",
+											"parameter_longname" : "Position[1]",
 											"parameter_shortname" : "Position",
 											"parameter_type" : 0,
 											"parameter_mmin" : -5.0,
@@ -1601,7 +1601,7 @@
 									"presentation_rect" : [ 51.149376, 138.65155, 52.0, 36.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "CV2[1]",
+											"parameter_longname" : "CV2[2]",
 											"parameter_shortname" : "CV2",
 											"parameter_type" : 0,
 											"parameter_mmin" : -100.0,
@@ -1635,7 +1635,7 @@
 									"presentation_rect" : [ 4.399376, 138.65155, 50.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Offset[1]",
+											"parameter_longname" : "Offset[2]",
 											"parameter_shortname" : "Offset",
 											"parameter_type" : 0,
 											"parameter_mmin" : -36.0,
@@ -1745,7 +1745,7 @@
 									"presentation_rect" : [ 480.536163, 142.283295, 52.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "NewGrainEvery[1]",
+											"parameter_longname" : "NewGrainEvery[2]",
 											"parameter_shortname" : "NewGrainEvery",
 											"parameter_type" : 1,
 											"parameter_mmin" : 1.0,
@@ -1779,7 +1779,7 @@
 									"presentation_rect" : [ 480.536163, 165.5513, 52.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "MaxGrains[1]",
+											"parameter_longname" : "MaxGrains[2]",
 											"parameter_shortname" : "MaxGrains",
 											"parameter_type" : 0,
 											"parameter_mmin" : 8.0,
@@ -2432,15 +2432,15 @@
 										"Pan" : [ 0.0 ],
 										"PanRandomAmt" : [ 50.0 ],
 										"PitchRandomAmt" : [ 0.0 ],
-										"Position" : [ -4.44874 ],
+										"Position" : [ 0.984252 ],
 										"PositionCV" : [ 0.0 ],
-										"Width" : [ 0.99 ],
-										"location-lo-hi" : [ 0, 153 ]
+										"Width" : [ 0.75378 ],
+										"location-lo-hi" : [ 522, 672 ]
 									}
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u344007670"
+									"varname" : "u367013320"
 								}
 
 							}
@@ -3152,7 +3152,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 449.30423, 176.393616, 77.0, 22.0 ],
-									"restore" : [ "Clap 01.wav" ],
+									"restore" : [ "isthatyou.aiff" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
@@ -3880,7 +3880,7 @@
 									"presentation_rect" : [ 482.351593, 19.0, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Mute[1]",
+											"parameter_longname" : "Mute[2]",
 											"parameter_shortname" : "Mute",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
@@ -5842,68 +5842,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-1::obj-45" : [ "DurationRandomAmt[4]", "Random", 0 ],
-			"obj-1::obj-94" : [ "PitchRandomAmt[4]", "Random", 0 ],
-			"obj-1::obj-114" : [ "MaxGrains[1]", "MaxGrains", 0 ],
-			"obj-1::obj-3" : [ "Position[4]", "Position", 0 ],
-			"obj-1::obj-71" : [ "Pan[4]", "Pan", 0 ],
-			"obj-1::obj-98::obj-2" : [ "pastebang", "pastebang", 0 ],
-			"obj-1::obj-28" : [ "Offset[1]", "Offset", 0 ],
-			"obj-1::obj-101" : [ "Width[4]", "Width", 0 ],
-			"obj-1::obj-47" : [ "Duration[4]", "Duration", 0 ],
-			"obj-1::obj-25" : [ "CV[4]", "CV", 0 ],
-			"obj-1::obj-58" : [ "PanRandomAmt[4]", "Random", 0 ],
-			"obj-1::obj-12" : [ "Mute[1]", "Mute", 0 ],
-			"obj-1::obj-115" : [ "NewGrainEvery[1]", "NewGrainEvery", 0 ],
-			"obj-1::obj-19" : [ "CV2[1]", "CV2", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "bp.rgrain.maxpat",
-				"bootpath" : "C74:/packages/Beap/misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rchoosef.maxpat",
-				"bootpath" : "C74:/packages/Beap/misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rchoose.maxpat",
-				"bootpath" : "C:/ProgramData/Max 7/examples/sampling/granular/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "transratio.maxpat",
-				"bootpath" : "C:/ProgramData/Max 7/examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pastebang.maxpat",
-				"bootpath" : "C74:/packages/Beap/misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bp.arc.accum-2.maxpat",
-				"bootpath" : "C74:/packages/Beap/misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bp.arc.knob.maxpat",
-				"bootpath" : "C74:/packages/Beap/misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
