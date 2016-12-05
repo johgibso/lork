@@ -38,6 +38,111 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-56",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 507.0, 256.899475, 28.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 506.0, 247.245514, 28.0, 29.0 ],
+					"style" : "",
+					"text" : "u"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-55",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 507.0, 159.776749, 28.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 507.0, 153.122757, 28.0, 29.0 ],
+					"style" : "",
+					"text" : "y"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-54",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 508.0, 67.368286, 28.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 509.0, 59.0, 28.0, 29.0 ],
+					"style" : "",
+					"text" : "t"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-53",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 23.0, 353.245514, 28.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 24.0, 341.368286, 28.0, 29.0 ],
+					"style" : "",
+					"text" : "r"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-46",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 23.0, 257.122742, 28.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 22.0, 247.245514, 28.0, 29.0 ],
+					"style" : "",
+					"text" : "e"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-38",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 23.0, 161.0, 28.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 19.0, 153.122757, 28.0, 29.0 ],
+					"style" : "",
+					"text" : "w"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-1",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 266.0, 516.368286, 28.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 22.0, 59.0, 28.0, 29.0 ],
+					"style" : "",
+					"text" : "q"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-68",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -2106,7 +2211,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "bang", "bang" ],
 									"patching_rect" : [ 26.530655, 261.012268, 49.0, 22.0 ],
-									"save" : [ "#N", "qlist", ";", "#X", "insert", "COM", "vim:syn=qlist", "COM", "INIT", "-------------", ";", ";", "#X", "insert", "LoopVis1", 0, ";", ";", "#X", "insert", "LoopVis2", 0, ";", ";", "#X", "insert", "LoopVis3", 0, ";", ";", "#X", "insert", "LoopVis4", 0, ";", ";", "#X", "insert", "LoopVis5", 0, ";", ";", "#X", "insert", "LoopVis6", 0, ";", ";", "#X", "insert", "LoopVis7", 0, ";", ";", "#X", "insert", "Loop1", 0, ";", ";", "#X", "insert", "Loop2", 0, ";", ";", "#X", "insert", "Loop3", 0, ";", ";", "#X", "insert", "Loop4", 0, ";", ";", "#X", "insert", "Loop5", 0, ";", ";", "#X", "insert", "Loop6", 0, ";", ";", "#X", "insert", "Loop7", 0, ";", ";", "#X", "insert", 0, ";", ";", "#X", "insert", "COM", "P21", ";", ";", "#X", "insert", "NewSet", "bang", ";", ";", "#X", "insert", "Buffer1", "traffic", ";", ";", "#X", "insert", "Buffer2", "silent", ";", ";", "#X", "insert", "Buffer3", "silent", ";", ";", "#X", "insert", "Buffer4", "silent", ";", ";", "#X", "insert", "Buffer5", "silent", ";", ";", "#X", "insert", "Buffer6", "silent", ";", ";", "#X", "insert", "Buffer7", "silent", ";", ";", "#X", "insert", "Go", 2, 10000, ";", ";", "#X", "insert", 1, ";", ";", "#X", "insert", "COM", "P20", ";", ";", "#X", "insert", "NewSet", "bang", ";", ";", "#X", "insert", "Buffer1", "why_is_it_dancing_", ";", ";", "#X", "insert", "Buffer2", "why_is_it_dancing_2", ";", ";", "#X", "insert", "Buffer3", "why_is_it_dancing_3", ";", ";", "#X", "insert", "Buffer4", "why_is_it_dancing_4", ";", ";", "#X", "insert", "Buffer5", "why_is_it_dancing_5", ";", ";", "#X", "insert", "Buffer6", "silent", ";", ";", "#X", "insert", "Buffer7", "silent", ";", ";", "#X", "insert", "Play1Defer", 1, ";", ";", "#X", "insert", "Go", 3, 80000, ";", ";", "#X", "insert", 2, ";", ";", "#X", "insert", "COM", "P8", ";", ";", "#X", "insert", "NewSet", "bang", ";", ";", "#X", "insert", "Buffer1", "change10", ";", ";", "#X", "insert", "Buffer2", "change11", ";", ";", "#X", "insert", "Buffer3", "change12", ";", ";", "#X", "insert", "Buffer4", "change13", ";", ";", "#X", "insert", "Buffer5", "change14", ";", ";", "#X", "insert", "Buffer6", "silent", ";", ";", "#X", "insert", "Buffer7", "silent", ";", ";", "#X", "insert", "LoopVis1", 1, ";", ";", "#X", "insert", "LoopVis2", 1, ";", ";", "#X", "insert", "LoopVis3", 1, ";", ";", "#X", "insert", "LoopVis4", 1, ";", ";", "#X", "insert", "LoopVis5", 1, ";", ";", "#X", "insert", "Go", 4, 40000, ";", ";", "#X", "insert", 3, ";", ";", "#X", "insert", "COM", "P18", ";", ";", "#X", "insert", "NewSet", "bang", ";", ";", "#X", "insert", "Buffer1", "quark-gluon_plasma", ";", ";", "#X", "insert", "Buffer2", "super_nova", ";", ";", "#X", "insert", "Buffer3", "quark-gluon_plasma3", ";", ";", "#X", "insert", "Buffer4", "quark-gluon_plasma4", ";", ";", "#X", "insert", "Buffer5", "quark-gluon_plasma5", ";", ";", "#X", "insert", "Buffer6", "silent", ";", ";", "#X", "insert", "Buffer7", "silent", ";", ";", "#X", "insert", "Loop1", 0, ";", ";", "#X", "insert", "Loop2", 0, ";", ";", "#X", "insert", "Loop3", 0, ";", ";", "#X", "insert", "Loop4", 0, ";", ";", "#X", "insert", "Loop5", 0, ";", ";", "#X", "insert", "LoopVis1", 0, ";", ";", "#X", "insert", "LoopVis2", 0, ";", ";", "#X", "insert", "LoopVis3", 0, ";", ";", "#X", "insert", "LoopVis4", 0, ";", ";", "#X", "insert", "LoopVis5", 0, ";", ";", "#X", "insert", "Go", 5, 35000, ";", ";", "#X", "insert", 4, ";", ";", "#X", "insert", "COM", "P15", ";", ";", "#X", "insert", "NewSet", "bang", ";", ";", "#X", "insert", "Buffer1", "perfect_Stella_coathangers", ";", ";", "#X", "insert", "Buffer2", "perfect_Stella_I_only", ";", ";", "#X", "insert", "Buffer3", "perfect_Stella_loop", ";", ";", "#X", "insert", "Buffer4", "silent", ";", ";", "#X", "insert", "Buffer5", "silent", ";", ";", "#X", "insert", "Buffer6", "silent", ";", ";", "#X", "insert", "Buffer7", "silent", ";", ";", "#X", "insert", "Play1", 1, ";", ";", "#X", "insert", "Go", 6, 45000, ";", ";", "#X", "insert", 5, ";", ";", "#X", "insert", "COM", "P19", ";", ";", "#X", "insert", "NewSet", "bang", ";", ";", "#X", "insert", "Buffer1", "resonator_Faraday", ";", ";", "#X", "insert", "Buffer2", "resonator1", ";", ";", "#X", "insert", "Buffer3", "resonator2", ";", ";", "#X", "insert", "Buffer4", "resonator3", ";", ";", "#X", "insert", "Buffer5", "resonator4", ";", ";", "#X", "insert", "Buffer6", "resonator5", ";", ";", "#X", "insert", "Buffer7", "resonator6", ";", ";", "#X", "insert", "Play1", 1, ";", ";", "#X", "insert", "Go", 7, 40000, ";", ";", "#X", "insert", 6, ";", ";", "#X", "insert", "COM", "P3", ";", ";", "#X", "insert", "NewSet", "bang", ";", ";", "#X", "insert", "Buffer1", "proto_compass", ";", ";", "#X", "insert", "Buffer2", "cosmic_rays", ";", ";", "#X", "insert", "Buffer3", "physics_room", ";", ";", "#X", "insert", "Buffer4", "silent", ";", ";", "#X", "insert", "Buffer5", "silent", ";", ";", "#X", "insert", "Buffer6", "silent", ";", ";", "#X", "insert", "Buffer7", "silent", ";", ";", "#X", "insert", "Play1", 1, ";", ";", "#X", "insert", "Go", 8, 80000, ";", ";", "#X", "insert", 7, ";", ";", "#X", "insert", "COM", "P1", ";", ";", "#X", "insert", "NewSet", "bang", ";", ";", "#X", "insert", "Buffer1", "camping_talk", ";", ";", "#X", "insert", "Buffer2", "greenhouse_water", ";", ";", "#X", "insert", "Buffer3", "candy_machine", ";", ";", "#X", "insert", "Buffer4", "silent", ";", ";", "#X", "insert", "Buffer5", "silent", ";", ";", "#X", "insert", "Buffer6", "silent", ";", ";", "#X", "insert", "Buffer7", "silent", ";", ";", "#X", "insert", "Play1", 1, ";", ";", "#X", "insert", "Go", 9, 85000, ";", ";", "#X", "insert", 8, ";", ";", "#X", "insert", "COM", "TACET", ";", ";", "#X", "insert", "NewSet", "bang", ";", ";", "#X", "insert", "Buffer1", "silent", ";", ";", "#X", "insert", "Buffer2", "silent", ";", ";", "#X", "insert", "Buffer3", "silent", ";", ";", "#X", "insert", "Buffer4", "silent", ";", ";", "#X", "insert", "Buffer5", "silent", ";", ";", "#X", "insert", "Buffer6", "silent", ";", ";", "#X", "insert", "Buffer7", "silent", ";", ";", "#X", "insert", 9, ";", ";" ],
+									"save" : [ "#N", "qlist", ";", "#X", "insert", "COM", "vim:syn=qlist", "COM", "INIT", "-------------", ";", ";", "#X", "insert", "LoopVis1", 0, ";", ";", "#X", "insert", "LoopVis2", 0, ";", ";", "#X", "insert", "LoopVis3", 0, ";", ";", "#X", "insert", "LoopVis4", 0, ";", ";", "#X", "insert", "LoopVis5", 0, ";", ";", "#X", "insert", "LoopVis6", 0, ";", ";", "#X", "insert", "LoopVis7", 0, ";", ";", "#X", "insert", "Loop1", 0, ";", ";", "#X", "insert", "Loop2", 0, ";", ";", "#X", "insert", "Loop3", 0, ";", ";", "#X", "insert", "Loop4", 0, ";", ";", "#X", "insert", "Loop5", 0, ";", ";", "#X", "insert", "Loop6", 0, ";", ";", "#X", "insert", "Loop7", 0, ";", ";", "#X", "insert", 0, ";", ";", "#X", "insert", "COM", "P21", ";", ";", "#X", "insert", "NewSet", "bang", ";", ";", "#X", "insert", "Buffer1", "traffic", ";", ";", "#X", "insert", "Buffer2", "silent", ";", ";", "#X", "insert", "Buffer3", "silent", ";", ";", "#X", "insert", "Buffer4", "silent", ";", ";", "#X", "insert", "Buffer5", "silent", ";", ";", "#X", "insert", "Buffer6", "silent", ";", ";", "#X", "insert", "Buffer7", "silent", ";", ";", "#X", "insert", "Go", 2, 100000, ";", ";", "#X", "insert", 1, ";", ";", "#X", "insert", "COM", "P20", ";", ";", "#X", "insert", "NewSet", "bang", ";", ";", "#X", "insert", "Buffer1", "why_is_it_dancing_", ";", ";", "#X", "insert", "Buffer2", "why_is_it_dancing_2", ";", ";", "#X", "insert", "Buffer3", "why_is_it_dancing_3", ";", ";", "#X", "insert", "Buffer4", "why_is_it_dancing_4", ";", ";", "#X", "insert", "Buffer5", "why_is_it_dancing_5", ";", ";", "#X", "insert", "Buffer6", "silent", ";", ";", "#X", "insert", "Buffer7", "silent", ";", ";", "#X", "insert", "Play1Defer", 1, ";", ";", "#X", "insert", "Go", 3, 80000, ";", ";", "#X", "insert", 2, ";", ";", "#X", "insert", "COM", "P8", ";", ";", "#X", "insert", "NewSet", "bang", ";", ";", "#X", "insert", "Buffer1", "change10", ";", ";", "#X", "insert", "Buffer2", "change11", ";", ";", "#X", "insert", "Buffer3", "change12", ";", ";", "#X", "insert", "Buffer4", "change13", ";", ";", "#X", "insert", "Buffer5", "change14", ";", ";", "#X", "insert", "Buffer6", "silent", ";", ";", "#X", "insert", "Buffer7", "silent", ";", ";", "#X", "insert", "LoopVis1", 1, ";", ";", "#X", "insert", "LoopVis2", 1, ";", ";", "#X", "insert", "LoopVis3", 1, ";", ";", "#X", "insert", "LoopVis4", 1, ";", ";", "#X", "insert", "LoopVis5", 1, ";", ";", "#X", "insert", "Go", 4, 40000, ";", ";", "#X", "insert", 3, ";", ";", "#X", "insert", "COM", "P18", ";", ";", "#X", "insert", "NewSet", "bang", ";", ";", "#X", "insert", "Buffer1", "quark-gluon_plasma", ";", ";", "#X", "insert", "Buffer2", "super_nova", ";", ";", "#X", "insert", "Buffer3", "quark-gluon_plasma3", ";", ";", "#X", "insert", "Buffer4", "quark-gluon_plasma4", ";", ";", "#X", "insert", "Buffer5", "quark-gluon_plasma5", ";", ";", "#X", "insert", "Buffer6", "silent", ";", ";", "#X", "insert", "Buffer7", "silent", ";", ";", "#X", "insert", "Loop1", 0, ";", ";", "#X", "insert", "Loop2", 0, ";", ";", "#X", "insert", "Loop3", 0, ";", ";", "#X", "insert", "Loop4", 0, ";", ";", "#X", "insert", "Loop5", 0, ";", ";", "#X", "insert", "LoopVis1", 0, ";", ";", "#X", "insert", "LoopVis2", 0, ";", ";", "#X", "insert", "LoopVis3", 0, ";", ";", "#X", "insert", "LoopVis4", 0, ";", ";", "#X", "insert", "LoopVis5", 0, ";", ";", "#X", "insert", "Go", 5, 35000, ";", ";", "#X", "insert", 4, ";", ";", "#X", "insert", "COM", "P15", ";", ";", "#X", "insert", "NewSet", "bang", ";", ";", "#X", "insert", "Buffer1", "perfect_Stella_coathangers", ";", ";", "#X", "insert", "Buffer2", "perfect_Stella_I_only", ";", ";", "#X", "insert", "Buffer3", "perfect_Stella_loop", ";", ";", "#X", "insert", "Buffer4", "silent", ";", ";", "#X", "insert", "Buffer5", "silent", ";", ";", "#X", "insert", "Buffer6", "silent", ";", ";", "#X", "insert", "Buffer7", "silent", ";", ";", "#X", "insert", "LoopVis3", 1, ";", ";", "#X", "insert", "Play1Defer", 1, ";", ";", "#X", "insert", "Go", 6, 45000, ";", ";", "#X", "insert", 5, ";", ";", "#X", "insert", "COM", "P19", ";", ";", "#X", "insert", "NewSet", "bang", ";", ";", "#X", "insert", "Buffer1", "resonator_Faraday", ";", ";", "#X", "insert", "Buffer2", "resonator1", ";", ";", "#X", "insert", "Buffer3", "resonator2", ";", ";", "#X", "insert", "Buffer4", "resonator3", ";", ";", "#X", "insert", "Buffer5", "resonator4", ";", ";", "#X", "insert", "Buffer6", "resonator5", ";", ";", "#X", "insert", "Buffer7", "resonator6", ";", ";", "#X", "insert", "Loop3", 0, ";", ";", "#X", "insert", "LoopVis3", 0, ";", ";", "#X", "insert", "Play1Defer", 1, ";", ";", "#X", "insert", "Go", 7, 40000, ";", ";", "#X", "insert", 6, ";", ";", "#X", "insert", "COM", "P3", ";", ";", "#X", "insert", "NewSet", "bang", ";", ";", "#X", "insert", "Buffer1", "proto_compass", ";", ";", "#X", "insert", "Buffer2", "cosmic_rays", ";", ";", "#X", "insert", "Buffer3", "physics_room", ";", ";", "#X", "insert", "Buffer4", "silent", ";", ";", "#X", "insert", "Buffer5", "silent", ";", ";", "#X", "insert", "Buffer6", "silent", ";", ";", "#X", "insert", "Buffer7", "silent", ";", ";", "#X", "insert", "Play1Defer", 1, ";", ";", "#X", "insert", "Go", 8, 80000, ";", ";", "#X", "insert", 7, ";", ";", "#X", "insert", "COM", "P1", ";", ";", "#X", "insert", "NewSet", "bang", ";", ";", "#X", "insert", "Buffer1", "camping_talk", ";", ";", "#X", "insert", "Buffer2", "greenhouse_water", ";", ";", "#X", "insert", "Buffer3", "candy_machine", ";", ";", "#X", "insert", "Buffer4", "silent", ";", ";", "#X", "insert", "Buffer5", "silent", ";", ";", "#X", "insert", "Buffer6", "silent", ";", ";", "#X", "insert", "Buffer7", "silent", ";", ";", "#X", "insert", "Play1Defer", 1, ";", ";", "#X", "insert", "Go", 9, 85000, ";", ";", "#X", "insert", 8, ";", ";", "#X", "insert", "COM", "TACET", ";", ";", "#X", "insert", "NewSet", "bang", ";", ";", "#X", "insert", "Buffer1", "silent", ";", ";", "#X", "insert", "Buffer2", "silent", ";", ";", "#X", "insert", "Buffer3", "silent", ";", ";", "#X", "insert", "Buffer4", "silent", ";", ";", "#X", "insert", "Buffer5", "silent", ";", ";", "#X", "insert", "Buffer6", "silent", ";", ";", "#X", "insert", "Buffer7", "silent", ";", ";", "#X", "insert", 9, ";", ";" ],
 									"style" : "",
 									"text" : "qlist"
 								}
@@ -2838,7 +2943,7 @@
 					"offset" : [ -161.0, -364.0 ],
 					"patching_rect" : [ 633.0, 215.209457, 173.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 795.0, 337.495178, 173.0, 53.0 ],
+					"presentation_rect" : [ 798.0, 337.495178, 173.0, 53.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -3577,75 +3682,6 @@
 					"source" : [ "obj-7", 0 ]
 				}
 
-			}
- ],
-		"parameters" : 		{
-			"obj-18::obj-4" : [ "master[1]", "master", 0 ],
-			"obj-18::obj-102" : [ "pictctrl[41]", "pictctrl[1]", 0 ],
-			"obj-18::obj-15" : [ "toggle", "toggle", 0 ],
-			"obj-18::obj-9" : [ "range[4]", "range", 0 ],
-			"obj-18::obj-35" : [ "master", "master", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "az.hemi-m.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "az.data-handler.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "az.audio-left-handler.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "az.sub-hemi-prefs.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hemi-prefs.txt",
-				"bootpath" : "~/lork/repertoire/why-is-it-dancing",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "player.maxpat",
-				"bootpath" : "~/lork/repertoire/why-is-it-dancing",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "grooveduck.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Examples/sequencing-looping/audio-rate-sequencing-looping/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "time-display.maxpat",
-				"bootpath" : "~/lork/repertoire/why-is-it-dancing",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "buffers.maxpat",
-				"bootpath" : "~/lork/repertoire/why-is-it-dancing",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jg.bufpath.maxpat",
-				"bootpath" : "~/lork/repertoire/why-is-it-dancing",
-				"type" : "JSON",
-				"implicit" : 1
 			}
  ],
 		"autosave" : 0
