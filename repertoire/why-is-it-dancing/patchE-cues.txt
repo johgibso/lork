@@ -1,0 +1,127 @@
+COM vim:syn=qlist
+
+COM INIT ------------- ;
+LoopVis1 0;
+LoopVis2 0;
+LoopVis3 0;
+LoopVis4 0;
+LoopVis5 0;
+LoopVis6 0;
+LoopVis7 0;
+Loop1 0;
+Loop2 0;
+Loop3 0;
+Loop4 0;
+Loop5 0;
+Loop6 0;
+Loop7 0;
+0;
+
+COM P21;
+NewSet bang;
+Buffer1 traffic;
+Buffer2 silent;
+Buffer3 silent;
+Buffer4 silent;
+Buffer5 silent;
+Buffer6 silent;
+Buffer7 silent;
+Go 2 40000;
+1;
+
+COM P6;
+NewSet bang;
+Buffer1 spices;
+Buffer2 crinkling_leaves;
+Buffer3 Mommy_come_here;
+Buffer4 greenhouse_leaves_crinkling;
+Buffer5 silent;
+Buffer6 silent;
+Buffer7 silent;
+Play1Defer 1;
+Go 3 110000;
+2;
+
+COM P12;
+NewSet bang;
+Buffer1 didgeridoo;
+Buffer2 didgeridoo_loop;
+Buffer3 silent;
+Buffer4 silent;
+Buffer5 silent;
+Buffer6 silent;
+Buffer7 silent;
+LoopVis2 1;
+Play1Defer 1;
+Go 4 30000;
+3;
+
+COM P9;
+NewSet bang;
+Buffer1 change;
+Buffer2 change1;
+Buffer3 change2;
+Buffer4 change3;
+Buffer5 change4;
+Buffer6 silent;
+Buffer7 silent;
+Loop2 0;
+LoopVis2 0;
+LoopVis4 1;
+Go 5 40000;
+4;
+
+COM P16;
+NewSet bang;
+Buffer1 pocket_change3;
+Buffer2 pocket_change4;
+Buffer3 pocket_change6;
+Buffer4 silent;
+Buffer5 silent;
+Buffer6 silent;
+Buffer7 silent;
+Loop4 0;
+LoopVis4 0;
+Go 6 45000;
+5;
+
+COM P15;
+NewSet bang;
+Buffer1 perfect_Stella_coathangers;
+Buffer2 perfect_Stella_I_only;
+Buffer3 perfect_Stella_loop;
+Buffer4 silent;
+Buffer5 silent;
+Buffer6 silent;
+Buffer7 silent;
+LoopVis3 1;
+Play1Defer 1;
+Go 7 40000;
+6;
+
+COM P5;
+NewSet bang;
+Buffer1 oscillator;
+Buffer2 whistle;
+Buffer3 moog_synth;
+Buffer4 silent;
+Buffer5 silent;
+Buffer6 silent;
+Buffer7 silent;
+Loop3 0;
+LoopVis3 0;
+Play1Defer 1;
+Go 8 200000;
+7;
+
+COM TACET;
+NewSet bang;
+Buffer1 silent;
+Buffer2 silent;
+Buffer3 silent;
+Buffer4 silent;
+Buffer5 silent;
+Buffer6 silent;
+Buffer7 silent;
+8;
+
