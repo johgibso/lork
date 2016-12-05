@@ -1,0 +1,126 @@
+COM vim:syn=qlist
+
+COM INIT ------------- ;
+LoopVis1 0;
+LoopVis2 0;
+LoopVis3 0;
+LoopVis4 0;
+LoopVis5 0;
+LoopVis6 0;
+LoopVis7 0;
+Loop1 0;
+Loop2 0;
+Loop3 0;
+Loop4 0;
+Loop5 0;
+Loop6 0;
+Loop7 0;
+0;
+
+COM P21;
+NewSet bang;
+Buffer1 traffic;
+Buffer2 silent;
+Buffer3 silent;
+Buffer4 silent;
+Buffer5 silent;
+Buffer6 silent;
+Buffer7 silent;
+Go 2 60000;
+1;
+
+COM P6;
+NewSet bang;
+Buffer1 spices;
+Buffer2 crinkling_leaves;
+Buffer3 Mommy_come_here;
+Buffer4 greenhouse_leaves_crinkling;
+Buffer5 silent;
+Buffer6 silent;
+Buffer7 silent;
+Play1Defer 1;
+Go 3 90000;
+2;
+
+COM P14;
+NewSet bang;
+Buffer1 greenhouse_latch_loop2;
+Buffer2 greenhouse_latch_loop3;
+Buffer3 greenhouse_latch_loop4;
+Buffer4 silent;
+Buffer5 silent;
+Buffer6 silent;
+Buffer7 silent;
+LoopVis1 1;
+LoopVis2 1;
+LoopVis3 1;
+Go 4 60000;
+3;
+
+COM P17;
+NewSet bang;
+Buffer1 pocket_change1;
+Buffer2 pocket_change2;
+Buffer3 pocket_change5;
+Buffer4 pocket_change7;
+Buffer5 silent;
+Buffer6 silent;
+Buffer7 silent;
+Loop1 0;
+Loop2 0;
+Loop3 0;
+LoopVis1 0;
+LoopVis2 0;
+LoopVis3 0;
+Go 5 45000;
+4;
+
+COM P22;
+NewSet bang;
+Buffer1 children_audience;
+Buffer2 silent;
+Buffer3 silent;
+Buffer4 silent;
+Buffer5 silent;
+Buffer6 silent;
+Buffer7 silent;
+Go 6 15000;
+5;
+
+COM P2;
+NewSet bang;
+Buffer1 children_mall;
+Buffer2 greenhouse_pad;
+Buffer3 silent;
+Buffer4 silent;
+Buffer5 silent;
+Buffer6 silent;
+Buffer7 silent;
+Play1Defer 1;
+Go 7 35000;
+6;
+
+COM P5;
+NewSet bang;
+Buffer1 oscillator;
+Buffer2 whistle;
+Buffer3 moog_synth;
+Buffer4 silent;
+Buffer5 silent;
+Buffer6 silent;
+Buffer7 silent;
+Play1Defer 1;
+Go 8 200000;
+7;
+
+COM TACET;
+NewSet bang;
+Buffer1 silent;
+Buffer2 silent;
+Buffer3 silent;
+Buffer4 silent;
+Buffer5 silent;
+Buffer6 silent;
+Buffer7 silent;
+8;
+
