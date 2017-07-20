@@ -36,7 +36,7 @@
 					"az.reverber8r::decaytime" : [ 0.1 ],
 					"az.reverber8r::wetdry" : [ 0.1 ],
 					"az.reverber8r::cutoff" : [ 1.0 ],
-					"az.rezfiltr::frequency" : [ 0.597298 ],
+					"az.rezfiltr::frequency" : [ 1256.0 ],
 					"az.rezfiltr::mode" : [ 0.0 ],
 					"az.rezfiltr::resonance" : [ 0.25 ],
 					"az.drivr::drive" : [ 0.464567 ],

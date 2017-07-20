@@ -32,7 +32,7 @@
 					"az.noisr::attack" : [ 1.0 ],
 					"az.noisr::filter" : [ 1 ],
 					"az.noisr::color" : [ 0 ],
-					"az.rezfiltr::frequency" : [ 0.704724 ],
+					"az.rezfiltr::frequency" : [ 2645.0 ],
 					"az.rezfiltr::mode" : [ 1.0 ],
 					"az.rezfiltr::resonance" : [ 0.314961 ],
 					"az.noisr[1]::Q" : [ 0.5 ],
@@ -43,7 +43,7 @@
 					"az.noisr[1]::attack" : [ 1.0 ],
 					"az.noisr[1]::filter" : [ 1 ],
 					"az.noisr[1]::color" : [ 1 ],
-					"az.rezfiltr[1]::frequency" : [ 0.484252 ],
+					"az.rezfiltr[1]::frequency" : [ 574.0 ],
 					"az.rezfiltr[1]::mode" : [ 1.0 ],
 					"az.rezfiltr[1]::resonance" : [ 0.385827 ],
 					"limiter::lim-threshold" : [ 100.0 ],
@@ -58,7 +58,7 @@
 					"az.noisr[2]::attack" : [ 1.0 ],
 					"az.noisr[2]::filter" : [ 1 ],
 					"az.noisr[2]::color" : [ 1 ],
-					"az.rezfiltr[2]::frequency" : [ 0.492126 ],
+					"az.rezfiltr[2]::frequency" : [ 606.0 ],
 					"az.rezfiltr[2]::mode" : [ 0.0 ],
 					"az.rezfiltr[2]::resonance" : [ 0.370079 ]
 				}
