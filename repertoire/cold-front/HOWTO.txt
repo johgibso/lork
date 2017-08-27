@@ -1,5 +1,57 @@
 These patches require the Auzzie Max package, v1.0.7 or later.
 
 There should be at least two players per part (A, B, C, D patches).
-Cues are given manually by conductor. (No network required.)
+
+Cues are given manually by conductor. (No network required.) Cues
+consist of cue numbers (hold up fingers), signals to bring in
+certain players, and gestures to control dynamics and energy level.
+It's best if the conductor develops her own signals and gestures
+for all these things.
+
+The continuity of the piece is loose and improvisatory. Here is
+a sketch of the narrative, with cue numbers in brackets, and very
+approximate timings to the left.
+
+0:00 [1] Patch A players slowly build up a texture of gentle, noisy
+         sound. Begin with noise, and increasingly incorporate more
+         pitch, using the trackpad X axis.
+
+1:00     Bring in Patch B players to contribute brief sparkly gestures.
+         (Imagine a clear night sky when cold weather is moving in.)
+
+1:30     Bring in one Patch C player who is designated to play the
+         "drum" sequencer. Only this person should turn on the sequencer.
+         Other Patch C players should play drums manually to fit with
+         the timing put across by the first player. Let the first
+         player fade in their drum pattern before allowing others to
+         contribute. The drums should come from nothing and be very
+         low key in the opening cue.
+
+2:30 [2] Let everyone begin a crescendo that reaches a more dense,
+         climactic point, with a brighter, slightly more aggressive,
+         less relaxed sound.
+
+3:00 [3] A and B players fade out slowly, leaving C drums to pull back
+         to a softer steady state. Really start to groove now, but in
+         a contained way. Wait until other parts motivate your increase
+         in volume and energy. When they do, react to it to push
+         everyone forward..
+
+3:30 [4] Let B players contribute short aggressive gestures. These will
+         sound like an angry horse, or someone trying (and failing) to
+         start up a gas lawn mower.
+
+4:00     Patch D players, tacet until now, should play short blips.
+         Trade off between players, and leave space for the horses.
+
+4:20     D players gradually play longer phrases and develop a synth
+         battle between themselves.  This should have a free-jazz feel.
+
+4:30     A players play blips and develop in the manner of the D players.
+         (A and D players have the same sounds and interface.)
+         A and D players should become more intertwined and taut.
+
+4:45     Everybody should be increasing in intensity, including drums.
+
+5:00     Come to a sudden stop, prepared and cued by conductor.
 
