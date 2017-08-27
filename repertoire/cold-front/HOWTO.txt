@@ -25,7 +25,9 @@ approximate timings to the left.
          the timing put across by the first player. Let the first
          player fade in their drum pattern (using the master fader)
          before allowing others to contribute. The drums should come
-         from nothing and be very low key in the opening cue.
+         from nothing and be very low key in the opening cue. Drummers
+         should experiment with their pitches to get a sound they like.
+         This is highly dependent on the speakers used.
 
 2:30 [2] Let everyone begin a crescendo that reaches a more dense,
          climactic point, with a brighter, slightly more aggressive,
