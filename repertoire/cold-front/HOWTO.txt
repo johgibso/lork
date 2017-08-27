@@ -23,9 +23,9 @@ approximate timings to the left.
          "drum" sequencer. Only this person should turn on the sequencer.
          Other Patch C players should play drums manually to fit with
          the timing put across by the first player. Let the first
-         player fade in their drum pattern before allowing others to
-         contribute. The drums should come from nothing and be very
-         low key in the opening cue.
+         player fade in their drum pattern (using the master fader)
+         before allowing others to contribute. The drums should come
+         from nothing and be very low key in the opening cue.
 
 2:30 [2] Let everyone begin a crescendo that reaches a more dense,
          climactic point, with a brighter, slightly more aggressive,
