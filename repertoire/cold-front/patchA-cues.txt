@@ -1,4 +1,4 @@
-1, Trackpad: X = pitch clarity\, Y = brightness. Begin with low brightness and no pitch (left). Gradually make pitch more clear\, and use brighter sound.;
-2, Continue as before. Build slowly to a very full sound\, pressing space bar quickly.;
+1, Tap space bar to play a note. Trackpad: X = pitch clarity\, Y = brightness. Begin with low brightness and no pitch (left). Gradually make pitch more clear\, and use brighter sound.;
+2, Continue as before. Build slowly to a very full sound\, pressing space bar quickly to overlap notes.;
 3, Slowly remove pitch from sound and fade out.;
 4, Wait until patch D players begin the wild\, inflected melodic phrases. Join them after conductor cue. Trackpad: X = play pitches in table\, Y = volume & brightness. Keyboard: spacebar = play phrase while down\, 'a' = vibrato\, 's' = bend\, 'd' = reorder table\, 'f' = jump octave. Crescendo to cutoff.;
