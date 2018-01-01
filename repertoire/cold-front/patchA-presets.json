@@ -22,7 +22,7 @@
 					"noisr::release" : [ 1500.0 ],
 					"noisr::sustain" : [ 1.0 ],
 					"noisr::decay" : [ 500.0 ],
-					"noisr::attack" : [ 1000.0 ],
+					"noisr::attack" : [ 1500.0 ],
 					"noisr::filter" : [ 1 ],
 					"noisr::color" : [ 0 ],
 					"sdelayr::feedback" : [ 0.3 ],
