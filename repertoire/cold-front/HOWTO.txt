@@ -1,4 +1,4 @@
-These patches require the Auzzie Max package, v1.0.7 or later.
+These patches require the Auzzie Max package, v1.0.10 or later.
 
 There should be at least two players per part (A, B, C, D patches).
 
