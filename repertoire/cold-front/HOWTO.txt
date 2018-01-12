@@ -1,6 +1,8 @@
 These patches require the Auzzie Max package, v1.0.10 or later.
 
-There should be at least two players per part (A, B, C, D patches).
+Normally there should be at least two players per part (A, B, C, 
+D patches). But other configurations are possible. For example,
+with only six players, you could have 2 A, 2 B, 1 C, and 1 D.
 
 Cues are given manually by conductor. (No network required.) Cues
 consist of cue numbers (hold up fingers), signals to bring in
