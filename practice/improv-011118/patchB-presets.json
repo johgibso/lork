@@ -1,0 +1,47 @@
+{
+	"pattrstorage" : 	{
+		"name" : "patchB-presets",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"ring" : [ 0 ],
+					"granul8r::speed-range" : [ 0 ],
+					"granul8r::envelope" : [ 0.0 ],
+					"granul8r::grainrate" : [ 200.0 ],
+					"granul8r::graindur" : [ 100.0 ],
+					"granul8r::inputjitter" : [ 0.0 ],
+					"granul8r::outputjitter" : [ 5.0 ],
+					"granul8r::ampjitter" : [ 0.0 ],
+					"granul8r::stereowidth" : [ 1.0 ],
+					"granul8r::transpose" : [ 0.0 ],
+					"granul8r::transposejitter" : [ 0.0 ],
+					"granul8r::gain" : [ -12.832333 ],
+					"granul8r::_private_load_preset" : [ 0 ],
+					"granul8r::normalized-speed" : [ 0.5 ],
+					"granul8r::soundfile" : [ "ah.aif" ],
+					"granul8r::loopend" : [ 2140.68042 ],
+					"granul8r::loopstart" : [ 0.0 ],
+					"rezfiltr::frequency" : [ 475.665314 ],
+					"rezfiltr::mode" : [ 1.0 ],
+					"rezfiltr::resonance" : [ 0.3 ],
+					"reverber8r::roomsize" : [ 0.6 ],
+					"reverber8r::decaytime" : [ 0.7 ],
+					"reverber8r::wetdry" : [ 0.3 ],
+					"reverber8r::cutoff" : [ 1.0 ],
+					"envelopr::release" : [ 5000.0 ],
+					"envelopr::sustain" : [ 1.0 ],
+					"envelopr::decay" : [ 500.0 ],
+					"envelopr::attack" : [ 3000.0 ],
+					"envelopr::curvature" : [ 0.4 ],
+					"ringr::frequency" : [ 267.206818 ],
+					"ringr::wetdry" : [ 1.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
