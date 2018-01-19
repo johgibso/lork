@@ -5,9 +5,7 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"strikr::soundfile" : [ "1.wav" ],
-					"strikr::length" : [ 1.0 ],
-					"strikr::start" : [ 0.0 ]
+					"trim" : [ -3.0 ]
 				}
 
 			}
