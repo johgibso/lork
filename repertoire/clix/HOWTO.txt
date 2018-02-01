@@ -1,0 +1,27 @@
+To perform any chuck piece that uses networking, set up machine names
+as follows.
+
+Mac
+
+Provide a short name with no spaces or weird characters here:
+
+System Preferences > Sharing > Computer Name
+
+Set an environment variable in the shell. This depends what shell is
+used and what files configure it. Add the following to .profile or
+.bash_profile, as appropriate:
+
+export NET_NAME=thename
+
+where "thename" is the same you entered in the Sharing pane above.
+
+Open a new terminal window and type "echo NET_NAME" (followed by return).
+If it prints your machine name, good.
+
+
+Windows
+
+There's a way to enter environment variables in a GUI, and these are
+available to the DOS shell.
+
+
