@@ -1,0 +1,57 @@
+{
+	"pattrstorage" : 	{
+		"name" : "short-tones",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"u621004786" : [  ],
+					"transpose" : [ 12 ],
+					"mixr-4x1::fader1" : [ 0.0 ],
+					"mixr-4x1::fader2" : [ -24.390358 ],
+					"mixr-4x1::fader3" : [ -18.0 ],
+					"mixr-4x1::fader4" : [ 0.0 ],
+					"mixr-4x1::master" : [ 0.0 ],
+					"fmodr::bend" : [ 0.0 ],
+					"fmodr::modindex" : [ 2.0 ],
+					"fmodr::portamento" : [ 10.0 ],
+					"fmodr::polyphony" : [ 10.0 ],
+					"fmodr::pan" : [ -50.0 ],
+					"fmodr::release" : [ 120.0 ],
+					"fmodr::vibdepth" : [ 0.2 ],
+					"fmodr::vibrate" : [ 22.0 ],
+					"fmodr::vibwave" : [ 0.0 ],
+					"fmodr::sustain" : [ 0.2 ],
+					"fmodr::decay" : [ 10.0 ],
+					"fmodr::attack" : [ 5.0 ],
+					"fmodr::carrier-wave" : [ 0.0 ],
+					"fmodr::modulator-wave" : [ 0.0 ],
+					"fmodr::harmfactor" : [ 2.0 ],
+					"fmodr::harm-is-int" : [ 1 ],
+					"az.reverber8r::roomsize" : [ 0.39685 ],
+					"az.reverber8r::decaytime" : [ 0.49685 ],
+					"az.reverber8r::wetdry" : [ 1.0 ],
+					"az.reverber8r::cutoff" : [ 0.5 ],
+					"az.rezon8r::feedback" : [ 0.9 ],
+					"az.rezon8r::detune" : [ 0.0 ],
+					"az.rezon8r::width" : [ 1.0 ],
+					"az.rezon8r::wetdry" : [ 1.0 ],
+					"az.rezon8r::negative" : [ 1 ],
+					"az.rezon8r::cutoff" : [ 1000.0 ],
+					"noisr::color" : [ 1 ],
+					"noisr::filter" : [ 1 ],
+					"noisr::attack" : [ 0.0 ],
+					"noisr::decay" : [ 10.0 ],
+					"noisr::sustain" : [ 0.2 ],
+					"noisr::release" : [ 120.0 ],
+					"noisr::pan" : [ -50.0 ],
+					"noisr::Q" : [ 0.255906 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
