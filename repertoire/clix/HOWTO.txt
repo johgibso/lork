@@ -15,7 +15,7 @@ export NET_NAME=thename
 
 where "thename" is the same you entered in the Sharing pane above.
 
-Open a new terminal window and type "echo NET_NAME" (followed by return).
+Open a new terminal window and type "echo $NET_NAME" (followed by return).
 If it prints your machine name, good.
 
 
