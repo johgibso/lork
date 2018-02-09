@@ -1,0 +1,90 @@
+{
+	"pattrstorage" : 	{
+		"name" : "foo",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"maxdetune" : [ 5.0 ],
+					"maxpitch" : [ 90 ],
+					"patcher::az.noisr::Q" : [ 0.05 ],
+					"patcher::az.noisr::pan" : [ -50.0 ],
+					"patcher::az.noisr::release" : [ 100.0 ],
+					"patcher::az.noisr::sustain" : [ 0.5 ],
+					"patcher::az.noisr::decay" : [ 5.0 ],
+					"patcher::az.noisr::attack" : [ 2.0 ],
+					"patcher::az.noisr::filter" : [ 1 ],
+					"patcher::az.noisr::color" : [ 0 ],
+					"az.crossfadr1::crossfader" : [ 0.0 ],
+					"mixr-4x1::fader1" : [ 6.0 ],
+					"mixr-4x1::fader2" : [ -70.0 ],
+					"mixr-4x1::fader3" : [ -70.0 ],
+					"mixr-4x1::fader4" : [ -70.0 ],
+					"mixr-4x1::master" : [ 3.0 ],
+					"reverber8r::roomsize" : [ 0.3 ],
+					"reverber8r::decaytime" : [ 0.3 ],
+					"reverber8r::wetdry" : [ 0.15 ],
+					"reverber8r::cutoff" : [ 1.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"maxdetune" : [ 5.0 ],
+					"maxpitch" : [ 90 ],
+					"patcher::az.noisr::Q" : [ 0.05 ],
+					"patcher::az.noisr::pan" : [ -50.0 ],
+					"patcher::az.noisr::release" : [ 100.0 ],
+					"patcher::az.noisr::sustain" : [ 0.5 ],
+					"patcher::az.noisr::decay" : [ 5.0 ],
+					"patcher::az.noisr::attack" : [ 2.0 ],
+					"patcher::az.noisr::filter" : [ 1 ],
+					"patcher::az.noisr::color" : [ 0 ],
+					"az.crossfadr1::crossfader" : [ 0.0 ],
+					"mixr-4x1::fader1" : [ 6.0 ],
+					"mixr-4x1::fader2" : [ -70.0 ],
+					"mixr-4x1::fader3" : [ -70.0 ],
+					"mixr-4x1::fader4" : [ -70.0 ],
+					"mixr-4x1::master" : [ 3.0 ],
+					"reverber8r::roomsize" : [ 0.3 ],
+					"reverber8r::decaytime" : [ 0.3 ],
+					"reverber8r::wetdry" : [ 0.15 ],
+					"reverber8r::cutoff" : [ 1.0 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"maxdetune" : [ 5.0 ],
+					"maxpitch" : [ 130 ],
+					"patcher::az.noisr::Q" : [ 0.05 ],
+					"patcher::az.noisr::pan" : [ -50.0 ],
+					"patcher::az.noisr::release" : [ 100.0 ],
+					"patcher::az.noisr::sustain" : [ 0.5 ],
+					"patcher::az.noisr::decay" : [ 5.0 ],
+					"patcher::az.noisr::attack" : [ 2.0 ],
+					"patcher::az.noisr::filter" : [ 1 ],
+					"patcher::az.noisr::color" : [ 0 ],
+					"az.crossfadr1::crossfader" : [ 0.0 ],
+					"mixr-4x1::fader1" : [ -70.0 ],
+					"mixr-4x1::fader2" : [ 6.0 ],
+					"mixr-4x1::fader3" : [ -70.0 ],
+					"mixr-4x1::fader4" : [ -70.0 ],
+					"mixr-4x1::master" : [ 3.0 ],
+					"reverber8r::roomsize" : [ 0.3 ],
+					"reverber8r::decaytime" : [ 0.3 ],
+					"reverber8r::wetdry" : [ 0.1 ],
+					"reverber8r::cutoff" : [ 1.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
