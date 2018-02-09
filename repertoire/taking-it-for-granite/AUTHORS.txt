@@ -1,2 +1,3 @@
 Taking it for Granite is copyright 2007 by Perry Cook.
-John Gibson made some changes to the program to make it work for us.
+John Gibson made some changes to the program to make it work for us,
+including a GUI. This is Mac-only.
