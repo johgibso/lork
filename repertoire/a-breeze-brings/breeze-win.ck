@@ -408,7 +408,7 @@ fun void screenshow (int instr)
 		<<<"Volume Level: [R] { ", mGain, " } [U]", " ">>>;
 		<<<"Tempo       : [D] { ", 2-mTempo, " } [F]", " ">>>;
 		<<<"Brightness  : [J] { ", mBrite, " } [K]", " ">>>;
-		<<<"Density     : [V] { ", mDense, " } [M]", " ">>>;
+		<<<"Reverb      : [V] { ", mDense, " } [M]", " ">>>;
 		<<<" ", " ">>>;
 		<<<". . . . . . . . . . . . . . . . . . . . . . . . CONTROLS", " ">>>;
 		<<<" ", " ">>>;
