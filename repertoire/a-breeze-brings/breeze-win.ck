@@ -7,6 +7,10 @@
 // change number of channels to use here:
 1 => int channels;
 
+// controls how big of a jump a param makes in response to key down;
+// original value was 0.001 for vol, tempo; 10 * that for the others.
+0.002 => float mSlew;
+
 if (dac.channels() < channels) {
 	<<< "not enough dac channels; you need ", channels >>>;
 	me.exit();
@@ -309,12 +313,11 @@ fun void harmPlanes ()
 
 fun void vol_tweaker()
 {
-	.001 => float slew;
 	while (true)
 	{
 		// volume controls
-		(control[0] * -.05) * slew +=> mGain;
-		(control[1] * .05) * slew +=> mGain;
+		(control[0] * -.05) * mSlew +=> mGain;
+		(control[1] * .05) * mSlew +=> mGain;
 
 		// limiter
 		if (mGain < 0) 	
@@ -328,12 +331,11 @@ fun void vol_tweaker()
 
 fun void tpo_tweaker()
 {
-	.001 => float slew;
 	while (true)
 	{
 		// tempo controls
-		(control[2] * 1) * slew +=> mTempo;
-		(control[3] * -1) * slew +=> mTempo;
+		(control[2] * 1) * mSlew +=> mTempo;
+		(control[3] * -1) * mSlew +=> mTempo;
 
 		// limiter
 		if (mTempo <= .5) 	
@@ -347,7 +349,7 @@ fun void tpo_tweaker()
 
 fun void bri_tweaker()
 {
-	.01 => float slew;
+	mSlew * 10 => float slew;
 	while (true)
 	{
 		// brightness controls
@@ -366,7 +368,7 @@ fun void bri_tweaker()
 
 fun void den_tweaker()
 {
-	.01 => float slew;
+	mSlew * 10 => float slew;
 	while (true)
 	{
 		// density controls
@@ -405,10 +407,10 @@ fun void screenshow (int instr)
 		<<<" ", " ">>>;
 		<<<"CONTROLS . . . . . . . . . . . . . . . . . . . . . .", " ">>>;
 		<<<" ", " ">>>;
-		<<<"Volume Level: [R] { ", mGain, " } [U]", " ">>>;
-		<<<"Tempo       : [D] { ", 2-mTempo, " } [F]", " ">>>;
-		<<<"Brightness  : [J] { ", mBrite, " } [K]", " ">>>;
-		<<<"Reverb      : [V] { ", mDense, " } [M]", " ">>>;
+		<<<"Volume Level: [down: R] { ", mGain, " } [up: U]", " ">>>;
+		<<<"Tempo       : [down: D] { ", 2-mTempo, " } [up: F]", " ">>>;
+		<<<"Brightness  : [down: J] { ", mBrite, " } [up: K]", " ">>>;
+		<<<"Reverb      : [down: V] { ", mDense, " } [up: M]", " ">>>;
 		<<<" ", " ">>>;
 		<<<". . . . . . . . . . . . . . . . . . . . . . . . CONTROLS", " ">>>;
 		<<<" ", " ">>>;
