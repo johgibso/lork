@@ -14,6 +14,8 @@
 0 => int mousedev;
 0 => int useMouse;
 
+2.0 => float mCrackleGainFactor;
+
 SndBuf s1 => DelayL d => JCRev rc => dac;
 d => Gain g => d;
 
@@ -238,7 +240,7 @@ function void controlAmp()
 {
 	while (true) {
 		crackleAmpSlider => now;
-		crackleAmpSlider.value() / 127.0 => s1.gain;
+		(crackleAmpSlider.value() / 127.0) * mCrackleGainFactor => s1.gain;
 	}
 }
 
