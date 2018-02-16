@@ -1,0 +1,148 @@
+{
+	"pattrstorage" : 	{
+		"name" : "mypresets",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"verb" : [ 0 ],
+					"delay" : [ 0 ],
+					"filter" : [ 0 ],
+					"wavr[1]" : [ 0 ],
+					"presets" : [ 0 ],
+					"node" : [ 0.01, 0.1, 0.0, 1 ],
+					"wavr::bend" : [ 0.0 ],
+					"wavr::dutycycle" : [ 0.0 ],
+					"wavr::portamento" : [ 10.0 ],
+					"wavr::polyphony" : [ 8 ],
+					"wavr::pan" : [ 0.0 ],
+					"wavr::release" : [ 100.0 ],
+					"wavr::vibdepth" : [ 0.0 ],
+					"wavr::vibrate" : [ 14.32586 ],
+					"wavr::vibwave" : [ 0.0 ],
+					"wavr::sustain" : [ 0.3 ],
+					"wavr::decay" : [ 20.0 ],
+					"wavr::attack" : [ 89.528175 ],
+					"wavr::oscwave" : [ 3.0 ],
+					"1delayr::deltime" : [ 1000.0 ],
+					"1delayr::feedback" : [ 0.4075 ],
+					"1delayr::wetdry" : [ 1.0 ],
+					"rezfiltr::frequency" : [ 1664.4552 ],
+					"rezfiltr::mode" : [ 0.0 ],
+					"rezfiltr::resonance" : [ 0.209675 ],
+					"reverber8r::roomsize" : [ 0.3 ],
+					"reverber8r::decaytime" : [ 0.501575 ],
+					"reverber8r::wetdry" : [ 0.370079 ],
+					"reverber8r::cutoff" : [ 1.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"verb" : [ 0 ],
+					"delay" : [ 0 ],
+					"filter" : [ 0 ],
+					"wavr[1]" : [ 0 ],
+					"presets" : [  ],
+					"node" : [  ],
+					"wavr::bend" : [ 0.0 ],
+					"wavr::dutycycle" : [ 0.0 ],
+					"wavr::portamento" : [ 10.0 ],
+					"wavr::polyphony" : [ 8 ],
+					"wavr::pan" : [ 0.0 ],
+					"wavr::release" : [ 100.0 ],
+					"wavr::vibdepth" : [ 0.0 ],
+					"wavr::vibrate" : [ 14.32586 ],
+					"wavr::vibwave" : [ 0.0 ],
+					"wavr::sustain" : [ 0.3 ],
+					"wavr::decay" : [ 20.0 ],
+					"wavr::attack" : [ 89.528175 ],
+					"wavr::oscwave" : [ 0.0 ],
+					"1delayr::deltime" : [ 1000.0 ],
+					"1delayr::feedback" : [ 0.4075 ],
+					"1delayr::wetdry" : [ 1.0 ],
+					"rezfiltr::frequency" : [ 1664.4552 ],
+					"rezfiltr::mode" : [ 0.0 ],
+					"rezfiltr::resonance" : [ 0.209675 ],
+					"reverber8r::roomsize" : [ 0.3 ],
+					"reverber8r::decaytime" : [ 0.501575 ],
+					"reverber8r::wetdry" : [ 0.370079 ],
+					"reverber8r::cutoff" : [ 1.0 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"verb" : [ 0 ],
+					"delay" : [ 0 ],
+					"filter" : [ 0 ],
+					"wavr[1]" : [ 0 ],
+					"presets" : [  ],
+					"node" : [  ],
+					"wavr::bend" : [ 0.0 ],
+					"wavr::dutycycle" : [ 0.0 ],
+					"wavr::portamento" : [ 10.0 ],
+					"wavr::polyphony" : [ 8 ],
+					"wavr::pan" : [ 0.0 ],
+					"wavr::release" : [ 100.0 ],
+					"wavr::vibdepth" : [ 0.0 ],
+					"wavr::vibrate" : [ 14.32586 ],
+					"wavr::vibwave" : [ 0.0 ],
+					"wavr::sustain" : [ 0.3 ],
+					"wavr::decay" : [ 20.0 ],
+					"wavr::attack" : [ 89.528175 ],
+					"wavr::oscwave" : [ 0.0 ],
+					"1delayr::deltime" : [ 1000.0 ],
+					"1delayr::feedback" : [ 0.4075 ],
+					"1delayr::wetdry" : [ 1.0 ],
+					"rezfiltr::frequency" : [ 1664.4552 ],
+					"rezfiltr::mode" : [ 0.0 ],
+					"rezfiltr::resonance" : [ 0.209675 ],
+					"reverber8r::roomsize" : [ 0.3 ],
+					"reverber8r::decaytime" : [ 0.501575 ],
+					"reverber8r::wetdry" : [ 0.370079 ],
+					"reverber8r::cutoff" : [ 1.0 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"node" : [ 0.01, 0.1, 0.0, 1 ],
+					"wavr::bend" : [ 0.0 ],
+					"wavr::dutycycle" : [ 0.0 ],
+					"wavr::portamento" : [ 10.0 ],
+					"wavr::polyphony" : [ 8 ],
+					"wavr::pan" : [ 0.0 ],
+					"wavr::release" : [ 100.0 ],
+					"wavr::vibdepth" : [ 0.0 ],
+					"wavr::vibrate" : [ 30.0 ],
+					"wavr::vibwave" : [ 0.0 ],
+					"wavr::sustain" : [ 0.3 ],
+					"wavr::decay" : [ 20.0 ],
+					"wavr::attack" : [ 89.528175 ],
+					"wavr::oscwave" : [ 3.0 ],
+					"1delayr::deltime" : [ 900.099976 ],
+					"1delayr::feedback" : [ 1.0 ],
+					"1delayr::wetdry" : [ 0.490963 ],
+					"rezfiltr::frequency" : [ 10240.0 ],
+					"rezfiltr::mode" : [ 0.0 ],
+					"rezfiltr::resonance" : [ 0.5 ],
+					"reverber8r::roomsize" : [ 0.3 ],
+					"reverber8r::decaytime" : [ 0.501575 ],
+					"reverber8r::wetdry" : [ 0.370079 ],
+					"reverber8r::cutoff" : [ 1.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
