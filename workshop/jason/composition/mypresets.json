@@ -1,0 +1,55 @@
+{
+	"pattrstorage" : 	{
+		"name" : "mypresets",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"notepitch" : [ 53 ],
+					"wavr::bend" : [ 0.0 ],
+					"wavr::dutycycle" : [ 0.0 ],
+					"wavr::portamento" : [ 10.0 ],
+					"wavr::pan" : [ 0.0 ],
+					"wavr::release" : [ 100.0 ],
+					"wavr::vibdepth" : [ 0.0 ],
+					"wavr::vibrate" : [ 6.0 ],
+					"wavr::vibwave" : [ 0.0 ],
+					"wavr::sustain" : [ 0.3 ],
+					"wavr::decay" : [ 20.0 ],
+					"wavr::attack" : [ 10.0 ],
+					"wavr::oscwave" : [ 1.0 ],
+					"rezfiltr::frequency" : [ 848.151428 ],
+					"rezfiltr::mode" : [ 1.0 ],
+					"rezfiltr::resonance" : [ 0.69 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"notepitch" : [ 53 ],
+					"wavr::bend" : [ 0.0 ],
+					"wavr::dutycycle" : [ 0.0 ],
+					"wavr::portamento" : [ 10.0 ],
+					"wavr::pan" : [ 0.0 ],
+					"wavr::release" : [ 2000.0 ],
+					"wavr::vibdepth" : [ 0.011904 ],
+					"wavr::vibrate" : [ 6.0 ],
+					"wavr::vibwave" : [ 0.0 ],
+					"wavr::sustain" : [ 0.3 ],
+					"wavr::decay" : [ 20.0 ],
+					"wavr::attack" : [ 10.0 ],
+					"wavr::oscwave" : [ 3.0 ],
+					"rezfiltr::frequency" : [ 640.023865 ],
+					"rezfiltr::mode" : [ 0.0 ],
+					"rezfiltr::resonance" : [ 0.256929 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
