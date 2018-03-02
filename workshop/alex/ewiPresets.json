@@ -1,0 +1,125 @@
+{
+	"pattrstorage" : 	{
+		"name" : "ewiPresets",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"velocit" : [ 0 ],
+					"fmodr::bend" : [ 0.000147 ],
+					"fmodr::modindex" : [ 0.0 ],
+					"fmodr::portamento" : [ 0.0 ],
+					"fmodr::polyphony" : [ 8 ],
+					"fmodr::pan" : [ 0.0 ],
+					"fmodr::release" : [ 100.0 ],
+					"fmodr::vibdepth" : [ 0.0 ],
+					"fmodr::vibrate" : [ 6.0 ],
+					"fmodr::vibwave" : [ 0.0 ],
+					"fmodr::sustain" : [ 0.3 ],
+					"fmodr::decay" : [ 20.0 ],
+					"fmodr::attack" : [ 10.0 ],
+					"fmodr::carrier-wave" : [ 0.0 ],
+					"fmodr::modulator-wave" : [ 0.0 ],
+					"fmodr::harmfactor" : [ 1.0 ],
+					"fmodr::harm-is-int" : [ 1 ],
+					"reverber8r::roomsize" : [ 0.3 ],
+					"reverber8r::decaytime" : [ 0.5 ],
+					"reverber8r::wetdry" : [ 0.5 ],
+					"reverber8r::cutoff" : [ 0.5 ],
+					"interface" : [ 0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"velocit" : [ 0 ],
+					"fmodr::bend" : [ -11.981102 ],
+					"fmodr::modindex" : [ 0.0 ],
+					"fmodr::portamento" : [ 10.0 ],
+					"fmodr::polyphony" : [ 1 ],
+					"fmodr::pan" : [ 0.0 ],
+					"fmodr::release" : [ 100.0 ],
+					"fmodr::vibdepth" : [ 0.0 ],
+					"fmodr::vibrate" : [ 6.0 ],
+					"fmodr::vibwave" : [ 0.0 ],
+					"fmodr::sustain" : [ 0.3 ],
+					"fmodr::decay" : [ 20.0 ],
+					"fmodr::attack" : [ 10.0 ],
+					"fmodr::carrier-wave" : [ 0.0 ],
+					"fmodr::modulator-wave" : [ 0.0 ],
+					"fmodr::harmfactor" : [ 1.0 ],
+					"fmodr::harm-is-int" : [ 1 ],
+					"reverber8r::roomsize" : [  ],
+					"reverber8r::decaytime" : [  ],
+					"reverber8r::wetdry" : [  ],
+					"reverber8r::cutoff" : [  ],
+					"interface" : [  ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"velocit" : [ 0 ],
+					"fmodr::bend" : [ 0.000147 ],
+					"fmodr::modindex" : [ 0.0 ],
+					"fmodr::portamento" : [ 10.0 ],
+					"fmodr::polyphony" : [ 1 ],
+					"fmodr::pan" : [ 0.0 ],
+					"fmodr::release" : [ 100.0 ],
+					"fmodr::vibdepth" : [ 0.0 ],
+					"fmodr::vibrate" : [ 6.0 ],
+					"fmodr::vibwave" : [ 0.0 ],
+					"fmodr::sustain" : [ 0.3 ],
+					"fmodr::decay" : [ 20.0 ],
+					"fmodr::attack" : [ 108.848038 ],
+					"fmodr::carrier-wave" : [ 0.0 ],
+					"fmodr::modulator-wave" : [ 0.0 ],
+					"fmodr::harmfactor" : [ 1.0 ],
+					"fmodr::harm-is-int" : [ 1 ],
+					"reverber8r::roomsize" : [  ],
+					"reverber8r::decaytime" : [  ],
+					"reverber8r::wetdry" : [  ],
+					"reverber8r::cutoff" : [  ],
+					"interface" : [  ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"velocit" : [ 0 ],
+					"fmodr::bend" : [ 0.000147 ],
+					"fmodr::modindex" : [ 0.0 ],
+					"fmodr::portamento" : [ 10.0 ],
+					"fmodr::polyphony" : [ 16 ],
+					"fmodr::pan" : [ 0.0 ],
+					"fmodr::release" : [ 100.0 ],
+					"fmodr::vibdepth" : [ 0.0 ],
+					"fmodr::vibrate" : [ 6.0 ],
+					"fmodr::vibwave" : [ 0.0 ],
+					"fmodr::sustain" : [ 1.0 ],
+					"fmodr::decay" : [ 20.0 ],
+					"fmodr::attack" : [ 52.502323 ],
+					"fmodr::carrier-wave" : [ 0.0 ],
+					"fmodr::modulator-wave" : [ 0.0 ],
+					"fmodr::harmfactor" : [ 1.0 ],
+					"fmodr::harm-is-int" : [ 1 ],
+					"reverber8r::roomsize" : [  ],
+					"reverber8r::decaytime" : [  ],
+					"reverber8r::wetdry" : [  ],
+					"reverber8r::cutoff" : [  ],
+					"interface" : [  ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

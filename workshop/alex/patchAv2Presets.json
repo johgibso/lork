@@ -1,0 +1,18 @@
+{
+	"pattrstorage" : 	{
+		"name" : "patchAv2Presets",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"fundamental" : [ 110.0 ],
+					"power" : [ 1.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
