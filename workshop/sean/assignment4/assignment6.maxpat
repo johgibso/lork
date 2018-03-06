@@ -56,7 +56,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 302.166656, 454.0, 73.0, 22.0 ],
+					"patching_rect" : [ 302.166656, 450.132599, 73.0, 22.0 ],
 					"style" : "",
 					"text" : "routepass 1"
 				}
@@ -1011,6 +1011,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-40", 3 ],
+					"disabled" : 1,
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -1054,7 +1055,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-21", 1 ],
+					"destination" : [ "obj-21", 0 ],
 					"source" : [ "obj-41", 0 ]
 				}
 
