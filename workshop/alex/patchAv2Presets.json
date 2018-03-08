@@ -5,8 +5,38 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"fundamental" : [ 110.0 ],
-					"power" : [ 1.0 ]
+					"fundamental" : [ 70.0 ],
+					"power" : [ 1.1 ],
+					"undulateMultiplier" : [ 86.666667 ],
+					"undulateMultiplier[1]" : [ 133.666667 ],
+					"trackpadX" : [ 0.0 ],
+					"trackpadY" : [ 86.666667 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"fundamental" : [ 70.0 ],
+					"power" : [ 1.1 ],
+					"undulateMultiplier" : [ 86.666667 ],
+					"undulateMultiplier[1]" : [ 133.666667 ],
+					"trackpadX" : [ 0.0 ],
+					"trackpadY" : [ 86.666667 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"fundamental" : [ 70.0 ],
+					"power" : [ 1.1 ],
+					"undulateMultiplier" : [ 86.666667 ],
+					"undulateMultiplier[1]" : [ 133.666667 ],
+					"trackpadX" : [ 0.0 ],
+					"trackpadY" : [ 86.666667 ]
 				}
 
 			}
