@@ -59,11 +59,11 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 358.0, 19.333336, 160.0, 145.0 ],
+					"patching_rect" : [ 358.0, 15.333336, 160.0, 145.0 ],
 					"range" : 128,
 					"size" : 4,
 					"style" : "",
-					"table_data" : [ 0, 1, 0, 64, 64 ]
+					"table_data" : [ 0, 46, 51, 57, 61 ]
 				}
 
 			}
