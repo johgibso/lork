@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"openrect" : [ 34.0, 79.0, 595.0, 432.0 ],
+		"openrect" : [ 34.0, 79.0, 595.0, 450.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -282,7 +282,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -326,7 +326,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 4,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -855,25 +855,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-98",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 953.0, 453.0, 63.0, 22.0 ],
-					"restore" : [ 0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
-					}
-,
-					"style" : "",
-					"text" : "pattr wavr",
-					"varname" : "wavr[3]"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-99",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -1093,25 +1074,6 @@
 					"presentation_rect" : [ 40.999992, 44.833313, 35.333321, 376.166687 ],
 					"size" : 300.0,
 					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-33",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1383.0, 422.933319, 82.0, 22.0 ],
-					"restore" : [ 0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
-					}
-,
-					"style" : "",
-					"text" : "pattr granular",
-					"varname" : "granular"
 				}
 
 			}
@@ -1898,25 +1860,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-7",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 279.0, 641.666687, 77.0, 22.0 ],
-					"restore" : [ 0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
-					}
-,
-					"style" : "",
-					"text" : "pattr presets",
-					"varname" : "presets"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgcolor" : [ 0.541176, 0.815686, 0.913725, 0.26 ],
 					"bubblesize" : 20,
 					"id" : "obj-57",
@@ -1947,7 +1890,7 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 358, 172 ],
+						"client_rect" : [ 4, 45, 1077, 1019 ],
 						"parameter_enable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
@@ -1955,63 +1898,6 @@
 					"style" : "",
 					"text" : "pattrstorage mypresets",
 					"varname" : "mypresets"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-55",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 187.0, 433.0, 63.0, 22.0 ],
-					"restore" : [ 0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
-					}
-,
-					"style" : "",
-					"text" : "pattr wavr",
-					"varname" : "wavr[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-54",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 269.0, 879.0, 61.0, 22.0 ],
-					"restore" : [ 0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
-					}
-,
-					"style" : "",
-					"text" : "pattr filter",
-					"varname" : "filter"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-53",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 332.0, 904.0, 67.0, 22.0 ],
-					"restore" : [ 0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
-					}
-,
-					"style" : "",
-					"text" : "pattr delay",
-					"varname" : "delay"
 				}
 
 			}
@@ -2197,7 +2083,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -2498,7 +2384,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -2542,7 +2428,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 4,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -3095,7 +2981,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -3139,7 +3025,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 4,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -3759,7 +3645,7 @@
 					"disabledalpha" : 0.0,
 					"displayknob" : 2,
 					"id" : "obj-86",
-					"knobpict" : "Macintosh HD:/Users/JamesWoolgar/lork/workshop/ben/6322.png",
+					"knobpict" : "6322.png",
 					"knobsize" : 100.0,
 					"maxclass" : "nodes",
 					"nsize" : [ 0.0 ],
@@ -4239,27 +4125,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 0 ],
-					"source" : [ "obj-53", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
-					"source" : [ "obj-54", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
-					"source" : [ "obj-55", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-57", 0 ],
 					"source" : [ "obj-56", 0 ]
 				}
@@ -4611,6 +4476,306 @@
 					"source" : [ "obj-99", 0 ]
 				}
 
+			}
+ ],
+		"parameters" : 		{
+			"obj-85::obj-278" : [ "textbutton[4]", "textbutton[1]", 0 ],
+			"obj-34::obj-105" : [ "pictctrl[9]", "pictctrl[3]", 0 ],
+			"obj-25::obj-48" : [ "pictctrl[16]", "pictctrl[2]", 0 ],
+			"obj-34::obj-6" : [ "decay", "D", 0 ],
+			"obj-115::obj-36" : [ "pictctrl[23]", "pictctrl[1]", 0 ],
+			"obj-21::obj-24" : [ "wetdry", "wetdry", 0 ],
+			"obj-115::obj-21" : [ "pictctrl[19]", "pictctrl[1]", 0 ],
+			"obj-115::obj-42" : [ "pictctrl[20]", "pictctrl[1]", 0 ],
+			"obj-34::obj-12" : [ "resetpan", "resetpan", 0 ],
+			"obj-85::obj-51" : [ "polyphony-val[1]", "polyphony-val", 0 ],
+			"obj-85::obj-99" : [ "pictctrl[24]", "pictctrl[3]", 0 ],
+			"obj-85::obj-20" : [ "vib depth[1]", "depth", 0 ],
+			"obj-34::obj-50" : [ "polyphony-menu", "polyphony-menu", 0 ],
+			"obj-21::obj-9" : [ "delay", "delay", 0 ],
+			"obj-23::obj-4" : [ "pictctrl[14]", "pictctrl[1]", 0 ],
+			"obj-34::obj-21" : [ "duty cycle", "duty", 0 ],
+			"obj-85::obj-26" : [ "pan[1]", "pan", 0 ],
+			"obj-34::obj-96" : [ "pictctrl[6]", "pictctrl[3]", 0 ],
+			"obj-34::obj-102" : [ "pictctrl[8]", "pictctrl[3]", 0 ],
+			"obj-25::obj-9" : [ "size", "size", 0 ],
+			"obj-85::obj-32" : [ "resetbend[1]", "resetbend", 0 ],
+			"obj-85::obj-9" : [ "LFOwave[1]", "LFOwave", 0 ],
+			"obj-34::obj-26" : [ "pan", "pan", 0 ],
+			"obj-21::obj-7" : [ "range[4]", "range", 0 ],
+			"obj-34::obj-25" : [ "bend", "bend", 0 ],
+			"obj-85::obj-13" : [ "wave[1]", "wave", 0 ],
+			"obj-23::obj-23" : [ "filtermode", "filtermode", 0 ],
+			"obj-115::obj-24" : [ "3", "3", 0 ],
+			"obj-34::obj-79" : [ "pictctrl[4]", "pictctrl[3]", 0 ],
+			"obj-34::obj-63" : [ "pictctrl[2]", "pictctrl[3]", 0 ],
+			"obj-34::obj-88" : [ "pictctrl[5]", "pictctrl[3]", 0 ],
+			"obj-21::obj-20" : [ "pictctrl[10]", "pictctrl[1]", 0 ],
+			"obj-34::obj-68" : [ "pictctrl[3]", "pictctrl[3]", 0 ],
+			"obj-23::obj-7" : [ "range[1]", "range", 0 ],
+			"obj-23::obj-10" : [ "res", "res", 0 ],
+			"obj-85::obj-33" : [ "pictctrl[44]", "pictctrl[3]", 0 ],
+			"obj-85::obj-8" : [ "sustain[1]", "S", 0 ],
+			"obj-85::obj-16" : [ "release[1]", "R", 0 ],
+			"obj-25::obj-10" : [ "decay[1]", "decay", 0 ],
+			"obj-34::obj-13" : [ "wave", "wave", 0 ],
+			"obj-85::obj-19" : [ "vib rate[1]", "rate", 0 ],
+			"obj-34::obj-32" : [ "resetbend", "resetbend", 0 ],
+			"obj-34::obj-269" : [ "pictctrl[39]", "pictctrl[3]", 0 ],
+			"obj-85::obj-5" : [ "attack[1]", "A", 0 ],
+			"obj-34::obj-265" : [ "pictctrl[40]", "pictctrl[3]", 0 ],
+			"obj-21::obj-48" : [ "pictctrl[11]", "pictctrl[2]", 0 ],
+			"obj-115::obj-55" : [ "1", "1", 0 ],
+			"obj-85::obj-18" : [ "portamento[1]", "port", 0 ],
+			"obj-85::obj-12" : [ "resetpan[1]", "resetpan", 0 ],
+			"obj-25::obj-53" : [ "pictctrl[15]", "pictctrl", 0 ],
+			"obj-34::obj-8" : [ "sustain", "S", 0 ],
+			"obj-25::obj-4" : [ "pictctrl[18]", "pictctrl[1]", 0 ],
+			"obj-30::obj-4" : [ "master[1]", "master", 0 ],
+			"obj-25::obj-7" : [ "range[5]", "range", 0 ],
+			"obj-115::obj-47" : [ "pictctrl[22]", "pictctrl[1]", 0 ],
+			"obj-34::obj-276" : [ "FreqMode[4]", "FreqMode", 0 ],
+			"obj-85::obj-96" : [ "pictctrl[28]", "pictctrl[3]", 0 ],
+			"obj-85::obj-102" : [ "pictctrl[43]", "pictctrl[3]", 0 ],
+			"obj-115::obj-26" : [ "M", "M", 0 ],
+			"obj-85::obj-6" : [ "decay[2]", "D", 0 ],
+			"obj-25::obj-24" : [ "wetdry[1]", "wetdry", 0 ],
+			"obj-115::obj-25" : [ "4", "4", 0 ],
+			"obj-34::obj-18" : [ "portamento", "port", 0 ],
+			"obj-34::obj-51" : [ "polyphony-val", "polyphony-val", 0 ],
+			"obj-85::obj-265" : [ "pictctrl[42]", "pictctrl[3]", 0 ],
+			"obj-85::obj-79" : [ "pictctrl[25]", "pictctrl[3]", 0 ],
+			"obj-34::obj-19" : [ "vib rate", "rate", 0 ],
+			"obj-23::obj-20" : [ "pictctrl[13]", "pictctrl[1]", 0 ],
+			"obj-21::obj-53" : [ "pictctrl", "pictctrl", 0 ],
+			"obj-21::obj-10" : [ "feedback", "feedback", 0 ],
+			"obj-85::obj-21" : [ "duty cycle[1]", "duty", 0 ],
+			"obj-85::obj-269" : [ "pictctrl[30]", "pictctrl[3]", 0 ],
+			"obj-85::obj-88" : [ "pictctrl[29]", "pictctrl[3]", 0 ],
+			"obj-34::obj-278" : [ "textbutton[3]", "textbutton[1]", 0 ],
+			"obj-30::obj-15" : [ "toggle", "toggle", 0 ],
+			"obj-25::obj-12" : [ "cutoff", "cutoff", 0 ],
+			"obj-115::obj-23" : [ "2", "2", 0 ],
+			"obj-34::obj-9" : [ "LFOwave", "LFOwave", 0 ],
+			"obj-85::obj-50" : [ "polyphony-menu[1]", "polyphony-menu", 0 ],
+			"obj-34::obj-33" : [ "pictctrl[1]", "pictctrl[3]", 0 ],
+			"obj-34::obj-5" : [ "attack", "A", 0 ],
+			"obj-115::obj-52" : [ "pictctrl[21]", "pictctrl[1]", 0 ],
+			"obj-30::obj-35" : [ "master", "master", 0 ],
+			"obj-85::obj-276" : [ "FreqMode[1]", "FreqMode", 0 ],
+			"obj-34::obj-16" : [ "release", "R", 0 ],
+			"obj-34::obj-20" : [ "vib depth", "depth", 0 ],
+			"obj-23::obj-53" : [ "pictctrl[12]", "pictctrl", 0 ],
+			"obj-25::obj-20" : [ "pictctrl[17]", "pictctrl[1]", 0 ],
+			"obj-34::obj-99" : [ "pictctrl[7]", "pictctrl[3]", 0 ],
+			"obj-30::obj-9" : [ "range[6]", "range", 0 ],
+			"obj-85::obj-105" : [ "pictctrl[27]", "pictctrl[3]", 0 ],
+			"obj-23::obj-9" : [ "freq", "freq", 0 ],
+			"obj-85::obj-25" : [ "bend[1]", "bend", 0 ],
+			"obj-85::obj-68" : [ "pictctrl[26]", "pictctrl[3]", 0 ],
+			"obj-30::obj-102" : [ "pictctrl[284]", "pictctrl[1]", 0 ],
+			"obj-85::obj-63" : [ "pictctrl[41]", "pictctrl[3]", 0 ]
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "6322.png",
+				"bootpath" : "~/lork/workshop/ben",
+				"patcherrelativepath" : ".",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "trackpad-xy.maxpat",
+				"bootpath" : "~/lork/workshop/ben",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.wavr.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/auzzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.data-handler.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/auzzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.wave-sine.svg",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/media",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/auzzie/media",
+				"type" : "svg ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.wave-triangle.svg",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/media",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/auzzie/media",
+				"type" : "svg ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.wave-square.svg",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/media",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/auzzie/media",
+				"type" : "svg ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.wave-sawup.svg",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/media",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/auzzie/media",
+				"type" : "svg ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.wave-sawdown.svg",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/media",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/auzzie/media",
+				"type" : "svg ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.sub-wavr.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/auzzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.sub-wavr-multivoice.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/auzzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.sub-wavr-monovoice.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/auzzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "M4L.pan1~.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Tools resources",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.sub-wavetables.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/auzzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.1delayr.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/auzzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.audio-left-handler.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/auzzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.sub-delay.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/auzzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "M4L.cross1~.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Tools resources",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "M4L.vdelay~.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Tools resources",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.rezfiltr.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/auzzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.reverber8r.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/auzzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.sub-yafr2.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/auzzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "M4L.cross2~.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Tools resources",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mypresets.json",
+				"bootpath" : "~/lork/workshop/ben",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.hemi-m.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/auzzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.sub-hemi-prefs.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/auzzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hemi-prefs.txt",
+				"bootpath" : "~/lork/workshop/ben",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "az.mixr-4x1.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/auzzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gen10.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "gen24.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0,
