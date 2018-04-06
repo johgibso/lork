@@ -349,7 +349,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 35.0, 107.636414, 129.0, 22.0 ],
 									"style" : "",
-									"text" : "replace evil metal.wav"
+									"text" : "replace evilmetal.wav"
 								}
 
 							}
