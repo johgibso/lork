@@ -38,6 +38,124 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 20.029993,
+					"id" : "obj-113",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 77.0, 381.0, 275.0, 51.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 47.083252, 364.754181, 277.0, 29.0 ],
+					"style" : "",
+					"text" : "Adjust these at your discretion"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-111",
+					"linecount" : 7,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1203.0, 1230.0, 69.0, 100.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 345.0, 44.800259, 211.0, 33.0 ],
+					"style" : "",
+					"text" : "Phase 5: Cooldown - Gradually bring your sliders back down to 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-110",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1203.0, 1197.0, 54.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 345.0, 99.0, 84.416565, 20.0 ],
+					"style" : "",
+					"text" : "Phase 4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-109",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1203.0, 1165.0, 54.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 270.583435, 99.0, 75.416565, 20.0 ],
+					"style" : "",
+					"text" : "Phase 3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-108",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1203.0, 1141.0, 54.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 190.416565, 99.0, 81.416565, 20.0 ],
+					"style" : "",
+					"text" : "Phase 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-107",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1203.0, 1112.0, 54.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 115.666687, 99.0, 75.416565, 20.0 ],
+					"style" : "",
+					"text" : "Phase 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-106",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1203.0, 1081.0, 42.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 47.083252, 99.0, 69.583435, 20.0 ],
+					"style" : "",
+					"text" : "Begin"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-91",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1179.333374, 1004.0, 188.0, 47.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 47.083252, 20.0, 188.0, 47.0 ],
+					"style" : "",
+					"text" : "Follow the ques of the conductor to change the amounts of each control"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -245,9 +363,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1372.666748, 759.333374, 150.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 325.333344, 539.13324, 71.333328, 33.0 ],
 					"style" : "",
 					"text" : "turn this up all the way"
 				}
@@ -260,8 +375,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1170.333374, 518.666687, 121.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 47.083252, 396.666687, 121.0, 20.0 ],
 					"style" : "",
 					"text" : "Interpolation Length"
 				}
@@ -275,7 +388,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 986.333374, 443.666687, 116.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 47.083252, 469.800018, 116.0, 20.0 ],
+					"presentation_rect" : [ 47.083252, 468.800018, 116.0, 20.0 ],
 					"style" : "",
 					"text" : "Number of Octaves"
 				}
@@ -289,7 +402,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1132.333374, 372.666687, 105.999969, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 47.083252, 334.666687, 105.999969, 20.0 ],
+					"presentation_rect" : [ 47.083252, 274.666687, 105.999969, 20.0 ],
 					"style" : "",
 					"text" : "Flanger Rate"
 				}
@@ -303,7 +416,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1226.333374, 280.666687, 105.999969, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 47.083252, 262.666687, 105.999969, 20.0 ],
+					"presentation_rect" : [ 47.083252, 202.666687, 105.999969, 20.0 ],
 					"style" : "",
 					"text" : "Flanger Amount"
 				}
@@ -317,7 +430,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1010.333374, 286.0, 79.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 47.083252, 195.0, 92.0, 20.0 ],
+					"presentation_rect" : [ 47.083252, 410.0, 92.0, 20.0 ],
 					"style" : "",
 					"text" : "Brightness"
 				}
@@ -347,8 +460,6 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1163.333374, 549.666687, 119.999969, 22.666664 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 47.083252, 428.572296, 381.333313, 22.666664 ],
 					"relative" : 1,
 					"size" : 1.0,
 					"style" : ""
@@ -379,7 +490,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 990.333374, 468.666687, 119.999969, 22.666664 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 47.083252, 491.800018, 381.333313, 22.666664 ],
+					"presentation_rect" : [ 47.083252, 490.800018, 381.333313, 22.666664 ],
 					"relative" : 1,
 					"size" : 1.0,
 					"style" : ""
@@ -410,7 +521,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1138.333374, 394.666687, 119.999969, 22.666664 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 47.083252, 356.666687, 381.333313, 22.666664 ],
+					"presentation_rect" : [ 47.083252, 296.666687, 381.333313, 22.666664 ],
 					"relative" : 1,
 					"size" : 1.0,
 					"style" : ""
@@ -441,7 +552,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1014.333374, 302.666687, 119.999969, 22.666664 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 47.083252, 217.0, 381.333313, 22.666664 ],
+					"presentation_rect" : [ 47.083252, 432.0, 381.333313, 22.666664 ],
 					"relative" : 1,
 					"size" : 1.0,
 					"style" : ""
@@ -472,7 +583,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1212.333374, 302.666687, 119.999969, 22.666664 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 47.083252, 286.666687, 381.333313, 22.666664 ],
+					"presentation_rect" : [ 47.083252, 226.666687, 381.333313, 22.666664 ],
 					"relative" : 1,
 					"size" : 1.0,
 					"style" : ""
@@ -534,7 +645,7 @@
 					"patching_rect" : [ 959.75, 233.0, 261.0, 51.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 47.083252, 54.400257, 210.0, 62.0 ],
+					"presentation_rect" : [ 955.833252, 25.400257, 210.0, 62.0 ],
 					"style" : "",
 					"text" : "http://www.michaelnorris.info/software/soundmagic-spectral\n\nlink to download SoundMagic Spectral plugin package\n"
 				}
