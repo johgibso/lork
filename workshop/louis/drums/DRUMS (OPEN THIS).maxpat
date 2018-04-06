@@ -3457,50 +3457,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-25::obj-102" : [ "pictctrl[284]", "pictctrl[1]", 0 ],
-			"obj-25::obj-15" : [ "toggle", "toggle", 0 ],
-			"obj-25::obj-9" : [ "range[4]", "range", 0 ],
-			"obj-25::obj-4" : [ "master[1]", "master", 0 ],
-			"obj-25::obj-35" : [ "master", "master", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "ringostarrmikmitchell.jpg",
-				"bootpath" : "~/Desktop/Max7/Max 7 Projects/Final/DroneVisualizer/Sampler Instruments/drums",
-				"patcherrelativepath" : ".",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "az.hemi-m.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/auzzie/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "az.data-handler.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/auzzie/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "az.audio-left-handler.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/auzzie/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "az.sub-hemi-prefs.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/auzzie/patchers",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/auzzie/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
 		"autosave" : 0
 	}
 
