@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1314.0, 78.0, 1852.0, 938.0 ],
+		"rect" : [ 38.0, 79.0, 1368.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 18.0,
@@ -48,11 +48,11 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 34.0, 78.0, 1212.0, 658.0 ],
+						"rect" : [ 38.0, 79.0, 1212.0, 658.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -99,9 +99,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1467.5, 474.666656, 114.0, 22.0 ],
+									"patching_rect" : [ 1467.5, 410.666656, 118.0, 22.0 ],
 									"style" : "",
-									"text" : "\"replaceFx (9).wav\""
+									"text" : "replace \"Fx (9).wav\""
 								}
 
 							}
@@ -2628,7 +2628,7 @@
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 230.291153, "ticks" ],
-						"originaltempo" : 53.148201,
+						"originaltempo" : 53.148198,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
