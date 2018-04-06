@@ -180,7 +180,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 507.0, 314.0, 156.333328, 22.0 ],
 									"style" : "",
-									"text" : "replace marbles.wave"
+									"text" : "replace marbles.wav"
 								}
 
 							}
