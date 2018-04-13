@@ -7,9 +7,13 @@
 				"data" : 				{
 					"metro" : [ 3500 ],
 					"toggle" : [ 1 ],
-					"duration" : [ 4500 ],
+					"duration" : [ 5200 ],
 					"rate" : [ 0.0 ],
-					"release" : [ 10 ]
+					"release" : [ 10 ],
+					"reverber8r::roomsize" : [ 0.0 ],
+					"reverber8r::decaytime" : [ 0.0 ],
+					"reverber8r::wetdry" : [ 0.0 ],
+					"reverber8r::cutoff" : [ 0.0 ]
 				}
 
 			}
@@ -19,9 +23,13 @@
 				"data" : 				{
 					"metro" : [ 3500 ],
 					"toggle" : [ 1 ],
-					"duration" : [ 4500 ],
+					"duration" : [ 5200 ],
 					"rate" : [ 2.0 ],
-					"release" : [ 10 ]
+					"release" : [ 10 ],
+					"reverber8r::roomsize" : [ 0.3 ],
+					"reverber8r::decaytime" : [ 0.055118 ],
+					"reverber8r::wetdry" : [ 0.602362 ],
+					"reverber8r::cutoff" : [ 0.566929 ]
 				}
 
 			}

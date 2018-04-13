@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1372.0, 742.0 ],
+		"rect" : [ 304.0, 79.0, 1372.0, 742.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,17 +39,141 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontsize" : 14.0,
-					"id" : "obj-5",
-					"linecount" : 5,
+					"id" : "obj-52",
+					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 611.0, 495.0, 178.0, 85.0 ],
+					"patching_rect" : [ 626.0, 510.0, 178.0, 116.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 1104.0, 264.0, 317.0, 53.0 ],
+					"presentation_linecount" : 4,
+					"presentation_rect" : [ 987.0, 215.0, 334.0, 69.0 ],
 					"style" : "",
-					"text" : "Part 4 : When I give a signal\n- PRESS THE BIG SPEAKER SIGN\nTO STOP"
+					"text" : "Part 4 : WHEN I GIVE A SIGNAL\n- PRESS THE SPACE BAR TO TURN OFF THE BIG CHECKBOX SIGN -> IT SHOULD STOP THE SOUND IMMEDIATELY"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-70",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1289.0, 451.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-68",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1281.0, 388.0, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "5.5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-50",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1251.0, 324.0, 60.0, 22.0 ],
+					"style" : "",
+					"text" : "past 0.05"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-65",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 459.0, 717.0, 43.0, 22.0 ],
+					"style" : "",
+					"text" : "sel 32"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-64",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 4,
+					"outlettype" : [ "int", "int", "int", "int" ],
+					"patching_rect" : [ 459.0, 682.0, 50.5, 22.0 ],
+					"style" : "",
+					"text" : "key"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-63",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 490.0, 560.0, 72.0, 22.0 ],
+					"style" : "",
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 490.0, 588.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1044.0, 23.0, 169.0, 169.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 448.0, 630.0, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "*~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-59",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 530.5, 371.0, 144.0, 51.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 263.5, 64.0, 328.0, 29.0 ],
+					"style" : "",
+					"text" : "IGNORE MY THUMBS UP",
+					"textcolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ]
 				}
 
 			}
@@ -57,16 +181,16 @@
 				"box" : 				{
 					"fontsize" : 14.0,
 					"id" : "obj-60",
-					"linecount" : 10,
+					"linecount" : 8,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 596.0, 480.0, 177.0, 163.0 ],
+					"patching_rect" : [ 596.0, 480.0, 177.0, 132.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 5,
-					"presentation_rect" : [ 759.5, 49.0, 316.0, 85.0 ],
+					"presentation_linecount" : 4,
+					"presentation_rect" : [ 694.5, 25.5, 344.0, 69.0 ],
 					"style" : "",
-					"text" : "WHEN I PULL UP THREE FINGERS\n- Pull up the slider up in medium speed\n- freely play with trackpad(try to play wide)\n- Press the big speaker button when the conductor sends a signal(it will stop the sound)"
+					"text" : "WHEN I PULL UP THREE FINGERS\n- Pull up the slider up in medium speed\n- freely play with trackpad(try to play wide)\n- PLAY IT LOUD!!(play it right part of the trackpad)"
 				}
 
 			}
@@ -74,16 +198,16 @@
 				"box" : 				{
 					"fontsize" : 14.0,
 					"id" : "obj-61",
-					"linecount" : 6,
+					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 822.0, 459.0, 177.0, 100.0 ],
+					"patching_rect" : [ 822.0, 459.0, 179.0, 116.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 4,
-					"presentation_rect" : [ 377.0, 142.0, 287.0, 69.0 ],
+					"presentation_linecount" : 5,
+					"presentation_rect" : [ 377.0, 142.0, 303.0, 85.0 ],
 					"style" : "",
-					"text" : "WHEN THE PIANO GETS FASTER\n- Increase the slider fast\n- press the toggle button\n- freely play with trackpad(try to play wide)"
+					"text" : "WHEN I PUT TWO FINGERS UP\n- Increase the slider fast\n- press the toggle button\n- play a little louder (try to play around the middle area)"
 				}
 
 			}
@@ -98,22 +222,9 @@
 					"patching_rect" : [ 883.0, 344.0, 146.0, 116.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 23.0, 500.0, 272.0, 69.0 ],
+					"presentation_rect" : [ 113.0, 500.0, 272.0, 69.0 ],
 					"style" : "",
-					"text" : "Part 1 : \n- Click bang and start sound\n- freely play with trackpad- freely play with trackpad(try to play at the low area)"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-50",
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 858.0, 443.0, 45.0, 45.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1143.5, 13.5, 198.0, 198.0 ],
-					"style" : ""
+					"text" : "Part 1 : \n- Click bang and start sound\n- freely play with trackpad- freely play with trackpad(try to play soft sounds)"
 				}
 
 			}
@@ -561,7 +672,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 703.0, 154.0, 136.0, 22.0 ],
 					"style" : "",
-					"text" : "if $i1 <71 then 1 else -1"
+					"text" : "if $i1 <60 then 1 else -1"
 				}
 
 			}
@@ -715,7 +826,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 230.0, 38.0, 37.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 12.0, 628.0, 214.0, 22.0 ],
+					"presentation_rect" : [ 102.0, 628.0, 214.0, 22.0 ],
 					"style" : "",
 					"text" : "bang"
 				}
@@ -742,9 +853,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 615.0, 52.0, 20.0, 140.0 ],
+					"patching_rect" : [ 1255.5, 146.0, 20.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1092.5, 25.5, 20.0, 165.0 ],
+					"presentation_rect" : [ 1018.5, 25.5, 20.0, 165.0 ],
 					"style" : ""
 				}
 
@@ -923,6 +1034,8 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 331.0, 410.0, 71.0, 292.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 699.5, 241.0, 71.0, 292.0 ],
 					"prototypename" : "pixl",
 					"varname" : "hemi-m",
 					"viewvisibility" : 1
@@ -960,8 +1073,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-16", 1 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 10 ],
 					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -1150,7 +1277,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-38", 0 ]
 				}
 
@@ -1252,6 +1379,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-68", 0 ],
+					"source" : [ "obj-50", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
 					"source" : [ "obj-51", 0 ]
 				}
@@ -1333,6 +1467,43 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-63", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-65", 0 ],
+					"source" : [ "obj-64", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-65", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-34", 4 ],
+					"order" : 1,
+					"source" : [ "obj-68", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-70", 0 ],
+					"order" : 0,
+					"source" : [ "obj-68", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"order" : 0,
 					"source" : [ "obj-7", 0 ]
@@ -1364,6 +1535,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
+					"order" : 1,
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-50", 0 ],
+					"order" : 0,
 					"source" : [ "obj-9", 0 ]
 				}
 

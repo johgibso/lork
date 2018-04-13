@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 86.0, 1477.0, 742.0 ],
+		"rect" : [ -367.0, 248.0, 1372.0, 735.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,30 +39,175 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontsize" : 14.0,
-					"id" : "obj-57",
-					"linecount" : 5,
+					"id" : "obj-16",
+					"linecount" : 8,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 611.0, 495.0, 178.0, 85.0 ],
+					"patching_rect" : [ 611.0, 495.0, 177.0, 132.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 1121.0, 249.0, 317.0, 53.0 ],
+					"presentation_linecount" : 4,
+					"presentation_rect" : [ 668.5, 8.0, 344.0, 69.0 ],
 					"style" : "",
-					"text" : "Part 4 : When I give a signal\n- PRESS THE BIG SPEAKER SIGN\nTO STOP"
+					"text" : "WHEN I PULL UP THREE FINGERS\n- Pull up the slider up in medium speed\n- freely play with trackpad(try to play wide)\n- PLAY IT LOUD!!(play it right part of the trackpad)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 14.0,
+					"id" : "obj-61",
+					"linecount" : 7,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 822.0, 459.0, 179.0, 116.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 5,
+					"presentation_rect" : [ 377.0, 142.0, 303.0, 85.0 ],
+					"style" : "",
+					"text" : "WHEN I PUT TWO FINGERS UP\n- Increase the slider fast\n- press the toggle button\n- play a little louder (try to play around the middle area)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-70",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1289.0, 451.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-68",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1281.0, 388.0, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "-3."
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-53",
-					"maxclass" : "ezdac~",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1251.0, 324.0, 60.0, 22.0 ],
+					"style" : "",
+					"text" : "past 0.05"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-65",
+					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 858.0, 443.0, 45.0, 45.0 ],
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 444.0, 702.0, 43.0, 22.0 ],
+					"style" : "",
+					"text" : "sel 32"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-64",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 4,
+					"outlettype" : [ "int", "int", "int", "int" ],
+					"patching_rect" : [ 444.0, 667.0, 50.5, 22.0 ],
+					"style" : "",
+					"text" : "key"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-63",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 475.0, 545.0, 72.0, 22.0 ],
+					"style" : "",
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-62",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 475.0, 573.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1166.0, 19.0, 198.0, 198.0 ],
+					"presentation_rect" : [ 1044.0, 8.0, 169.0, 169.0 ],
 					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-60",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 433.0, 615.0, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "*~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-59",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 530.5, 371.0, 144.0, 51.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 263.5, 64.0, 328.0, 29.0 ],
+					"style" : "",
+					"text" : "IGNORE MY THUMBS UP",
+					"textcolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 14.0,
+					"id" : "obj-57",
+					"linecount" : 7,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 611.0, 495.0, 178.0, 116.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 4,
+					"presentation_rect" : [ 1011.0, 233.0, 334.0, 69.0 ],
+					"style" : "",
+					"text" : "Part 4 : WHEN I GIVE A SIGNAL\n- PRESS THE SPACE BAR TO TURN OFF THE BIG CHECKBOX SIGN -> IT SHOULD STOP THE SOUND IMMEDIATELY"
 				}
 
 			}
@@ -571,40 +716,6 @@
 , 			{
 				"box" : 				{
 					"fontsize" : 14.0,
-					"id" : "obj-18",
-					"linecount" : 10,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 596.0, 480.0, 177.0, 163.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 5,
-					"presentation_rect" : [ 778.0, 46.0, 316.0, 85.0 ],
-					"style" : "",
-					"text" : "WHEN I PULL UP THREE FINGERS\n- Pull up the slider in medium speed\n- freely play with trackpad(try to play wide)\n- Press the big speaker button when the conductor sends a signal(it will stop the sound)"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 14.0,
-					"id" : "obj-16",
-					"linecount" : 6,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 822.0, 459.0, 177.0, 100.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 4,
-					"presentation_rect" : [ 363.0, 154.0, 287.0, 69.0 ],
-					"style" : "",
-					"text" : "WHEN THE PIANO GETS FASTER\n- Increase the slider fast\n- press the toggle button\n- freely play with trackpad(try to play wide)"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 14.0,
 					"id" : "obj-14",
 					"linecount" : 7,
 					"maxclass" : "comment",
@@ -613,9 +724,9 @@
 					"patching_rect" : [ 883.0, 344.0, 146.0, 116.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 23.0, 500.0, 272.0, 69.0 ],
+					"presentation_rect" : [ 132.0, 537.0, 272.0, 69.0 ],
 					"style" : "",
-					"text" : "Part 1 : \n- Click bang and start sound\n- freely play with trackpad- freely play with trackpad(try to play at the low area)"
+					"text" : "Part 1 : \n- Click bang and start sound\n- freely play with trackpad- freely play with trackpad(try to play soft sounds)"
 				}
 
 			}
@@ -642,7 +753,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1101.5, 9.0, 20.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1101.5, 19.0, 26.0, 183.0 ],
+					"presentation_rect" : [ 991.5, 3.0, 26.0, 183.0 ],
 					"style" : ""
 				}
 
@@ -808,7 +919,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 203.0, 24.0, 37.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 27.0, 593.0, 235.0, 22.0 ],
+					"presentation_rect" : [ 136.0, 630.0, 235.0, 22.0 ],
 					"style" : "",
 					"text" : "bang"
 				}
@@ -902,6 +1013,8 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 331.0, 410.0, 71.0, 292.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 782.0, 181.0, 71.0, 292.0 ],
 					"prototypename" : "pixl",
 					"varname" : "hemi-m",
 					"viewvisibility" : 1
@@ -1057,7 +1170,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-60", 0 ],
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -1263,6 +1376,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-68", 0 ],
+					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-55", 0 ],
 					"source" : [ "obj-54", 0 ]
 				}
@@ -1285,7 +1405,67 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
+					"order" : 1,
 					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"order" : 0,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-60", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-60", 1 ],
+					"source" : [ "obj-62", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-62", 0 ],
+					"source" : [ "obj-63", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-65", 0 ],
+					"source" : [ "obj-64", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-62", 0 ],
+					"source" : [ "obj-65", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-70", 0 ],
+					"order" : 0,
+					"source" : [ "obj-68", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 4 ],
+					"order" : 1,
+					"source" : [ "obj-68", 0 ]
 				}
 
 			}
