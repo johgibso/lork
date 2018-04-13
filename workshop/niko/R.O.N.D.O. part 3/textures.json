@@ -1,0 +1,212 @@
+{
+	"pattrstorage" : 	{
+		"name" : "textures",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"slider1" : [ 0.0 ],
+					"slider2" : [  ],
+					"wavr::bend" : [ -12.0 ],
+					"wavr::dutycycle" : [ 1.0 ],
+					"wavr::portamento" : [ 10.0 ],
+					"wavr::polyphony" : [ 8 ],
+					"wavr::pan" : [ 0.0 ],
+					"wavr::release" : [ 2000.0 ],
+					"wavr::vibdepth" : [ 0.0 ],
+					"wavr::vibrate" : [ 30.0 ],
+					"wavr::vibwave" : [ 0.0 ],
+					"wavr::sustain" : [ 0.0248 ],
+					"wavr::decay" : [ 8.959018 ],
+					"wavr::attack" : [ 120.03224 ],
+					"wavr::oscwave" : [ 0.0 ],
+					"reverber8r::roomsize" : [ 0.3 ],
+					"reverber8r::decaytime" : [ 0.5 ],
+					"reverber8r::wetdry" : [ 0.5 ],
+					"reverber8r::cutoff" : [ 0.5 ],
+					"1delayr::deltime" : [ 250.0 ],
+					"1delayr::feedback" : [ 0.5 ],
+					"1delayr::wetdry" : [ 0.5 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"slider1" : [ 0.0 ],
+					"slider2" : [  ],
+					"wavr::bend" : [ -12.0 ],
+					"wavr::dutycycle" : [ 1.0 ],
+					"wavr::portamento" : [ 10.0 ],
+					"wavr::polyphony" : [ 8 ],
+					"wavr::pan" : [ 0.0 ],
+					"wavr::release" : [ 2000.0 ],
+					"wavr::vibdepth" : [ 0.0 ],
+					"wavr::vibrate" : [ 30.0 ],
+					"wavr::vibwave" : [ 0.0 ],
+					"wavr::sustain" : [ 0.0248 ],
+					"wavr::decay" : [ 8.959018 ],
+					"wavr::attack" : [ 120.03224 ],
+					"wavr::oscwave" : [ 0.0 ],
+					"reverber8r::roomsize" : [ 0.3 ],
+					"reverber8r::decaytime" : [ 0.5 ],
+					"reverber8r::wetdry" : [ 0.5 ],
+					"reverber8r::cutoff" : [ 0.5 ],
+					"1delayr::deltime" : [ 250.0 ],
+					"1delayr::feedback" : [ 0.5 ],
+					"1delayr::wetdry" : [ 0.5 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"slider1" : [ 0.506824 ],
+					"slider2" : [  ],
+					"wavr::bend" : [ 0.0 ],
+					"wavr::dutycycle" : [ 0.425197 ],
+					"wavr::portamento" : [ 10.0 ],
+					"wavr::polyphony" : [ 8 ],
+					"wavr::pan" : [ 0.0 ],
+					"wavr::release" : [ 100.0 ],
+					"wavr::vibdepth" : [ 6.081886 ],
+					"wavr::vibrate" : [ 0.1 ],
+					"wavr::vibwave" : [ 0.0 ],
+					"wavr::sustain" : [ 0.3 ],
+					"wavr::decay" : [ 20.0 ],
+					"wavr::attack" : [ 10.0 ],
+					"wavr::oscwave" : [ 2.0 ],
+					"reverber8r::roomsize" : [ 0.3 ],
+					"reverber8r::decaytime" : [ 0.5 ],
+					"reverber8r::wetdry" : [ 0.5 ],
+					"reverber8r::cutoff" : [ 0.5 ],
+					"1delayr::deltime" : [ 250.0 ],
+					"1delayr::feedback" : [ 0.5 ],
+					"1delayr::wetdry" : [ 0.5 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"slider1" : [ 1.0 ],
+					"slider2" : [ 1.0 ],
+					"wavr::bend" : [ -12.0 ],
+					"wavr::dutycycle" : [ 1.0 ],
+					"wavr::portamento" : [ 10.0 ],
+					"wavr::polyphony" : [ 8 ],
+					"wavr::pan" : [ 0.0 ],
+					"wavr::release" : [ 44.76409 ],
+					"wavr::vibdepth" : [ 12.0 ],
+					"wavr::vibrate" : [ 30.0 ],
+					"wavr::vibwave" : [ 0.0 ],
+					"wavr::sustain" : [ 0.0 ],
+					"wavr::decay" : [ 12.400025 ],
+					"wavr::attack" : [ 6.200012 ],
+					"wavr::oscwave" : [ 3.0 ],
+					"reverber8r::roomsize" : [ 0.3 ],
+					"reverber8r::decaytime" : [ 0.5 ],
+					"reverber8r::wetdry" : [ 0.5 ],
+					"reverber8r::cutoff" : [ 0.5 ],
+					"1delayr::deltime" : [ 250.0 ],
+					"1delayr::feedback" : [ 0.5 ],
+					"1delayr::wetdry" : [ 0.5 ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"slider1" : [ 0.0 ],
+					"slider2" : [  ],
+					"wavr::bend" : [ 0.0 ],
+					"wavr::dutycycle" : [ 0.425197 ],
+					"wavr::portamento" : [ 10.0 ],
+					"wavr::polyphony" : [ 8 ],
+					"wavr::pan" : [ 0.0 ],
+					"wavr::release" : [ 100.0 ],
+					"wavr::vibdepth" : [ 0.0 ],
+					"wavr::vibrate" : [ 6.0 ],
+					"wavr::vibwave" : [ 0.0 ],
+					"wavr::sustain" : [ 0.3 ],
+					"wavr::decay" : [ 20.0 ],
+					"wavr::attack" : [ 10.0 ],
+					"wavr::oscwave" : [ 2.0 ],
+					"reverber8r::roomsize" : [ 0.3 ],
+					"reverber8r::decaytime" : [ 0.5 ],
+					"reverber8r::wetdry" : [ 0.5 ],
+					"reverber8r::cutoff" : [ 0.5 ],
+					"1delayr::deltime" : [ 250.0 ],
+					"1delayr::feedback" : [ 0.5 ],
+					"1delayr::wetdry" : [ 0.5 ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"data" : 				{
+					"slider1" : [ 1.0 ],
+					"slider2" : [  ],
+					"wavr::bend" : [ -12.0 ],
+					"wavr::dutycycle" : [ 1.0 ],
+					"wavr::portamento" : [ 10.0 ],
+					"wavr::polyphony" : [ 8 ],
+					"wavr::pan" : [ 0.0 ],
+					"wavr::release" : [ 2000.0 ],
+					"wavr::vibdepth" : [ 12.0 ],
+					"wavr::vibrate" : [ 30.0 ],
+					"wavr::vibwave" : [ 0.0 ],
+					"wavr::sustain" : [ 0.0248 ],
+					"wavr::decay" : [ 8.959018 ],
+					"wavr::attack" : [ 120.03224 ],
+					"wavr::oscwave" : [ 0.0 ],
+					"reverber8r::roomsize" : [ 0.3 ],
+					"reverber8r::decaytime" : [ 0.5 ],
+					"reverber8r::wetdry" : [ 0.5 ],
+					"reverber8r::cutoff" : [ 0.5 ],
+					"1delayr::deltime" : [ 250.0 ],
+					"1delayr::feedback" : [ 0.5 ],
+					"1delayr::wetdry" : [ 0.5 ]
+				}
+
+			}
+,
+			"8" : 			{
+				"id" : 8,
+				"data" : 				{
+					"slider1" : [ 1.0 ],
+					"slider2" : [  ],
+					"wavr::bend" : [ -12.0 ],
+					"wavr::dutycycle" : [ 1.0 ],
+					"wavr::portamento" : [ 10.0 ],
+					"wavr::polyphony" : [ 8 ],
+					"wavr::pan" : [ 0.0 ],
+					"wavr::release" : [ 2000.0 ],
+					"wavr::vibdepth" : [ 12.0 ],
+					"wavr::vibrate" : [ 30.0 ],
+					"wavr::vibwave" : [ 0.0 ],
+					"wavr::sustain" : [ 0.0248 ],
+					"wavr::decay" : [ 8.959018 ],
+					"wavr::attack" : [ 120.03224 ],
+					"wavr::oscwave" : [ 0.0 ],
+					"reverber8r::roomsize" : [ 0.3 ],
+					"reverber8r::decaytime" : [ 0.5 ],
+					"reverber8r::wetdry" : [ 0.5 ],
+					"reverber8r::cutoff" : [ 0.5 ],
+					"1delayr::deltime" : [ 250.0 ],
+					"1delayr::feedback" : [ 0.5 ],
+					"1delayr::wetdry" : [ 0.5 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
