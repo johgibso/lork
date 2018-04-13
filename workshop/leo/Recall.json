@@ -1,0 +1,169 @@
+{
+	"pattrstorage" : 	{
+		"name" : "Recall",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"Tempo" : [ 900 ],
+					"lastnotepack" : [ 90 ],
+					"Countermax" : [ 192 ],
+					"Attackslider" : [ 0 ],
+					"Decayslider" : [ 0 ],
+					"Verbscalemax" : [ 192.0 ],
+					"Depthslide" : [  ],
+					"Rateslide" : [  ],
+					"Updown" : [  ],
+					"az.wavr::bend" : [ 0.0 ],
+					"az.wavr::dutycycle" : [ 0.0 ],
+					"az.wavr::portamento" : [ 10.0 ],
+					"az.wavr::polyphony" : [ 8 ],
+					"az.wavr::pan" : [ 0.0 ],
+					"az.wavr::release" : [ 0.0 ],
+					"az.wavr::vibdepth" : [ 0.0 ],
+					"az.wavr::vibrate" : [ 6.0 ],
+					"az.wavr::vibwave" : [ 0.0 ],
+					"az.wavr::sustain" : [ 0.0 ],
+					"az.wavr::decay" : [ 60.0 ],
+					"az.wavr::attack" : [ 15.0 ],
+					"az.wavr::oscwave" : [ 0.0 ],
+					"az.drivr::drive" : [ 0.496063 ],
+					"az.drivr::color" : [ 1.0 ],
+					"az.drivr::wetdry" : [ 0.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"Tempo" : [ 900 ],
+					"lastnotepack" : [ 90 ],
+					"Countermax" : [ 192 ],
+					"Attackslider" : [ 0 ],
+					"Decayslider" : [ 0 ],
+					"Verbscalemax" : [ 192.0 ],
+					"Depthslide" : [  ],
+					"Rateslide" : [  ],
+					"Updown" : [  ],
+					"az.wavr::bend" : [ 0.0 ],
+					"az.wavr::dutycycle" : [ 0.0 ],
+					"az.wavr::portamento" : [ 10.0 ],
+					"az.wavr::polyphony" : [ 8 ],
+					"az.wavr::pan" : [ 0.0 ],
+					"az.wavr::release" : [ 0.0 ],
+					"az.wavr::vibdepth" : [ 0.0 ],
+					"az.wavr::vibrate" : [ 6.0 ],
+					"az.wavr::vibwave" : [ 0.0 ],
+					"az.wavr::sustain" : [ 0.0 ],
+					"az.wavr::decay" : [ 75.0 ],
+					"az.wavr::attack" : [ 100.0 ],
+					"az.wavr::oscwave" : [ 0.0 ],
+					"az.drivr::drive" : [ 0.0 ],
+					"az.drivr::color" : [ 1.0 ],
+					"az.drivr::wetdry" : [ 0.5 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"Tempo" : [ 450 ],
+					"lastnotepack" : [ 90 ],
+					"Countermax" : [ 384 ],
+					"Attackslider" : [ 10 ],
+					"Decayslider" : [ 0 ],
+					"Verbscalemax" : [ 384.0 ],
+					"Depthslide" : [  ],
+					"Rateslide" : [  ],
+					"Updown" : [  ],
+					"az.wavr::bend" : [ 0.0 ],
+					"az.wavr::dutycycle" : [ 0.0 ],
+					"az.wavr::portamento" : [ 10.0 ],
+					"az.wavr::polyphony" : [ 8 ],
+					"az.wavr::pan" : [ 0.0 ],
+					"az.wavr::release" : [ 0.0 ],
+					"az.wavr::vibdepth" : [ 0.121212 ],
+					"az.wavr::vibrate" : [ 7.412598 ],
+					"az.wavr::vibwave" : [ 1.0 ],
+					"az.wavr::sustain" : [ 0.0 ],
+					"az.wavr::decay" : [ 60.0 ],
+					"az.wavr::attack" : [ 10.0 ],
+					"az.wavr::oscwave" : [ 2.0 ],
+					"az.drivr::drive" : [ 1.0 ],
+					"az.drivr::color" : [ 0.5 ],
+					"az.drivr::wetdry" : [ 0.0 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"Tempo" : [ 450 ],
+					"lastnotepack" : [ 0 ],
+					"Countermax" : [ 384 ],
+					"Attackslider" : [ 0 ],
+					"Decayslider" : [ 0 ],
+					"Verbscalemax" : [ 384.0 ],
+					"Depthslide" : [  ],
+					"Rateslide" : [  ],
+					"Updown" : [  ],
+					"az.wavr::bend" : [ 0.0 ],
+					"az.wavr::dutycycle" : [ 0.0 ],
+					"az.wavr::portamento" : [ 10.0 ],
+					"az.wavr::polyphony" : [ 8 ],
+					"az.wavr::pan" : [ 0.0 ],
+					"az.wavr::release" : [ 0.0 ],
+					"az.wavr::vibdepth" : [ 0.0 ],
+					"az.wavr::vibrate" : [ 15.0 ],
+					"az.wavr::vibwave" : [ 1.0 ],
+					"az.wavr::sustain" : [ 0.0 ],
+					"az.wavr::decay" : [ 20.0 ],
+					"az.wavr::attack" : [ 80.0 ],
+					"az.wavr::oscwave" : [ 2.0 ],
+					"az.drivr::drive" : [ 1.0 ],
+					"az.drivr::color" : [ 0.5 ],
+					"az.drivr::wetdry" : [ 0.010101 ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"Tempo" : [ 225 ],
+					"lastnotepack" : [ 90 ],
+					"Countermax" : [ 768 ],
+					"Attackslider" : [ 15 ],
+					"Decayslider" : [ 0 ],
+					"Verbscalemax" : [ 768.0 ],
+					"Depthslide" : [ 0 ],
+					"Rateslide" : [ 0 ],
+					"Updown" : [ 2 ],
+					"az.wavr::bend" : [ 0.0 ],
+					"az.wavr::dutycycle" : [ 0.0 ],
+					"az.wavr::portamento" : [ 10.0 ],
+					"az.wavr::polyphony" : [ 8 ],
+					"az.wavr::pan" : [ 0.0 ],
+					"az.wavr::release" : [ 0.0 ],
+					"az.wavr::vibdepth" : [ 0.848485 ],
+					"az.wavr::vibrate" : [ 0.40202 ],
+					"az.wavr::vibwave" : [ 0.0 ],
+					"az.wavr::sustain" : [ 0.0 ],
+					"az.wavr::decay" : [ 40.0 ],
+					"az.wavr::attack" : [ 15.0 ],
+					"az.wavr::oscwave" : [ 2.0 ],
+					"az.drivr::drive" : [ 0.007874 ],
+					"az.drivr::color" : [ 0.5 ],
+					"az.drivr::wetdry" : [ 0.5 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
