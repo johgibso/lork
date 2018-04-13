@@ -38,6 +38,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 300.0, -250.0, 60.0, 22.0 ],
+					"style" : "",
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -171,7 +184,7 @@
 					"patching_rect" : [ 249.0, 155.227463, 244.0, 179.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 165.166626, 173.166687, 466.0, 110.0 ],
+					"presentation_rect" : [ 165.166626, 173.666656, 466.0, 110.0 ],
 					"style" : "",
 					"text" : "Mess with these! Listen to others. Gradually add intensity & then settle down.",
 					"textcolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
@@ -188,7 +201,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 336.0, -158.605881, 29.5, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1028.666748, 297.666656, 38.0, 29.0 ],
+					"presentation_rect" : [ 859.333435, 173.666656, 38.0, 29.0 ],
 					"style" : "",
 					"text" : "4"
 				}
@@ -280,7 +293,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ -31958.0, -31916.0, 1298.0, 658.0 ],
+						"rect" : [ 26.0, 84.0, 1298.0, 658.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1130,7 +1143,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 357.333344, 682.666687, 357.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 728.916626, 207.666687, 266.333344, 41.0 ],
+					"presentation_rect" : [ 761.916626, 386.220825, 266.333344, 41.0 ],
 					"style" : "",
 					"text" : "play notes: A S D F",
 					"textcolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
@@ -1193,7 +1206,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 282.666687, -158.605881, 38.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 968.0, 297.666656, 38.0, 29.0 ],
+					"presentation_rect" : [ 798.666687, 173.666656, 38.0, 29.0 ],
 					"style" : "",
 					"text" : "3"
 				}
@@ -1209,7 +1222,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 225.75, -158.605881, 38.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 917.75, 297.666656, 38.0, 29.0 ],
+					"presentation_rect" : [ 748.416687, 173.666656, 38.0, 29.0 ],
 					"style" : "",
 					"text" : "2"
 				}
@@ -1238,7 +1251,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 175.5, -158.605881, 38.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 865.333313, 297.666656, 38.0, 29.0 ],
+					"presentation_rect" : [ 696.0, 173.666656, 38.0, 29.0 ],
 					"style" : "",
 					"text" : "1"
 				}
@@ -1372,7 +1385,7 @@
 					"patching_rect" : [ 41.333313, -412.0, 355.0, 41.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 728.916626, 107.670013, 175.0, 75.0 ],
+					"presentation_rect" : [ 761.916626, 286.224152, 175.0, 75.0 ],
 					"style" : "",
 					"text" : "play sustain (spacebar)",
 					"textcolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
@@ -1477,7 +1490,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 425.043945, -405.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 646.0, 107.670013, 74.666672, 74.666672 ],
+					"presentation_rect" : [ 685.0, 286.224152, 74.666672, 74.666672 ],
 					"style" : "",
 					"uncheckedcolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
 				}
@@ -1510,7 +1523,7 @@
 					"patching_rect" : [ 141.166656, 329.666687, 221.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 860.0, 328.666656, 221.0, 48.0 ],
+					"presentation_rect" : [ 1125.083252, 556.666626, 221.0, 48.0 ],
 					"style" : "",
 					"text" : "audible range: -12<=60\n(jumps)",
 					"textcolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
@@ -1545,7 +1558,7 @@
 					"patching_rect" : [ 69.666656, 277.394104, 221.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 635.333313, 297.666656, 221.0, 48.0 ],
+					"presentation_rect" : [ 686.0, 105.666656, 221.0, 48.0 ],
 					"style" : "",
 					"text" : "BIRDS OF ASSORTED TONES",
 					"textcolor" : [ 0.364706, 1.0, 0.0, 1.0 ]
@@ -2103,6 +2116,38 @@
 				"patchline" : 				{
 					"destination" : [ "obj-84", 1 ],
 					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"order" : 0,
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-59", 0 ],
+					"order" : 3,
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-79", 0 ],
+					"order" : 2,
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-81", 0 ],
+					"order" : 1,
+					"source" : [ "obj-23", 0 ]
 				}
 
 			}
