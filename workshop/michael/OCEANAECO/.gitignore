@@ -1,8 +1,0 @@
-# ignore these Mac-only files
-.DS_Store
-
-# Python cached object files
-.pyc
-
-# vi tmp
-.swp
