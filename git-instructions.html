@@ -48,41 +48,71 @@
 
 <h1>Git Instructions for Accessing Laptop Ensemble Files</h1>
 
-<p>
-NB: After each shell command, press the return key.
-</p>
-
 <h2>Cloning the Repository</h2>
 
 <p>
-You do this only once, to set up the lork folder on your computer.
+You normally do this only once, to set up the lork folder on your computer.
+(Some day it may be necessary to delete your current lork folder and create
+a new updated one by cloning again.)
 </p>
-<ol>
-	<li>Launch Terminal (Mac) or GitHub Shell (Windows).
 
-	<li>Type: &nbsp; <tt>git clone http://github.com/johgibso/lork.git</tt>
+<h3>Using Terminal on the Mac</h3>
+<ol>
+	<li>Launch the <b>Terminal</b> application (in /Applications/Utilities).
+
+	<li>Type:
+		<blockquote>
+			<tt>git clone http://github.com/johgibso/lork.git</tt>
+		</blockquote>
+		followed by the return key.
 		<p>
 		After doing this, your &ldquo;lork&rdquo; repository is in your home
 		directory.
 		</p>
 </ol>
 
-<h2>Retrieving Updates</h2>
-
+<h3>Using the GitHub Desktop app (Mac / Windows)</h3>
 <ol>
-	<li>Launch Terminal (Mac) or GitHub Shell (Windows).
+	<li>Launch the <b>GitHub Desktop</b> application.
 
-	<li>Type: &nbsp; <tt>cd lork</tt>
+	<li>On the Welcome page, which asks you to sign in, press &ldquo;Skip this
+		step&rdquo; at the bottom.
 
-	<li>Type: &nbsp; <tt>git pull</tt><br>
+	<li>When you get to the main window of <b>GitHub Desktop</b>, which says
+		&ldquo;No Repositories Found,&rdquo; press the <b>Clone a Repository</b>
+		button on the right, click the <b>URL</b> tab in the window that appears,
+		type in the URL field:
+		<blockquote>
+			http://github.com/johgibso/lork.git
+		</blockquote>
+		and press the <b>Clone</b> button. This will create a &ldquo;lork&rdquo;
+		folder on your computer.
+
+	<li>Locate this folder using the <b>Repository &gt; Open in Explorer</b>
+		command (or <b>Open in Finder</b>, if you&rsquo;re on a Mac).
 </ol>
 
+
+<h2>Retrieving Updates</h2>
+
+<p>
+Launch Terminal (Mac), and type these two lines, each followed by the return
+key.
+<blockquote>
+	<tt>cd lork</tt><br>
+	<tt>git pull</tt>
+</blockquote>
+</p>
+<p>
+Or in <b>GitHub Desktop</b>, use the <b>Repository &gt; Pull</b> command.
+</p>
 
 <h2>Other Git Commands</h2>
 
 <p>
-Other commands will be useful sometimes. These assume you are already in the
-lork directory (having given the &ldquo;cd lork&rdquo; command).
+Other commands, accessible in the Mac Terminal program, will be useful
+sometimes. These assume you are already in the lork directory (having given the
+&ldquo;cd lork&rdquo; command).
 </p>
 
 <ul type="square">
