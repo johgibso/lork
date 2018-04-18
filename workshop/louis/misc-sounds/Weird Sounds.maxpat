@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 658.0 ],
+		"rect" : [ 38.0, 79.0, 1212.0, 658.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 18.0,
@@ -128,7 +128,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1203.0, 1112.0, 57.0, 116.0 ],
+					"patching_rect" : [ 1203.0, 1112.0, 57.0, 100.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
 					"presentation_rect" : [ 240.384552, 562.800293, 74.0, 69.0 ],
@@ -257,7 +257,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -638,7 +638,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 1026.0, 1078.5, 189.0, 111.0 ],
+					"patching_rect" : [ 861.166626, 1424.5, 189.0, 111.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 734.383545, 162.666748, 189.0, 111.0 ],
 					"prototypename" : "pixl",
@@ -794,10 +794,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 1078.0, 70.0, 100.0, 56.380207 ],
+					"patching_rect" : [ 1078.0, 70.0, 100.0, 56.380208 ],
 					"pic" : "chewbacca.jpg",
 					"presentation" : 1,
-					"presentation_rect" : [ 255.929428, 15.666748, 470.666687, 265.362854 ]
+					"presentation_rect" : [ 255.929428, 15.666748, 470.666687, 265.362859 ]
 				}
 
 			}
@@ -2027,7 +2027,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 0 ],
+					"destination" : [ "obj-42", 0 ],
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -2036,6 +2036,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"source" : [ "obj-42", 0 ]
 				}
 
 			}
