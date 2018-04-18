@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 66.0, 95.0, 1212.0, 688.0 ],
+		"rect" : [ 34.0, 78.0, 1212.0, 658.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 18.0,
@@ -38,6 +38,123 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-30",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 606.0, 329.0, 150.0, 47.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 313.25, 541.166626, 207.07045, 27.0 ],
+					"style" : "",
+					"text" : "Watch Director for Cues"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 14.0,
+					"id" : "obj-111",
+					"linecount" : 10,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1203.0, 1230.0, 58.0, 163.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 507.371765, 586.666626, 266.0, 38.0 ],
+					"style" : "",
+					"text" : "Phase 6 (calm down)\ndecrease intensity, watch for cue to stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 13.0,
+					"id" : "obj-18",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1203.0, 1197.0, 53.0, 79.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 399.622864, 586.666626, 107.416565, 36.0 ],
+					"style" : "",
+					"text" : "Phase 5\nclimax. go hard."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 14.0,
+					"id" : "obj-109",
+					"linecount" : 6,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1203.0, 1165.0, 65.0, 100.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 255.926147, 586.666626, 145.0, 53.0 ],
+					"style" : "",
+					"text" : "Phase 4\nincrease intensty and frequency"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 14.0,
+					"id" : "obj-26",
+					"linecount" : 6,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1203.0, 1141.0, 57.0, 100.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 4,
+					"presentation_rect" : [ 185.17627, 586.666626, 66.0, 69.0 ],
+					"style" : "",
+					"text" : "Phase 3\nstill soft, begin to build"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 14.0,
+					"id" : "obj-107",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1203.0, 1112.0, 57.0, 85.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 116.17627, 586.666626, 67.0, 53.0 ],
+					"style" : "",
+					"text" : "Phase 2\nenter sparsely"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 14.0,
+					"id" : "obj-28",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1203.0, 1081.0, 87.0, 53.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 43.176167, 586.666626, 83.0, 53.0 ],
+					"style" : "",
+					"text" : "Phase 1 (dont play yet)"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-23",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -48,11 +165,11 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 178.0, 79.0, 767.0, 275.0 ],
+						"rect" : [ 178.0, 78.0, 965.0, 542.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -498,7 +615,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 11.749954, 908.097168, 344.0, 222.617142 ],
-					"pic" : "/Users/louisimperiale/Desktop/Max7/Max 7 Projects/Final/DroneVisualizer/Sampler Instruments/percussion/DX0JOqZVoAAWZCz.jpg",
+					"pic" : "DX0JOqZVoAAWZCz.jpg",
 					"presentation" : 1,
 					"presentation_rect" : [ 341.160187, 16.333334, 394.070648, 255.020004 ]
 				}
@@ -941,22 +1058,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-271",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 942.666748, 733.51001, 154.0, 67.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 777.083374, 571.666626, 154.0, 67.0 ],
-					"style" : "",
-					"text" : "Make sure the toggles (X boxes) are all on"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontsize" : 24.0,
 					"id" : "obj-155",
 					"linecount" : 3,
@@ -1099,7 +1200,7 @@
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 1920.50061, "ticks" ],
-						"originaltempo" : 42.3318,
+						"originaltempo" : 42.331799,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -1182,7 +1283,7 @@
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 4792.054199, "ticks" ],
-						"originaltempo" : 518.523884,
+						"originaltempo" : 518.523865,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -1265,7 +1366,7 @@
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 9590.617188, "ticks" ],
-						"originaltempo" : 638.390125,
+						"originaltempo" : 638.390137,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -1348,7 +1449,7 @@
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 1729.079102, "ticks" ],
-						"originaltempo" : 109.956148,
+						"originaltempo" : 109.956146,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -1431,7 +1532,7 @@
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 1560.010986, "ticks" ],
-						"originaltempo" : 39.270987,
+						"originaltempo" : 39.270988,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
