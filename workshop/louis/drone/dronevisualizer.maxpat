@@ -55,86 +55,96 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-111",
-					"linecount" : 7,
+					"linecount" : 10,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1203.0, 1230.0, 69.0, 100.0 ],
+					"patching_rect" : [ 1203.0, 1230.0, 75.0, 141.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 345.0, 44.800259, 211.0, 33.0 ],
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 427.416565, 80.800262, 211.0, 47.0 ],
 					"style" : "",
-					"text" : "Phase 5: Cooldown - Gradually bring your sliders back down to 0"
+					"text" : "Phase 6: Cooldown - Gradually bring your sliders back down to 0 and release the space bar to fade out."
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-110",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1203.0, 1197.0, 54.0, 20.0 ],
+					"patching_rect" : [ 1203.0, 1197.0, 54.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 345.0, 99.0, 84.416565, 20.0 ],
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 344.0, 80.800262, 84.416565, 33.0 ],
 					"style" : "",
-					"text" : "Phase 4"
+					"text" : "Phase 5\nclimax"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-109",
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1203.0, 1165.0, 54.0, 20.0 ],
+					"patching_rect" : [ 1203.0, 1165.0, 54.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 270.583435, 99.0, 75.416565, 20.0 ],
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 269.583435, 80.800262, 75.416565, 47.0 ],
 					"style" : "",
-					"text" : "Phase 3"
+					"text" : "Phase 4\nalmost climax"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-108",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1203.0, 1141.0, 54.0, 20.0 ],
+					"patching_rect" : [ 1203.0, 1141.0, 54.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 190.416565, 99.0, 81.416565, 20.0 ],
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 189.416565, 80.800262, 81.416565, 33.0 ],
 					"style" : "",
-					"text" : "Phase 2"
+					"text" : "Phase 3\nbuilding"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-107",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1203.0, 1112.0, 54.0, 20.0 ],
+					"patching_rect" : [ 1203.0, 1112.0, 54.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 115.666687, 99.0, 75.416565, 20.0 ],
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 114.666687, 80.800262, 75.416565, 33.0 ],
 					"style" : "",
-					"text" : "Phase 1"
+					"text" : "Phase 2\nbuilding"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-106",
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1203.0, 1081.0, 42.0, 20.0 ],
+					"patching_rect" : [ 1203.0, 1081.0, 42.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 47.083252, 99.0, 69.583435, 20.0 ],
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 46.083252, 80.800262, 69.583435, 33.0 ],
 					"style" : "",
-					"text" : "Begin"
+					"text" : "Phase 1 (intro)"
 				}
 
 			}
@@ -273,7 +283,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 798.0, 115.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 439.050232, 99.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 759.0, 34.0, 85.0, 85.0 ],
 					"style" : ""
 				}
 
