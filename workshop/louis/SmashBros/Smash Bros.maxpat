@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 38.0, 79.0, 1368.0, 787.0 ],
+		"rect" : [ 38.0, 79.0, 1212.0, 658.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 18.0,
@@ -37,6 +37,155 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-30",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 606.0, 329.0, 150.0, 47.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 980.689087, 19.300293, 207.07045, 27.0 ],
+					"style" : "",
+					"text" : "Watch Director for Cues"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 14.0,
+					"id" : "obj-111",
+					"linecount" : 26,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1203.0, 1230.0, 61.0, 413.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 10,
+					"presentation_rect" : [ 1018.365234, 391.333374, 153.0, 163.0 ],
+					"style" : "",
+					"text" : "Phase 6 (calm down)\ndecrease intensity, watch for cue to stop\n\nwhen you see the cutoff, play one more sound. you are the ending to the piece. doesnt matter which sound."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 13.0,
+					"id" : "obj-4",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1203.0, 1197.0, 53.0, 79.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 1018.365234, 337.333374, 107.416565, 36.0 ],
+					"style" : "",
+					"text" : "Phase 5\nclimax. go hard."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 14.0,
+					"id" : "obj-109",
+					"linecount" : 6,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1203.0, 1165.0, 65.0, 100.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 1018.365234, 271.0, 145.0, 53.0 ],
+					"style" : "",
+					"text" : "Phase 4\nincrease intensty and frequency"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 14.0,
+					"id" : "obj-6",
+					"linecount" : 6,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1203.0, 1141.0, 57.0, 100.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 4,
+					"presentation_rect" : [ 1018.365234, 190.0, 66.0, 69.0 ],
+					"style" : "",
+					"text" : "Phase 3\nstill soft, begin to build"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 14.0,
+					"id" : "obj-107",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1203.0, 1112.0, 57.0, 85.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 1018.365234, 123.800293, 67.0, 53.0 ],
+					"style" : "",
+					"text" : "Phase 2\nenter sparsely"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 14.0,
+					"id" : "obj-7",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1203.0, 1081.0, 87.0, 53.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 1018.365234, 56.800293, 83.0, 53.0 ],
+					"style" : "",
+					"text" : "Phase 1 (dont play yet)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autofit" : 1,
+					"forceaspect" : 1,
+					"id" : "obj-3",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 689.0, 288.0, 100.0, 85.416664 ],
+					"pic" : "/Users/louisimperiale/Desktop/Max7/Max 7 Projects/Final/louisimperiale/Sampler Instruments/Nintendo/Super_Smash_Bros._Strife_recolour_-_Ice_Climbers_4.png",
+					"presentation" : 1,
+					"presentation_rect" : [ 653.987183, 242.0, 100.0, 85.416664 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autofit" : 1,
+					"forceaspect" : 1,
+					"id" : "obj-1",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 462.0, 294.0, 100.0, 100.0 ],
+					"pic" : "/Users/louisimperiale/Desktop/Max7/Max 7 Projects/Final/louisimperiale/Sampler Instruments/Nintendo/Mario_SSB4.png",
+					"presentation" : 1,
+					"presentation_rect" : [ 434.0, 277.333374, 100.0, 100.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
@@ -79,6 +228,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-1",
@@ -95,11 +245,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-165",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1467.5, 410.666656, 118.0, 22.0 ],
+									"patching_rect" : [ 1467.5, 474.666656, 74.0, 35.0 ],
 									"style" : "",
 									"text" : "replace \"Fx (9).wav\""
 								}
@@ -708,7 +859,7 @@
 					"patching_rect" : [ 842.0, 237.0, 150.0, 107.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 856.108948, 337.333374, 200.0, 67.0 ],
+					"presentation_rect" : [ 825.365234, 337.333374, 178.0, 67.0 ],
 					"style" : "",
 					"text" : "Trackpad controls:\n- filter = x axis\n- reverb size = y axis"
 				}
@@ -735,9 +886,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 915.0, 93.216896, 100.0, 85.416664 ],
-					"pic" : "/Users/louisimperiale/Desktop/Max7/Max 7 Projects/Final/DroneVisualizer/Sampler Instruments/Nintendo/images/Super_Smash_Bros._Strife_recolour_-_Ice_Climbers_4.png",
+					"pic" : "Dr._Mario_Pallette_05.jpg",
 					"presentation" : 1,
-					"presentation_rect" : [ 218.666641, 249.291672, 100.0, 85.416664 ]
+					"presentation_rect" : [ 227.666641, 242.0, 89.0, 89.0 ]
 				}
 
 			}
@@ -751,25 +902,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 899.0, 46.216896, 100.0, 131.23288 ],
-					"pic" : "/Users/louisimperiale/Desktop/Max7/Max 7 Projects/Final/DroneVisualizer/Sampler Instruments/Nintendo/images/Marth_(Super_Smash_Bros._for_3DS_-_WiiU_Artwork).png",
+					"pic" : "Marth_(Super_Smash_Bros._for_3DS_-_WiiU_Artwork).png",
 					"presentation" : 1,
 					"presentation_rect" : [ 871.929443, 426.100433, 100.0, 131.23288 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"autofit" : 1,
-					"forceaspect" : 1,
-					"id" : "obj-138",
-					"maxclass" : "fpic",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 876.0, 147.0, 100.0, 100.0 ],
-					"pic" : "/Users/louisimperiale/Desktop/Max7/Max 7 Projects/Final/DroneVisualizer/Sampler Instruments/Nintendo/images/Luigi_-_Super_Smash_Bros..png",
-					"presentation" : 1,
-					"presentation_rect" : [ 420.999969, 249.291672, 100.0, 100.0 ]
 				}
 
 			}
@@ -783,7 +918,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 842.0, 200.0, 100.0, 100.0 ],
-					"pic" : "/Users/louisimperiale/Desktop/Max7/Max 7 Projects/Final/DroneVisualizer/Sampler Instruments/Nintendo/images/Ness_SSB4.png",
+					"pic" : "Ness_SSB4.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 122.653748, 242.0, 100.0, 100.0 ]
 				}
@@ -799,7 +934,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 863.0, 25.216896, 100.0, 100.0 ],
-					"pic" : "/Users/louisimperiale/Desktop/Max7/Max 7 Projects/Final/DroneVisualizer/Sampler Instruments/Nintendo/images/Mario_SSB4.png",
+					"pic" : "Luigi_-_Super_Smash_Bros..png",
 					"presentation" : 1,
 					"presentation_rect" : [ 541.820435, 242.0, 100.0, 100.0 ]
 				}
@@ -830,25 +965,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 1991.109131, 435.333344, 100.0, 100.0 ],
-					"pic" : "/Users/louisimperiale/Desktop/Max7/Max 7 Projects/Final/DroneVisualizer/Sampler Instruments/Nintendo/images/d279917deafc317bdaee26e24271260d.png",
+					"pic" : "images (1).png",
 					"presentation" : 1,
-					"presentation_rect" : [ 67.262772, 592.000061, 100.0, 100.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"autofit" : 1,
-					"forceaspect" : 1,
-					"id" : "obj-41",
-					"maxclass" : "fpic",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 2093.109131, 461.0, 100.0, 100.0 ],
-					"pic" : "/Users/louisimperiale/Desktop/Max7/Max 7 Projects/Final/DroneVisualizer/Sampler Instruments/Nintendo/images/dr__mario_smash_4_alt_by_bmaick-d80ep76.png",
-					"presentation" : 1,
-					"presentation_rect" : [ 637.320435, 242.0, 100.0, 100.0 ]
+					"presentation_rect" : [ 34.26276, 589.333313, 55.0, 55.0 ]
 				}
 
 			}
@@ -862,7 +981,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 1889.109131, 429.0, 100.0, 100.0 ],
-					"pic" : "/Users/louisimperiale/Desktop/Max7/Max 7 Projects/Final/DroneVisualizer/Sampler Instruments/Nintendo/images/Link-icon-smash-render.png",
+					"pic" : "d279917deafc317bdaee26e24271260d.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 20.653746, 258.166687, 100.0, 100.0 ]
 				}
@@ -878,7 +997,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 2014.0, 377.0, 100.0, 102.425873 ],
-					"pic" : "/Users/louisimperiale/Desktop/Max7/Max 7 Projects/Final/DroneVisualizer/Sampler Instruments/Nintendo/images/Kirby_trple.png",
+					"pic" : "Kirby_trple.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 327.333282, 249.291672, 84.0, 86.037735 ]
 				}
