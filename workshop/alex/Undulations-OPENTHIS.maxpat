@@ -424,7 +424,7 @@
 					"presentation_rect" : [ 633.75, 89.0, 204.0, 114.0 ],
 					"style" : "",
 					"suppressinlet" : 1,
-					"text" : "5.\n-- Conducted --\n-- All Together --\n\nPress Space \n(fades out undulations)",
+					"text" : "5.\n-- All Together --\n\nPress Space \n(fades out undulations)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
