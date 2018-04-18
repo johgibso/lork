@@ -319,7 +319,7 @@
 					"presentation_rect" : [ 1124.75, 71.0, 126.0, 132.0 ],
 					"style" : "",
 					"suppressinlet" : 1,
-					"text" : "9.\n-- Conducted --\n-- All Together --\n\nFade out Unidlations (press space)",
+					"text" : "9.\n-- Conducted --\n-- All Together --\n\nFade out Undulations (press space)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -9105,7 +9105,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "preset", "int", "preset", "int" ],
 					"patching_rect" : [ 1364.0, 221.0, 100.0, 40.0 ],
-					"pattrstorage" : "patchAv2Presets",
+					"pattrstorage" : "undulationsPresets",
 					"presentation" : 1,
 					"presentation_rect" : [ 1434.5, 602.799988, 100.0, 40.0 ],
 					"style" : ""
@@ -9132,8 +9132,8 @@
 					}
 ,
 					"style" : "",
-					"text" : "pattrstorage patchAv2Presets",
-					"varname" : "patchAv2Presets"
+					"text" : "pattrstorage undulationsPresets",
+					"varname" : "undulationsPresets"
 				}
 
 			}
