@@ -59,7 +59,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1203.0, 1230.0, 61.0, 413.0 ],
+					"patching_rect" : [ 1203.0, 1230.0, 65.0, 413.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 10,
 					"presentation_rect" : [ 1018.365234, 391.333374, 153.0, 163.0 ],
@@ -3480,7 +3480,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 0 ],
+					"destination" : [ "obj-42", 0 ],
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -3489,6 +3489,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"source" : [ "obj-42", 0 ]
 				}
 
 			}
