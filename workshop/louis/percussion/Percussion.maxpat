@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 658.0 ],
+		"rect" : [ 38.0, 79.0, 1212.0, 658.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 18.0,
@@ -165,7 +165,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -614,10 +614,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 11.749954, 908.097168, 344.0, 222.617142 ],
+					"patching_rect" : [ 11.749954, 908.097168, 344.0, 222.617143 ],
 					"pic" : "DX0JOqZVoAAWZCz.jpg",
 					"presentation" : 1,
-					"presentation_rect" : [ 341.160187, 16.333334, 394.070648, 255.020004 ]
+					"presentation_rect" : [ 341.160187, 16.333334, 394.070648, 255.020005 ]
 				}
 
 			}
@@ -1200,7 +1200,7 @@
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 1920.50061, "ticks" ],
-						"originaltempo" : 42.331799,
+						"originaltempo" : 42.3318,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -1283,7 +1283,7 @@
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 4792.054199, "ticks" ],
-						"originaltempo" : 518.523865,
+						"originaltempo" : 518.523884,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -1366,7 +1366,7 @@
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 9590.617188, "ticks" ],
-						"originaltempo" : 638.390137,
+						"originaltempo" : 638.390125,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -1449,7 +1449,7 @@
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 1729.079102, "ticks" ],
-						"originaltempo" : 109.956146,
+						"originaltempo" : 109.956148,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -1532,7 +1532,7 @@
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 1560.010986, "ticks" ],
-						"originaltempo" : 39.270988,
+						"originaltempo" : 39.270987,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -1839,7 +1839,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 0 ],
+					"destination" : [ "obj-42", 0 ],
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -1848,6 +1848,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"source" : [ "obj-42", 0 ]
 				}
 
 			}
