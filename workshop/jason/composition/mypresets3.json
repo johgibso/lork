@@ -7,7 +7,7 @@
 				"data" : 				{
 					"metro" : [ 3500 ],
 					"toggle" : [ 1 ],
-					"duration" : [ 5200 ],
+					"duration" : [ 4500 ],
 					"rate" : [ 0.0 ],
 					"release" : [ 10 ],
 					"reverber8r::roomsize" : [ 0.0 ],
@@ -23,7 +23,7 @@
 				"data" : 				{
 					"metro" : [ 3500 ],
 					"toggle" : [ 1 ],
-					"duration" : [ 5200 ],
+					"duration" : [ 4500 ],
 					"rate" : [ 2.0 ],
 					"release" : [ 10 ],
 					"reverber8r::roomsize" : [ 0.3 ],

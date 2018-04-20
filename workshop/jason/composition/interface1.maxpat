@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -367.0, 248.0, 1372.0, 735.0 ],
+		"rect" : [ 34.0, 79.0, 1372.0, 735.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,24 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-18",
+					"linecount" : 7,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 545.5, 386.0, 144.0, 163.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 5,
+					"presentation_rect" : [ 87.0, 110.0, 200.0, 118.0 ],
+					"style" : "",
+					"text" : "-Check if your laptop volume is Full\n-Check if the HEMI audio is on\n",
+					"textcolor" : [ 0.0, 0.533333, 0.168627, 1.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontsize" : 14.0,
 					"id" : "obj-16",

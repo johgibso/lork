@@ -38,6 +38,24 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-57",
+					"linecount" : 7,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 545.5, 386.0, 144.0, 163.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 5,
+					"presentation_rect" : [ 39.0, 47.0, 200.0, 118.0 ],
+					"style" : "",
+					"text" : "-Check if your laptop volume is Full\n-Check if the HEMI audio is on\n",
+					"textcolor" : [ 0.0, 0.533333, 0.168627, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontsize" : 14.0,
 					"id" : "obj-18",
 					"linecount" : 7,
@@ -539,7 +557,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 166.0, 698.0, 125.0, 22.0 ],
 					"style" : "",
-					"text" : "scale 0 127 5200 100"
+					"text" : "scale 0 127 4500 100"
 				}
 
 			}
@@ -580,7 +598,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 681.0, 436.0, 59.0, 22.0 ],
-					"restore" : [ 0.0 ],
+					"restore" : [ 2.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -599,7 +617,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 571.0, 441.0, 81.0, 22.0 ],
-					"restore" : [ 5200 ],
+					"restore" : [ 4500 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -799,7 +817,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 558.0, 492.0, 50.0, 22.0 ],
+					"patching_rect" : [ 525.0, 584.0, 50.0, 22.0 ],
 					"style" : "",
 					"varname" : "number[1]"
 				}
