@@ -112,6 +112,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-47",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -2233,7 +2234,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 2058.0, 761.0, 104.0, 22.0 ],
-					"restore" : [ 0.538 ],
+					"restore" : [ 1.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -2252,7 +2253,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 2065.0, 707.0, 120.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 69 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -2385,7 +2386,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1379.0, 746.0, 109.0, 22.0 ],
-					"restore" : [ 7 ],
+					"restore" : [ 10 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -2404,7 +2405,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1788.800049, 951.0, 81.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -2461,7 +2462,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 586.0, 257.333344, 63.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -2480,7 +2481,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 338.500031, 531.0, 47.0, 22.0 ],
-					"restore" : [ 0.0 ],
+					"restore" : [ 0.010526 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -3009,7 +3010,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1061.0, 935.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 654.0, 414.810364, 22.75, 22.75 ],
+					"presentation_rect" : [ 644.0, 403.560364, 34.0, 34.0 ],
 					"style" : "",
 					"varname" : "toggle[6]"
 				}
