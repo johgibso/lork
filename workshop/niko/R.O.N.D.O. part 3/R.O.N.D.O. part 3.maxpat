@@ -352,16 +352,16 @@
 				"box" : 				{
 					"fontsize" : 14.0,
 					"id" : "obj-86",
-					"linecount" : 7,
+					"linecount" : 8,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 760.0, 662.0, 379.0, 116.0 ],
+					"patching_rect" : [ 760.0, 662.0, 379.0, 132.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 6,
-					"presentation_rect" : [ 18.0, 13.0, 529.0, 100.0 ],
+					"presentation_linecount" : 7,
+					"presentation_rect" : [ 18.0, 13.0, 545.0, 116.0 ],
 					"style" : "",
-					"text" : "Player 3:\n\n- When asked, start sound by pressing the space bar, and\n  play around with the \"Dynamic Randomization\" and \"Note Randomization\".\n\n- Stop playing when asked."
+					"text" : "Player 3:\n\n- When asked, start sound by hitting the SPACEBAR.\n\n- Play around with the \"Dynamic Randomization\" and \"Note Randomization\" sliders.\n\n- When asked, stop sound by hitting the SPACEBAR."
 				}
 
 			}
