@@ -109,19 +109,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-33",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 310.166656, 250.132599, 73.0, 22.0 ],
-					"style" : "",
-					"text" : "routepass 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-29",
 					"linecount" : 4,
 					"maxclass" : "comment",
@@ -139,27 +126,29 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-2",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 981.666687, 406.227478, 215.0, 20.0 ],
+					"patching_rect" : [ 981.666687, 406.227478, 215.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 1279.800049, 163.099976, 78.0, 47.0 ],
+					"presentation_linecount" : 5,
+					"presentation_rect" : [ 1271.800049, 163.099976, 79.0, 74.0 ],
 					"style" : "",
-					"text" : "6. Go crazy. Press D to finish."
+					"text" : "6. Go crazy. Press D to finish. \nWatch Sean for cutoff!"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"id" : "obj-25",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 981.666687, 426.227478, 215.0, 20.0 ],
+					"patching_rect" : [ 981.666687, 426.227478, 221.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1279.800049, 134.666626, 43.0, 20.0 ],
+					"presentation_rect" : [ 1271.800049, 134.666626, 45.0, 20.0 ],
 					"style" : "",
 					"text" : "Part 6"
 				}
@@ -182,13 +171,14 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"id" : "obj-43",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 981.666687, 386.227478, 215.0, 20.0 ],
+					"patching_rect" : [ 981.666687, 386.227478, 221.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 718.799988, 134.666626, 91.0, 20.0 ],
+					"presentation_rect" : [ 718.799988, 134.666626, 94.0, 20.0 ],
 					"style" : "",
 					"text" : "Part 5"
 				}
@@ -228,13 +218,14 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"id" : "obj-35",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 981.666687, 286.227478, 215.0, 20.0 ],
+					"patching_rect" : [ 981.666687, 286.227478, 221.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 90.666626, 134.666626, 91.0, 20.0 ],
+					"presentation_rect" : [ 90.666626, 134.666626, 94.0, 20.0 ],
 					"style" : "",
 					"text" : "Part 4"
 				}
@@ -242,13 +233,14 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"id" : "obj-34",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 981.666687, 233.227478, 215.0, 20.0 ],
+					"patching_rect" : [ 981.666687, 233.227478, 221.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 80.666611, 525.060791, 91.0, 20.0 ],
+					"presentation_rect" : [ 80.666611, 525.060791, 94.0, 20.0 ],
 					"style" : "",
 					"text" : "Part 3"
 				}
@@ -256,13 +248,14 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"id" : "obj-32",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 981.666687, 213.227478, 215.0, 20.0 ],
+					"patching_rect" : [ 981.666687, 213.227478, 220.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1017.666626, 621.666626, 91.0, 20.0 ],
+					"presentation_rect" : [ 1017.666626, 621.666626, 94.0, 20.0 ],
 					"style" : "",
 					"text" : "Part 2\n"
 				}
@@ -270,13 +263,14 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"id" : "obj-30",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 981.666687, 146.227478, 215.0, 20.0 ],
+					"patching_rect" : [ 981.666687, 146.227478, 221.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1017.666626, 134.666626, 91.0, 20.0 ],
+					"presentation_rect" : [ 1017.666626, 134.666626, 94.0, 20.0 ],
 					"style" : "",
 					"text" : "Part 1"
 				}
@@ -310,16 +304,16 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-39",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 981.666687, 99.227478, 215.0, 47.0 ],
+					"patching_rect" : [ 981.666687, 99.227478, 215.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 6,
-					"presentation_rect" : [ 1017.666626, 163.099976, 91.0, 87.0 ],
+					"presentation_linecount" : 4,
+					"presentation_rect" : [ 1017.666626, 163.099976, 117.0, 60.0 ],
 					"style" : "",
-					"text" : "\n1. Press A for white noise trackpad and press play on granul8r\n"
+					"text" : "1. Press A for white noise trackpad control. This plays granulator sound."
 				}
 
 			}
@@ -958,7 +952,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
+					"destination" : [ "obj-40", 3 ],
 					"order" : 1,
 					"source" : [ "obj-15", 0 ]
 				}
@@ -1062,13 +1056,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-40", 3 ],
-					"source" : [ "obj-33", 0 ]
 				}
 
 			}
