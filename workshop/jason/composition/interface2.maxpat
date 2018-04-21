@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 5,
-			"architecture" : "x86",
+			"revision" : 4,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1372.0, 742.0 ],
+		"rect" : [ 38.0, 79.0, 1346.0, 672.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -44,10 +44,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 545.5, 386.0, 144.0, 163.0 ],
+					"patching_rect" : [ 545.5, 386.0, 130.0, 163.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 39.0, 47.0, 200.0, 118.0 ],
+					"presentation_rect" : [ 39.0, 47.0, 190.0, 118.0 ],
 					"style" : "",
 					"text" : "-Check if your laptop volume is Full\n-Check if the HEMI audio is on\n",
 					"textcolor" : [ 0.0, 0.533333, 0.168627, 1.0 ]
@@ -233,16 +233,16 @@
 				"box" : 				{
 					"fontsize" : 14.0,
 					"id" : "obj-62",
-					"linecount" : 7,
+					"linecount" : 11,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 883.0, 344.0, 146.0, 116.0 ],
+					"patching_rect" : [ 883.0, 344.0, 146.0, 179.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 4,
-					"presentation_rect" : [ 113.0, 500.0, 272.0, 69.0 ],
+					"presentation_linecount" : 6,
+					"presentation_rect" : [ 91.0, 417.0, 269.0, 100.0 ],
 					"style" : "",
-					"text" : "Part 1 : \n- Click bang and start sound\n- freely play with trackpad- freely play with trackpad(try to play soft sounds)"
+					"text" : "Part 1 : \n- Click bang and start sound\n- Freely play with trackpad- freely play with trackpad(try to play soft sounds)\n- Slowly vary volume; don't keep initial high pitch at constant volume."
 				}
 
 			}
@@ -519,7 +519,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1083.0, 161.0, 103.0, 22.0 ],
 					"style" : "",
-					"text" : "scale 0. 1. -25. 0."
+					"text" : "scale 0. 1. -32. 0."
 				}
 
 			}
@@ -844,7 +844,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 230.0, 38.0, 37.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 102.0, 628.0, 214.0, 22.0 ],
+					"presentation_rect" : [ 91.0, 547.0, 214.0, 22.0 ],
 					"style" : "",
 					"text" : "bang"
 				}
