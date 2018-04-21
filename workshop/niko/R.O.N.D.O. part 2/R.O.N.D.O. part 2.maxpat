@@ -425,16 +425,16 @@
 				"box" : 				{
 					"fontsize" : 18.0,
 					"id" : "obj-75",
-					"linecount" : 12,
+					"linecount" : 15,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 750.0, 602.0, 152.0, 248.0 ],
+					"patching_rect" : [ 750.0, 602.0, 152.0, 308.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 6,
-					"presentation_rect" : [ 16.0, 12.5, 492.0, 127.0 ],
+					"presentation_linecount" : 7,
+					"presentation_rect" : [ 16.0, 12.5, 523.0, 147.0 ],
 					"style" : "",
-					"text" : "Player 2: \n\n- Start playing at the bottom of the \"Rate\" slider when asked\n- Stop playing when asked\n\nTo start and stop: press SPACEBAR"
+					"text" : "Player 2: \n\n- When asked, start playing by hitting the SPACEBAR.\n\n- Play around at the bottom of the \"Rate\" slider.\n\n- When asked, stop playing by hitting the SPACEBAR."
 				}
 
 			}
@@ -446,7 +446,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 764.75, 297.0, 73.0, 22.0 ],
-					"restore" : [ 0.063492 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
