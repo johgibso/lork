@@ -45,7 +45,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 69.0, 142.0, 51.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 162.5, 197.666656, 63.0, 20.0 ],
+					"presentation_rect" : [ 164.5, 216.666656, 63.0, 20.0 ],
 					"style" : "",
 					"text" : "DENSITY"
 				}
@@ -457,16 +457,16 @@
 				"box" : 				{
 					"fontsize" : 14.0,
 					"id" : "obj-75",
-					"linecount" : 15,
+					"linecount" : 19,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 941.0, 390.0, 163.0, 241.0 ],
+					"patching_rect" : [ 941.0, 390.0, 164.0, 304.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 8,
-					"presentation_rect" : [ 24.833313, 20.0, 425.0, 132.0 ],
+					"presentation_linecount" : 10,
+					"presentation_rect" : [ 24.833313, 20.0, 425.0, 163.0 ],
 					"style" : "",
-					"text" : "Player 4: \n\n- When asked, press the SPACEBAR to start playing.\n\n- Play around with the DENSITY slider as long as appropriate\n\n- When you finish improvising - go to the bottom of the slider and pay attention to make a smooth transition to Niko"
+					"text" : "Player 4: \n\n- When asked, press the SPACEBAR to start playing.\n\n- Play around with the DENSITY slider as long as appropriate\n\n- When you finish improvising - go to the bottom of the slider and pay attention to make a smooth transition to Niko's sound.\n\n- Hit the SPACEBAR to stop playing."
 				}
 
 			}
@@ -894,7 +894,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 126.0, 95.0, 20.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 176.0, 219.666656, 36.0, 181.333344 ],
+					"presentation_rect" : [ 178.0, 238.666656, 36.0, 181.333344 ],
 					"style" : ""
 				}
 
