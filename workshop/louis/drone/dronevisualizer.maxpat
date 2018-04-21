@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 658.0 ],
+		"rect" : [ 38.0, 79.0, 1212.0, 658.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,52 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-112",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 552.083252, 48.0, 188.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 772.5, 16.0, 60.0, 20.0 ],
+					"style" : "",
+					"text" : "spacebar"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-105",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 537.083252, 21.0, 188.0, 33.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 46.083252, 20.0, 196.0, 20.0 ],
+					"style" : "",
+					"text" : "- Hold down spacebar to play note."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 282.083252, 20.0, 191.0, 47.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 281.666626, 20.0, 249.0, 33.0 ],
+					"style" : "",
+					"text" : "Keep your volume fairly low in the beginning so that you have room to build to Phase 5.",
+					"textcolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontsize" : 20.029993,
 					"id" : "obj-113",
@@ -75,7 +121,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1203.0, 1197.0, 54.0, 33.0 ],
+					"patching_rect" : [ 1203.0, 1197.0, 56.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 344.0, 80.800262, 84.416565, 33.0 ],
@@ -91,7 +137,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1203.0, 1165.0, 54.0, 47.0 ],
+					"patching_rect" : [ 1203.0, 1165.0, 56.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 269.583435, 80.800262, 75.416565, 47.0 ],
@@ -107,7 +153,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1203.0, 1141.0, 54.0, 33.0 ],
+					"patching_rect" : [ 1203.0, 1141.0, 56.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 189.416565, 80.800262, 81.416565, 33.0 ],
@@ -123,7 +169,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1203.0, 1112.0, 54.0, 33.0 ],
+					"patching_rect" : [ 1203.0, 1112.0, 56.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 114.666687, 80.800262, 75.416565, 33.0 ],
@@ -157,10 +203,10 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1179.333374, 1004.0, 188.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 47.083252, 20.0, 188.0, 47.0 ],
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 46.083252, 41.900257, 208.0, 33.0 ],
 					"style" : "",
-					"text" : "Follow the ques of the conductor to change the amounts of each control"
+					"text" : "- Follow the cues of the conductor to change the amounts of each control."
 				}
 
 			}
@@ -837,7 +883,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1745,7 +1791,7 @@
 							"isbase64" : 1,
 							"sliderorder" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 ],
 							"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
-							"blob" : "295.hAGaoMGcv.i0AHv.DTfAGfPBJr.CTQWdvU1UyUmXzkGbkwUag4VclE1XzUmbkIGUjEFcgQkag0VYWYWYxMWZu4lDgUmY3IwTD01ZRzjSuI2SPvI..............HA.....8vLyMC...D.PLNiJ....B.........v.BiL......PfPHTKd....EPTTHxD...fA.AI......bvO.B......HHjw......PB.........nPOLyby....KvyHWq.....CBCG......z..........NHDx......vC+.H.......AP........Q......VU4FcoQGakQFD.fPEZHxKzjSPFsDTuiO.......P.A.........PC....................5C"
+							"blob" : "295.hAGaoMGcv.i0AHv.DTfAGfPBJr.CT4VXsUFWsEla0YVXiQWcxUlbTQVXzEFUzkGbkc0b0IFc4AWYWYWYxMWZu4FVU4FcoQGakQlDM4zax8DDbB..............R.....POLyby....A.DiynB...f..........LfvHC......DHDB0hG...PADEEhLA...X.PPB......G7Cf.......BBYL......j..........JzCyL2L...vB7Lx0J....vfvvA......M.........fCBgL......7vO.B......P.D.......PD.....HQX0YFdRLEQssFD.fPEZbBKwjSPJ8j6yiO.......P.A.........PC....................5C"
 						}
 ,
 						"snapshotlist" : 						{
@@ -1769,7 +1815,7 @@
 										"isbase64" : 1,
 										"sliderorder" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 ],
 										"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
-										"blob" : "295.hAGaoMGcv.i0AHv.DTfAGfPBJr.CTQWdvU1UyUmXzkGbkwUag4VclE1XzUmbkIGUjEFcgQkag0VYWYWYxMWZu4lDgUmY3IwTD01ZRzjSuI2SPvI..............HA.....8vLyMC...D.PLNiJ....B.........v.BiL......PfPHTKd....EPTTHxD...fA.AI......bvO.B......HHjw......PB.........nPOLyby....KvyHWq.....CBCG......z..........NHDx......vC+.H.......AP........Q......VU4FcoQGakQFD.fPEZHxKzjSPFsDTuiO.......P.A.........PC....................5C"
+										"blob" : "295.hAGaoMGcv.i0AHv.DTfAGfPBJr.CT4VXsUFWsEla0YVXiQWcxUlbTQVXzEFUzkGbkc0b0IFc4AWYWYWYxMWZu4FVU4FcoQGakQlDM4zax8DDbB..............R.....POLyby....A.DiynB...f..........LfvHC......DHDB0hG...PADEEhLA...X.PPB......G7Cf.......BBYL......j..........JzCyL2L...vB7Lx0J....vfvvA......M.........fCBgL......7vO.B......P.D.......PD.....HQX0YFdRLEQssFD.fPEZbBKwjSPJ8j6yiO.......P.A.........PC....................5C"
 									}
 ,
 									"fileref" : 									{
@@ -1777,7 +1823,7 @@
 										"filename" : "Spectral DroneMaker.maxsnap",
 										"filepath" : "~/Documents/Max 7/Snapshots",
 										"filepos" : -1,
-										"snapshotfileid" : "499b1d1ac88db278aee474a395b7d89d"
+										"snapshotfileid" : "8f0454fa49e1931146d25fe859b1ba02"
 									}
 
 								}
