@@ -361,7 +361,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1109.0, 613.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 54.833313, 181.666656, 91.0, 20.0 ],
+					"presentation_rect" : [ 53.833313, 210.666656, 91.0, 20.0 ],
 					"style" : "",
 					"text" : "Randomization"
 				}
@@ -431,16 +431,16 @@
 				"box" : 				{
 					"fontsize" : 14.0,
 					"id" : "obj-75",
-					"linecount" : 20,
+					"linecount" : 18,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 862.0, 592.0, 179.0, 319.0 ],
+					"patching_rect" : [ 862.0, 592.0, 179.0, 288.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 8,
-					"presentation_rect" : [ 11.833313, 8.666656, 737.0, 132.0 ],
+					"presentation_linecount" : 10,
+					"presentation_rect" : [ 12.833313, 8.666656, 596.0, 163.0 ],
 					"style" : "",
-					"text" : "Player 1: \n\n- Tap space bar to start playing at the lowest point of the slider \"Randomization\" when asked\n\n- Play around with the \"Randomization\" but DO NOT go all the way to the bottow of the slider!\n\n- When you finish improvising - go to the bottom of the slider and pay attention to make a smooth transition to Niko.\nThen tap space bar to stop sound."
+					"text" : "Player 1: \n\n- When asked, start playing by hitting the SPACEBAR.\n\n- Play around with the \"Randomization\" but DO NOT go all the way to the bottow of the slider!\n\n- When you finish improvising - go to the bottom of the slider and pay attention to make a smooth transition to Niko.\n\n- Stop playing by hitting the SPACEBAR."
 				}
 
 			}
@@ -954,7 +954,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 474.0, 56.0, 18.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 74.333313, 206.666656, 52.0, 192.0 ],
+					"presentation_rect" : [ 73.333313, 235.666656, 52.0, 192.0 ],
 					"size" : 1.0,
 					"style" : ""
 				}
@@ -1091,7 +1091,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 609.0, 321.0, 71.0, 292.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 660.833252, 164.666656, 71.0, 292.0 ],
+					"presentation_rect" : [ 650.833252, 135.666656, 71.0, 292.0 ],
 					"prototypename" : "pixl",
 					"varname" : "hemi-m[1]",
 					"viewvisibility" : 1
