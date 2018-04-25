@@ -214,7 +214,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1326.083374, 814.0, 29.5, 22.0 ],
+					"patching_rect" : [ 1281.333374, 842.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "+ 1"
 				}
@@ -227,7 +227,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1410.666748, 781.333374, 24.0, 24.0 ],
+					"patching_rect" : [ 1281.333374, 780.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -239,7 +239,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1461.199951, 814.0, 71.0, 22.0 ],
+					"patching_rect" : [ 1281.333374, 749.0, 71.0, 22.0 ],
 					"style" : "",
 					"text" : "metro 4000"
 				}
@@ -278,7 +278,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1305.333374, 757.333374, 61.0, 22.0 ],
+					"patching_rect" : [ 1281.333374, 809.333374, 61.0, 22.0 ],
 					"style" : "",
 					"text" : "random 4"
 				}
@@ -2223,7 +2223,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 341.5, 146.0, 64.0, 22.0 ],
-					"restore" : [ 11, 4, 7, 14, 18, 7, 11, 18, 7, 11, 19, 14, 16, 11, 7, 16, 11, 7, 4, 14 ],
+					"restore" : [ 0, 4, 7, 11, 14, 7, 11, 16, 7, 11, 14, 0, 16, 11, 7, 16, 11, 7, 4, 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -3961,7 +3961,7 @@
 					"range" : 24,
 					"size" : 20,
 					"style" : "",
-					"table_data" : [ 0, 11, 4, 7, 14, 18, 7, 11, 18, 7, 11, 19, 14, 16, 11, 7, 16, 11, 7, 4, 14 ],
+					"table_data" : [ 0, 0, 4, 7, 11, 14, 7, 11, 16, 7, 11, 14, 0, 16, 11, 7, 16, 11, 7, 4, 0 ],
 					"varname" : "itable"
 				}
 
@@ -5111,15 +5111,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-121", 0 ],
-					"order" : 1,
-					"source" : [ "obj-98", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-203", 1 ],
-					"order" : 0,
 					"source" : [ "obj-98", 0 ]
 				}
 
